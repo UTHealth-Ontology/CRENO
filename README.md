@@ -4,8 +4,8 @@
  **under development (updates coming soon)**
 
 ## Creators
-Elosia Nguyen
-Tuan Amith, PhD
+* Elosia Nguyen
+* Tuan Amith, PhD
 
 ### Acknowledgements
 
