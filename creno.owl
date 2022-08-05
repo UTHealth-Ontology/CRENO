@@ -20,6 +20,10 @@
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
         <Literal>preliminary</Literal>
     </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>removed some generational info</Literal>
+    </Annotation>
     <Declaration>
         <Class IRI="A"/>
     </Declaration>
@@ -43,6 +47,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="African_American"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="African_American_Females"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="African_American_Males"/>
     </Declaration>
     <Declaration>
         <Class IRI="African_Nose"/>
@@ -69,19 +79,10 @@
         <Class IRI="Aquiline_Nose"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Archetype"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Aristocracy"/>
     </Declaration>
     <Declaration>
         <Class IRI="Art"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Arthurian_Generation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Artist"/>
     </Declaration>
     <Declaration>
         <Class IRI="Asian_American"/>
@@ -96,19 +97,10 @@
         <Class IRI="Autoimmune_Disease"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Awakening"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Awakening_Generation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="B_to_E"/>
     </Declaration>
     <Declaration>
         <Class IRI="Baby"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Baby_Boom_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Bacterial_Infection"/>
@@ -120,7 +112,16 @@
         <Class IRI="Benzene"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Biological_Female"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Biological_Male"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Biological_Resources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Biological_Sex"/>
     </Declaration>
     <Declaration>
         <Class IRI="Biophysical_Environment"/>
@@ -132,13 +133,7 @@
         <Class IRI="Birth_Certificate"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Black"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Books"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Bow"/>
     </Declaration>
     <Declaration>
         <Class IRI="Breast_Cancer"/>
@@ -150,13 +145,13 @@
         <Class IRI="British_Mixed"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Brown"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Brown_Paper_Bag_Test"/>
     </Declaration>
     <Declaration>
         <Class IRI="Buddhism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Burnt_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Business"/>
@@ -177,10 +172,10 @@
         <Class IRI="Caucasion"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cavalier_Generation"/>
+        <Class IRI="Celestial_Nose"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Celestial_Nose"/>
+        <Class IRI="Cervical_Cancer"/>
     </Declaration>
     <Declaration>
         <Class IRI="Chemical_Industry"/>
@@ -193,6 +188,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="China"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="China_Cultural_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Christianity"/>
@@ -264,9 +262,6 @@
         <Class IRI="Colonized_Population"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Color_Terminology"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Colorism"/>
     </Declaration>
     <Declaration>
@@ -277,9 +272,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="Community"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Compromise_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Computer"/>
@@ -297,10 +289,10 @@
         <Class IRI="Creole_Nationalism"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Crisis"/>
+        <Class IRI="Cuisine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cuisine"/>
+        <Class IRI="Cultural_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Culture"/>
@@ -312,7 +304,169 @@
         <Class IRI="Dance"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Danso_Generation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Darwinian_Fitness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Adverse_Effect_of_Medical_Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Breast_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Cardiovascular_Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Cervical_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Chronic_Kidney_Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Chronic_Respiratory_Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Communicable_Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Conflict_and_Terrorism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Diabetes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Digestive_Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Drowning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Enteric_Infection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Execution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Falls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Fire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Firearm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Heat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Hot_Substances"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Hypertensive_Heart_Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Injuries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Interpersonal_Violence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Liver_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Lower_Respiratory_Infection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Maternal_Disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Motor_Vehicle_Injury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Neonatal_Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Neoplasms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Neurological_Disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Non-communicable_Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Nutritional_Disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Pedistrian_Road_Death"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Poisoning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Police_Conflict"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Prostrate_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Respiratory_Infection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Road_Injuries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Self_Harm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Sexually_Transmitted_Infection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Sharp_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Stomach_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Stroke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Substance_Use_Disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Transport_Injury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Tuberculosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Type_1_Diabetes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Type_2_Diabetes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Unintentional_Injuries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_By_Upper_Respiratory_Infection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_From_Self-Harm_By_Firearm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Death_From_Self-Harm_By_Sharp_Object"/>
     </Declaration>
     <Declaration>
         <Class IRI="Democracy"/>
@@ -372,16 +526,10 @@
         <Class IRI="Electrical_Power"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Elizabethan_Generation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Emergency_Homeless_Shelters"/>
     </Declaration>
     <Declaration>
         <Class IRI="Endogamy"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Enlightenment_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Ethnic_Nation"/>
@@ -426,7 +574,7 @@
         <Class IRI="Eye_Color"/>
     </Declaration>
     <Declaration>
-        <Class IRI="FIA"/>
+        <Class IRI="FIA_Hair_Typing_System"/>
     </Declaration>
     <Declaration>
         <Class IRI="F_to_L"/>
@@ -465,6 +613,9 @@
         <Class IRI="Fine"/>
     </Declaration>
     <Declaration>
+        <Class IRI="First_Baby_Boomer_Generation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Fischer-Saller_Scale"/>
     </Declaration>
     <Declaration>
@@ -495,9 +646,6 @@
         <Class IRI="Funding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="G.I._Generation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Gendered_and_Muscular_Nationalism"/>
     </Declaration>
     <Declaration>
@@ -513,13 +661,7 @@
         <Class IRI="Geographical_Location"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Gilded_Generation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Global_Health_Policy"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Glorious_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Government"/>
@@ -532,9 +674,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="Grecian_Nose"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Greeting"/>
     </Declaration>
     <Declaration>
         <Class IRI="Gunpowder"/>
@@ -558,9 +697,6 @@
         <Class IRI="Hairstyle"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Handshake"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Hard_Power"/>
     </Declaration>
     <Declaration>
@@ -568,6 +704,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="Health"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Health_Behavoir"/>
     </Declaration>
     <Declaration>
         <Class IRI="Health_Care"/>
@@ -591,13 +730,7 @@
         <Class IRI="Hereditary"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Hero"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="High"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="High-Five"/>
     </Declaration>
     <Declaration>
         <Class IRI="High_Socioeconomic_Status"/>
@@ -606,10 +739,13 @@
         <Class IRI="Hispanic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Home_and_Community_Care"/>
+        <Class IRI="Hispanic_Females"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Homeland_Generation"/>
+        <Class IRI="Hispanic_Males"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Home_and_Community_Care"/>
     </Declaration>
     <Declaration>
         <Class IRI="Horomones"/>
@@ -619,6 +755,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="Housing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Human_Behavior"/>
     </Declaration>
     <Declaration>
         <Class IRI="Human_Generation"/>
@@ -633,13 +772,16 @@
         <Class IRI="Human_Stereotypes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Humanist_Generation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Hyper-Pigmentation"/>
     </Declaration>
     <Declaration>
+        <Class IRI="IBD_Cancer"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Identity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Immigrant_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Immigrants"/>
@@ -684,6 +826,12 @@
         <Class IRI="Interracial_Marriage"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Investment_Economic_Citizenship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Iranian_Cultural_Generation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Ireland"/>
     </Declaration>
     <Declaration>
@@ -691,6 +839,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="Japan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Japanese_Cultural_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Jewish"/>
@@ -702,7 +853,7 @@
         <Class IRI="Judiciary_Branch"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Kiss"/>
+        <Class IRI="Kidney_Cancer"/>
     </Declaration>
     <Declaration>
         <Class IRI="Knowledge"/>
@@ -738,9 +889,6 @@
         <Class IRI="Liberal_Nationalism"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Liberty_Generation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Life_Expectancy"/>
     </Declaration>
     <Declaration>
@@ -750,7 +898,10 @@
         <Class IRI="Littering"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Lost_Generation"/>
+        <Class IRI="Liver_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Low"/>
     </Declaration>
     <Declaration>
         <Class IRI="Low_Socioeconomic_Status"/>
@@ -774,6 +925,9 @@
         <Class IRI="Matriarchy"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Media"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Medical_School"/>
     </Declaration>
     <Declaration>
@@ -792,16 +946,13 @@
         <Class IRI="Mental_Health_Policy"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Merdeka_Generation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Military"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Millennial_Generation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Mining"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Missionary_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Modern_Medicine"/>
@@ -846,10 +997,22 @@
         <Class IRI="Nationality"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Native_Americal_Males"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Native_American"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Native_American_Females"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Native_Hawaiian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Native_Hawaiian_Females"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Native_Hawaiian_Males"/>
     </Declaration>
     <Declaration>
         <Class IRI="Nativist_Nationalism"/>
@@ -858,7 +1021,7 @@
         <Class IRI="Natural_Pollutants"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Naturalizatoin"/>
+        <Class IRI="Naturalization"/>
     </Declaration>
     <Declaration>
         <Class IRI="Negative_Human_Stereotypes"/>
@@ -868,9 +1031,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="News_Report"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Nomad"/>
     </Declaration>
     <Declaration>
         <Class IRI="Non-Hispanics"/>
@@ -954,9 +1114,6 @@
         <Class IRI="Parent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Parliamentary_Generation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Passport"/>
     </Declaration>
     <Declaration>
@@ -999,6 +1156,9 @@
         <Class IRI="Physician_Quality"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Pioneeer_Generation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Place"/>
     </Declaration>
     <Declaration>
@@ -1021,6 +1181,15 @@
     </Declaration>
     <Declaration>
         <Class IRI="Positive_Human_Stereotypes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Post-80s_Generation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Post-90s_Generation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Post_Bubble_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Posters"/>
@@ -1053,16 +1222,13 @@
         <Class IRI="Private_Health_Care"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Progressive_Generation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Prophet"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Propoganda"/>
     </Declaration>
     <Declaration>
         <Class IRI="Prostate_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Prostrate_Cancer"/>
     </Declaration>
     <Declaration>
         <Class IRI="Protest"/>
@@ -1086,7 +1252,7 @@
         <Class IRI="Puerto_Rico"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Puritan_Generation"/>
+        <Class IRI="Quality"/>
     </Declaration>
     <Declaration>
         <Class IRI="Quarternary_Care"/>
@@ -1110,16 +1276,13 @@
         <Class IRI="Radioactive_Contamination"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Red"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Reddit_Community"/>
     </Declaration>
     <Declaration>
         <Class IRI="Redistribution_of_Wealth"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Reformation_Generation"/>
+        <Class IRI="Regional_Cultural_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Religion"/>
@@ -1134,28 +1297,22 @@
         <Class IRI="Religious_Nationalism"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Renal_Pelvis_Cancer"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Rental_Housing"/>
     </Declaration>
     <Declaration>
         <Class IRI="Representative_Democracy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Reprisal_Generation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Reproduction"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Republican_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Residential_Segregation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Resources"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Respect"/>
     </Declaration>
     <Declaration>
         <Class IRI="Rights"/>
@@ -1179,6 +1336,15 @@
         <Class IRI="Samoan_American"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Samoan_American_Females"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Samoan_American_Males"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Satori_Generation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Scholarship"/>
     </Declaration>
     <Declaration>
@@ -1186,6 +1352,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="School_Segregation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Second_Baby_Boom_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Secondary_Care"/>
@@ -1197,10 +1366,19 @@
         <Class IRI="Segregation"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Self-efficacy"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Sermons"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Silent_Generation"/>
+        <Class IRI="Sexual_Behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Shinjunrui_Generation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Singaporean_Cultural_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Skills"/>
@@ -1210,6 +1388,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="Skin_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Skin_Color"/>
     </Declaration>
     <Declaration>
         <Class IRI="Skin_Pigmentation"/>
@@ -1222,6 +1403,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="Snub_Nose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Social_Behavior"/>
     </Declaration>
     <Declaration>
         <Class IRI="Social_Media"/>
@@ -1257,16 +1441,22 @@
         <Class IRI="State"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Stomach_Cancer"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Straight"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Strauss-Howe_Generational_Theory"/>
+        <Class IRI="Strawberry_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Sunless_Tanning"/>
     </Declaration>
     <Declaration>
         <Class IRI="Survival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Taiwanese_Cultural_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Tarot_Cards"/>
@@ -1329,9 +1519,6 @@
         <Class IRI="Traditional_Medicine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Transcendental_Generation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Transitional_Housing"/>
     </Declaration>
     <Declaration>
@@ -1374,10 +1561,10 @@
         <Class IRI="U_to_Y"/>
     </Declaration>
     <Declaration>
-        <Class IRI="United_States_of_America"/>
+        <Class IRI="United_States_Government"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Unraveling"/>
+        <Class IRI="United_States_of_America"/>
     </Declaration>
     <Declaration>
         <Class IRI="Urbanization"/>
@@ -1428,10 +1615,10 @@
         <Class IRI="Western_Country"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Wheel"/>
+        <Class IRI="Western_Cultural_Generation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="White"/>
+        <Class IRI="Wheel"/>
     </Declaration>
     <Declaration>
         <Class IRI="White_Passing"/>
@@ -1452,13 +1639,13 @@
         <Class IRI="Work"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Yellow"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="YouTube_Community"/>
     </Declaration>
     <Declaration>
         <Class IRI="Youth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Yutori_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="asbestos"/>
@@ -1470,7 +1657,7 @@
         <Class IRI="powered_metallic_cobalt"/>
     </Declaration>
     <Declaration>
-        <Class IRI="13th_Generation"/>
+        <Class IRI="80s_Generation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Ancient_Period_(3000_BCE_to_500_CE)"/>
@@ -1491,16 +1678,7 @@
         <Class IRI="Economic,_Social,_and_Cultural_Rights"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Generational_Persona_(20-25_years)"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Generational_Turning/Era"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="I,_II,_III,_IV"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Investment/Economic_Citizenship"/>
     </Declaration>
     <Declaration>
         <Class IRI="Late_Modern_Period_(1800_to_present)"/>
@@ -1513,9 +1691,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="Pre-Historic_Period_(3.3_mya_to_5000_years_ago)"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Saeculum_(80_to_100_years)"/>
     </Declaration>
     <Declaration>
         <Class IRI="Social/Subsidized_Housing"/>
@@ -1586,6 +1761,106 @@
     <Declaration>
         <DataProperty IRI="has_time_period"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="IBD_cancer_incidence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="_african_american"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="_african_american_men"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="_african_american_women"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="_american_samoan_men"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="_american_samoan_women"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="_asian_american"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="_hispanic_american_men"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="_hispanic_american_women"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="_hispanic_americans"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="_native_american_men"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="_native_american_women"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="_native_americans"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="_native_hawaiian_men"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="_native_hawaiians"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="_other_pacific_islanders"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="breast_cancer_incidence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="breast_cancer_mortality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="cervical_cancer_incidence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="cervical_cancer_mortality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="colon_cancer_incidence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="high_cancer_mortality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="kidney_cancer_incidence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="liver_cancer_incidence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="liver_cancer_mortality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="lower_cancer_incidence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="lower_prostrate_cancer_incidence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="prostrate_cancer_incidence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="prostrate_cancer_mortality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="renal_pelvis_cancer_incidence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="stomach_cancer_incidence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="stomach_cancer_mortality"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="Online_Community"/>
+        <Class IRI="Virtual_Community"/>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="A"/>
         <Class IRI="Fischer-Saller_Scale"/>
@@ -1615,8 +1890,27 @@
         <Class IRI="OMB_Race"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="African_American_Females"/>
+        <Class IRI="African_American"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="African_American_Males"/>
+        <Class IRI="African_American"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="African_American_Males"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="character"/>
+            <Class IRI="Biological_Male"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="African_Nose"/>
         <Class IRI="Nasal_Index"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Air_Pollution"/>
+        <Class IRI="Pollution"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Albinism"/>
@@ -1663,10 +1957,6 @@
         <Class IRI="Age"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Baby_Boom_Generation"/>
-        <Class IRI="Generational_Persona_(20-25_years)"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Bacterial_Infection"/>
         <Class IRI="Infection"/>
     </SubClassOf>
@@ -1679,8 +1969,23 @@
         <Class IRI="Chemicals"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Biological_Female"/>
+        <Class IRI="Biological_Sex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Biological_Male"/>
+        <Class IRI="Biological_Sex"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Biological_Resources"/>
         <Class IRI="Resources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Biophysical_Environment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="manifestation"/>
+            <Class IRI="Pollution"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Birth"/>
@@ -1690,12 +1995,8 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Black"/>
-        <Class IRI="Color_Terminology"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Books"/>
-        <Class IRI="Propoganda"/>
+        <Class IRI="Media"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Breast_Cancer"/>
@@ -1710,8 +2011,11 @@
         <Class IRI="UK_Ethnic_Classification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Brown"/>
-        <Class IRI="Color_Terminology"/>
+        <Class IRI="Brown_Paper_Bag_Test"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="manifestation"/>
+            <Class IRI="Colorism"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Brown_Paper_Bag_Test"/>
@@ -1730,6 +2034,10 @@
     <SubClassOf>
         <Class IRI="Buddhism"/>
         <Class IRI="Religion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Burnt_Generation"/>
+        <Class IRI="Iranian_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Cancer"/>
@@ -1752,6 +2060,10 @@
         <Class IRI="Nasal_Index"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Cervical_Cancer"/>
+        <Class IRI="Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Chemicals"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="cause"/>
@@ -1765,6 +2077,14 @@
     <SubClassOf>
         <Class IRI="China"/>
         <Class IRI="Ethnic_Nation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="China"/>
+        <Class IRI="Nation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="China_Cultural_Generation"/>
+        <Class IRI="Regional_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Christianity"/>
@@ -1815,6 +2135,13 @@
         <Class IRI="Citizenship"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="has_citizenship_confers"/>
+            <Class IRI="Investment_Economic_Citizenship"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Citizenship"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="has_citizenship_confers"/>
             <Class IRI="Marriage"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1822,14 +2149,7 @@
         <Class IRI="Citizenship"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="has_citizenship_confers"/>
-            <Class IRI="Naturalizatoin"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Citizenship"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="has_citizenship_confers"/>
-            <Class IRI="Investment/Economic_Citizenship"/>
+            <Class IRI="Naturalization"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1914,7 +2234,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Coarse"/>
-        <Class IRI="FIA"/>
+        <Class IRI="FIA_Hair_Typing_System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Colon_Cancer"/>
@@ -1937,6 +2257,10 @@
             <ObjectProperty IRI="part"/>
             <Class IRI="Colonized_Population"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Colorism"/>
+        <Class IRI="Discrimination"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Colorism"/>
@@ -1972,14 +2296,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Community"/>
-        <Class IRI="Ethnicity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Community"/>
-        <Class IRI="Race"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Community"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="part"/>
             <Class IRI="Common_Interest_Purpose"/>
@@ -1997,6 +2313,10 @@
         <Class IRI="Technology"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Controlled_Use_of_Fire"/>
+        <Class IRI="Technology"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Cooking"/>
         <Class IRI="Practices"/>
     </SubClassOf>
@@ -2008,12 +2328,44 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Cooking"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="character"/>
+            <Class IRI="Food_Dishes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cooking"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="character"/>
+            <Class IRI="Food_Ingredients"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Creole_Nationalism"/>
         <Class IRI="Nationalism"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Cuisine"/>
         <Class IRI="Cooking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cultural_Generation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="character"/>
+            <Class IRI="Age"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cultural_Generation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="character"/>
+            <Class IRI="Culture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Culture"/>
+        <Class IRI="Community"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Culture"/>
@@ -2031,6 +2383,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="character"/>
             <Class IRI="Practices"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Culture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influences"/>
+            <Class IRI="Social_Behavior"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2070,11 +2429,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Curly"/>
-        <Class IRI="FIA"/>
+        <Class IRI="FIA_Hair_Typing_System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Dance"/>
         <Class IRI="Art"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Danso_Generation"/>
+        <Class IRI="Japanese_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Darwinian_Fitness"/>
@@ -2093,6 +2456,228 @@
             <ObjectProperty IRI="character"/>
             <Class IRI="Survival"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Adverse_Effect_of_Medical_Treatment"/>
+        <Class IRI="Death_By_Unintentional_Injuries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Breast_Cancer"/>
+        <Class IRI="Death_By_Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Cancer"/>
+        <Class IRI="Death_By_Neoplasms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Cardiovascular_Disease"/>
+        <Class IRI="Death_By_Non-communicable_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Cervical_Cancer"/>
+        <Class IRI="Death_By_Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Chronic_Kidney_Disease"/>
+        <Class IRI="Death_By_Non-communicable_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Chronic_Respiratory_Disease"/>
+        <Class IRI="Death_By_Non-communicable_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Communicable_Disease"/>
+        <Class IRI="Death_By_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Conflict_and_Terrorism"/>
+        <Class IRI="Death_By_Injuries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Diabetes"/>
+        <Class IRI="Death_By_Non-communicable_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Digestive_Disease"/>
+        <Class IRI="Death_By_Non-communicable_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Disease"/>
+        <Class IRI="Death"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Drowning"/>
+        <Class IRI="Death_By_Unintentional_Injuries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Enteric_Infection"/>
+        <Class IRI="Death_By_Communicable_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Execution"/>
+        <Class IRI="Death_By_Injuries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Falls"/>
+        <Class IRI="Death_By_Unintentional_Injuries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Fire"/>
+        <Class IRI="Death_By_Hot_Substances"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Firearm"/>
+        <Class IRI="Death_By_Interpersonal_Violence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Heat"/>
+        <Class IRI="Death_By_Hot_Substances"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Hot_Substances"/>
+        <Class IRI="Death_By_Unintentional_Injuries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Hypertensive_Heart_Disease"/>
+        <Class IRI="Death_By_Non-communicable_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Injuries"/>
+        <Class IRI="Death"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Interpersonal_Violence"/>
+        <Class IRI="Death_By_Injuries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Liver_Cancer"/>
+        <Class IRI="Death_By_Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Lower_Respiratory_Infection"/>
+        <Class IRI="Death_By_Communicable_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Maternal_Disorder"/>
+        <Class IRI="Death_By_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Motor_Vehicle_Injury"/>
+        <Class IRI="Death_By_Road_Injuries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Neonatal_Disease"/>
+        <Class IRI="Death_By_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Neoplasms"/>
+        <Class IRI="Death_By_Non-communicable_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Neurological_Disorder"/>
+        <Class IRI="Death_By_Non-communicable_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Non-communicable_Disease"/>
+        <Class IRI="Death_By_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Nutritional_Disorder"/>
+        <Class IRI="Death_By_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Pedistrian_Road_Death"/>
+        <Class IRI="Death_By_Road_Injuries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Poisoning"/>
+        <Class IRI="Death_By_Unintentional_Injuries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Police_Conflict"/>
+        <Class IRI="Death_By_Injuries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Prostrate_Cancer"/>
+        <Class IRI="Death_By_Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Respiratory_Infection"/>
+        <Class IRI="Death_By_Communicable_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Road_Injuries"/>
+        <Class IRI="Death_By_Transport_Injury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Self_Harm"/>
+        <Class IRI="Death_By_Injuries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Sexually_Transmitted_Infection"/>
+        <Class IRI="Death_By_Communicable_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Sharp_Object"/>
+        <Class IRI="Death_By_Interpersonal_Violence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Stomach_Cancer"/>
+        <Class IRI="Death_By_Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Stroke"/>
+        <Class IRI="Death_By_Non-communicable_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Substance_Use_Disorder"/>
+        <Class IRI="Death_By_Non-communicable_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Transport_Injury"/>
+        <Class IRI="Death_By_Injuries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Tuberculosis"/>
+        <Class IRI="Death_By_Communicable_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Type_1_Diabetes"/>
+        <Class IRI="Death_By_Diabetes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Type_1_Diabetes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="cause"/>
+            <Class IRI="Type_1_Diabetes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Type_2_Diabetes"/>
+        <Class IRI="Death_By_Diabetes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Type_2_Diabetes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="cause"/>
+            <Class IRI="Type_2_Diabetes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Unintentional_Injuries"/>
+        <Class IRI="Death_By_Injuries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_By_Upper_Respiratory_Infection"/>
+        <Class IRI="Death_By_Communicable_Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_From_Self-Harm_By_Firearm"/>
+        <Class IRI="Death_By_Self_Harm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Death_From_Self-Harm_By_Sharp_Object"/>
+        <Class IRI="Death_By_Self_Harm"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Democracy"/>
@@ -2206,6 +2791,10 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Electrical_Power"/>
+        <Class IRI="Technology"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Emergency_Homeless_Shelters"/>
         <Class IRI="Affordable_Housing_Policy"/>
     </SubClassOf>
@@ -2216,6 +2805,10 @@
     <SubClassOf>
         <Class IRI="Ethnic_Nation"/>
         <Class IRI="Ethnicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ethnicity"/>
+        <Class IRI="Community"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Ethnicity"/>
@@ -2311,6 +2904,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Exercise"/>
+        <Class IRI="Health_Behavoir"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Exercise"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="cause"/>
             <Class IRI="Cancer"/>
@@ -2331,8 +2928,15 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Eye_Color"/>
         <Class IRI="Eye"/>
+        <Class IRI="Phenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Eye"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="character"/>
+            <Class IRI="Eye_Color"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Eye_Color"/>
@@ -2346,12 +2950,28 @@
         <Class IRI="Fischer-Saller_Scale"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Face"/>
+        <Class IRI="Phenotype"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="FaceBook_Community"/>
         <Class IRI="Online_Community"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="FaceBook_Community"/>
+        <Class IRI="Virtual_Community"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Family"/>
+        <Class IRI="Human_Hierarchy"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Family_Dynamic"/>
         <Class IRI="Human_Hierarchy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Family_Members"/>
+        <Class IRI="People"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Fashion"/>
@@ -2406,7 +3026,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Fine"/>
-        <Class IRI="FIA"/>
+        <Class IRI="FIA_Hair_Typing_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="First_Baby_Boomer_Generation"/>
+        <Class IRI="Japanese_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Foreign_Policy"/>
@@ -2428,10 +3052,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="G.I._Generation"/>
-        <Class IRI="Generational_Persona_(20-25_years)"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Gendered_and_Muscular_Nationalism"/>
         <Class IRI="Nationalism"/>
     </SubClassOf>
@@ -2443,8 +3063,22 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Gentrification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="cause"/>
+            <Class IRI="Racial_Segregation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Geographical_Location"/>
         <Class IRI="Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Geographical_Location"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="manifestation"/>
+            <Class IRI="Pollution"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Geographical_Location"/>
@@ -2477,15 +3111,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Government_Reports"/>
-        <Class IRI="Propoganda"/>
+        <Class IRI="Media"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Grecian_Nose"/>
         <Class IRI="Nasal_Index"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Greeting"/>
-        <Class IRI="Behavior"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Gunpowder"/>
@@ -2643,6 +3273,13 @@
         <Class IRI="Health"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="influences"/>
+            <Class IRI="Death"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Health"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influences"/>
             <Class IRI="Diet"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2665,6 +3302,17 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="influences"/>
             <Class IRI="Socioeconomic_Status"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Health_Behavoir"/>
+        <Class IRI="Human_Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Health_Behavoir"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Health"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2732,6 +3380,10 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="High"/>
+        <Class IRI="Quality"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="High_Socioeconomic_Status"/>
         <Class IRI="Socioeconomic_Status"/>
     </SubClassOf>
@@ -2740,12 +3392,58 @@
         <Class IRI="OMB_Ethnicity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Home_and_Community_Care"/>
-        <Class IRI="Health_Care"/>
+        <Class IRI="Hispanic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="correlation"/>
+            <Class IRI="Death_By_Liver_Cancer"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Homeland_Generation"/>
-        <Class IRI="Generational_Persona_(20-25_years)"/>
+        <Class IRI="Hispanic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="correlation"/>
+            <Class IRI="Death_By_Stomach_Cancer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hispanic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="correlation"/>
+            <Class IRI="Liver_Cancer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hispanic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="correlation"/>
+            <Class IRI="Stomach_Cancer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hispanic_Females"/>
+        <Class IRI="Hispanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hispanic_Females"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="correlation"/>
+            <Class IRI="Cervical_Cancer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hispanic_Females"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="correlation"/>
+            <Class IRI="Death_By_Cervical_Cancer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hispanic_Males"/>
+        <Class IRI="Hispanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Home_and_Community_Care"/>
+        <Class IRI="Health_Care"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Horomones"/>
@@ -2764,6 +3462,10 @@
             <ObjectProperty IRI="cause"/>
             <Class IRI="Gentrification"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Human_Behavior"/>
+        <Class IRI="Behavior"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Human_Hierarchy"/>
@@ -2834,12 +3536,43 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Hyper-Pigmentation"/>
+        <Class IRI="Skin_Pigmentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="IBD_Cancer"/>
+        <Class IRI="Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Immigrant_Generation"/>
+        <Class IRI="Cultural_Generation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Immigrant_Generation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="manifestation"/>
+            <Class IRI="Immigrants"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Immigrants"/>
+        <Class IRI="People"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="India"/>
         <Class IRI="Ethnic_Nation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="India"/>
+        <Class IRI="Nation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="India"/>
         <Class IRI="Non-Western_Country"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Industry_Pollution"/>
+        <Class IRI="Pollution"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Infection"/>
@@ -2859,6 +3592,14 @@
     <SubClassOf>
         <Class IRI="Instagram_Community"/>
         <Class IRI="Online_Community"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Instagram_Community"/>
+        <Class IRI="Virtual_Community"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Institution"/>
+        <Class IRI="Organization"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Insurance"/>
@@ -2892,8 +3633,16 @@
         <Class IRI="Marriage"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Iranian_Cultural_Generation"/>
+        <Class IRI="Regional_Cultural_Generation"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Ireland"/>
         <Class IRI="Ethnic_Nation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ireland"/>
+        <Class IRI="Nation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Islam"/>
@@ -2902,6 +3651,21 @@
     <SubClassOf>
         <Class IRI="Japan"/>
         <Class IRI="Ethnic_Nation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Japan"/>
+        <Class IRI="Nation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Japanese_Cultural_Generation"/>
+        <Class IRI="Regional_Cultural_Generation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Japanese_Cultural_Generation"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="manifestation"/>
+            <Class IRI="Japan"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Jewish"/>
@@ -2914,6 +3678,10 @@
     <SubClassOf>
         <Class IRI="Judiciary_Branch"/>
         <Class IRI="Government"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Kidney_Cancer"/>
+        <Class IRI="Cancer"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Knowledge"/>
@@ -2938,6 +3706,17 @@
         <Class IRI="Hispanic"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Lead_Exposure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="cause"/>
+            <Class IRI="Disease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Lead_Smelting"/>
+        <Class IRI="Pollution"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Left-wing_Nationalism"/>
         <Class IRI="Nationalism"/>
     </SubClassOf>
@@ -2954,8 +3733,16 @@
         <Class IRI="Art"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Lost_Generation"/>
-        <Class IRI="Generational_Persona_(20-25_years)"/>
+        <Class IRI="Littering"/>
+        <Class IRI="Pollution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Liver_Cancer"/>
+        <Class IRI="Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Low"/>
+        <Class IRI="Quality"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Low_Socioeconomic_Status"/>
@@ -2978,6 +3765,13 @@
         <Class IRI="Human_Hierarchy"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Media"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="manifestation"/>
+            <Class IRI="Media"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Medical_School"/>
         <Class IRI="Tertiary_education"/>
     </SubClassOf>
@@ -2987,7 +3781,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Medium"/>
-        <Class IRI="FIA"/>
+        <Class IRI="FIA_Hair_Typing_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Medium"/>
+        <Class IRI="Quality"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Medium_Socioeconomic_Status"/>
@@ -2998,8 +3796,8 @@
         <Class IRI="Health_Policy"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Millennial_Generation"/>
-        <Class IRI="Generational_Persona_(20-25_years)"/>
+        <Class IRI="Merdeka_Generation"/>
+        <Class IRI="Singaporean_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Modern_Medicine"/>
@@ -3044,7 +3842,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Movies"/>
-        <Class IRI="Propoganda"/>
+        <Class IRI="Media"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Multiple_Citizenship"/>
@@ -3101,6 +3899,14 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="National-anarchism"/>
+        <Class IRI="Nationalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Nationality"/>
+        <Class IRI="Community"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Nationality"/>
         <Class IRI="Identity"/>
     </SubClassOf>
@@ -3119,12 +3925,28 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Native_Americal_Males"/>
+        <Class IRI="Native_American"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Native_American"/>
         <Class IRI="OMB_Race"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Native_American_Females"/>
+        <Class IRI="Native_American"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Native_Hawaiian"/>
         <Class IRI="OMB_Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Native_Hawaiian_Females"/>
+        <Class IRI="Native_Hawaiian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Native_Hawaiian_Males"/>
+        <Class IRI="Native_Hawaiian"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Nativist_Nationalism"/>
@@ -3150,7 +3972,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="News_Report"/>
-        <Class IRI="Propoganda"/>
+        <Class IRI="Media"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Non-Hispanics"/>
@@ -3159,6 +3981,10 @@
     <SubClassOf>
         <Class IRI="Non-Western_Country"/>
         <Class IRI="Colonized_Population"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Non-white_Passing"/>
+        <Class IRI="Colorism"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Nonviolent_Protest"/>
@@ -3170,12 +3996,16 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Normal"/>
-        <Class IRI="FIA"/>
+        <Class IRI="FIA_Hair_Typing_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Nose_Shape"/>
+        <Class IRI="Phenotype"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Nose_Shape"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="character"/>
             <Class IRI="Nasal_Index"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3194,6 +4024,10 @@
     <SubClassOf>
         <Class IRI="OMB_Race"/>
         <Class IRI="Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Obesity"/>
+        <Class IRI="Disease"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Occupation"/>
@@ -3277,13 +4111,6 @@
     <SubClassOf>
         <Class IRI="Parent"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Knowledge"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Parent"/>
-        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="has_responsibility"/>
             <Class IRI="Children"/>
         </ObjectSomeValuesFrom>
@@ -3327,8 +4154,24 @@
         <Class IRI="Endogamy"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Physical_Therapy_Education"/>
+        <Class IRI="Vocational_Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Physician_Assistant_Education"/>
+        <Class IRI="Vocational_Education"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Physician_Quality"/>
         <Class IRI="Health_Care_Evaluations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pioneeer_Generation"/>
+        <Class IRI="Singaporean_Cultural_Generation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Plastic_Pollution"/>
+        <Class IRI="Pollution"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Podiatric_Medicine_School"/>
@@ -3378,8 +4221,20 @@
         <Class IRI="Human_Stereotypes"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Post-80s_Generation"/>
+        <Class IRI="China_Cultural_Generation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Post-90s_Generation"/>
+        <Class IRI="China_Cultural_Generation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Post_Bubble_Generation"/>
+        <Class IRI="Japanese_Cultural_Generation"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Posters"/>
-        <Class IRI="Propoganda"/>
+        <Class IRI="Media"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Practices"/>
@@ -3398,6 +4253,10 @@
     <SubClassOf>
         <Class IRI="Prayer"/>
         <Class IRI="Practices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Preferences"/>
+        <Class IRI="Human_Behavior"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Primary_Care"/>
@@ -3428,6 +4287,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Prostate_Cancer"/>
+        <Class IRI="Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Prostrate_Cancer"/>
         <Class IRI="Cancer"/>
     </SubClassOf>
     <SubClassOf>
@@ -3467,6 +4330,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Race"/>
+        <Class IRI="Community"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Race"/>
         <Class IRI="Identity"/>
     </SubClassOf>
     <SubClassOf>
@@ -3485,8 +4352,22 @@
         <Class IRI="Segregation"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Racial_Segregation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="location"/>
+            <Class IRI="Biophysical_Environment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Racism"/>
         <Class IRI="Discrimination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Racism"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="manifestation"/>
+            <Class IRI="Colorism"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Racism"/>
@@ -3510,12 +4391,12 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Red"/>
-        <Class IRI="Color_Terminology"/>
+        <Class IRI="Reddit_Community"/>
+        <Class IRI="Online_Community"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Reddit_Community"/>
-        <Class IRI="Online_Community"/>
+        <Class IRI="Virtual_Community"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Redistribution_of_Wealth"/>
@@ -3523,6 +4404,10 @@
             <ObjectProperty IRI="influences"/>
             <Class IRI="Socioeconomic_Status"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Regional_Cultural_Generation"/>
+        <Class IRI="Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Religion"/>
@@ -3562,6 +4447,10 @@
         <Class IRI="Nationalism"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Renal_Pelvis_Cancer"/>
+        <Class IRI="Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Rental_Housing"/>
         <Class IRI="Affordable_Housing_Policy"/>
     </SubClassOf>
@@ -3593,12 +4482,49 @@
         <Class IRI="Practices"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Sail_Boats"/>
+        <Class IRI="Technology"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Salary_Arrangement"/>
         <Class IRI="Wages"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Samoan_American"/>
         <Class IRI="Other_Pacific_Islanders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Samoan_American_Females"/>
+        <Class IRI="Samoan_American"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Samoan_American_Females"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="correlation"/>
+            <Class IRI="Cervical_Cancer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Samoan_American_Females"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="correlation"/>
+            <Class IRI="Death_By_Cervical_Cancer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Samoan_American_Males"/>
+        <Class IRI="Samoan_American"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Samoan_American_Males"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="correlation"/>
+            <Class IRI="Liver_Cancer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Satori_Generation"/>
+        <Class IRI="Japanese_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="School"/>
@@ -3609,6 +4535,10 @@
         <Class IRI="Segregation"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Second_Baby_Boom_Generation"/>
+        <Class IRI="Japanese_Cultural_Generation"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Secondary_Care"/>
         <Class IRI="Health_Care"/>
     </SubClassOf>
@@ -3617,19 +4547,32 @@
         <Class IRI="Formal_Education"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Self-efficacy"/>
+        <Class IRI="Health_Behavoir"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Sermons"/>
         <Class IRI="Practices"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Skin"/>
-        <Class IRI="Phenotype"/>
+        <Class IRI="Sexual_Behavior"/>
+        <Class IRI="Health_Behavoir"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Sexual_Behavior"/>
+        <Class IRI="Social_Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Shinjunrui_Generation"/>
+        <Class IRI="Japanese_Cultural_Generation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Singaporean_Cultural_Generation"/>
+        <Class IRI="Regional_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Skin"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
-            <Class IRI="Color_Terminology"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="Phenotype"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Skin"/>
@@ -3650,8 +4593,22 @@
         <Class IRI="Cancer"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Skin_Pigmentation"/>
-        <Class IRI="Hyper-Pigmentation"/>
+        <Class IRI="Skin_Color"/>
+        <Class IRI="Phenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Skin_Color"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="character"/>
+            <Class IRI="Fitzpatrick_Scale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Skin_Color"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="character"/>
+            <Class IRI="Skin_Pigmentation"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Slang"/>
@@ -3669,8 +4626,26 @@
         <Class IRI="Nasal_Index"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Social_Behavior"/>
+        <Class IRI="Human_Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Social_Behavior"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="character"/>
+            <Class IRI="Communication"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Social_Behavior"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="character"/>
+            <Class IRI="Language"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Social_Media"/>
-        <Class IRI="Propoganda"/>
+        <Class IRI="Media"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Socioeconomic_Status"/>
@@ -3682,6 +4657,10 @@
             <ObjectProperty IRI="manifestation"/>
             <Class IRI="Community"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Soil_Contamination"/>
+        <Class IRI="Pollution"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Spanish"/>
@@ -3718,8 +4697,20 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Stomach_Cancer"/>
+        <Class IRI="Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Straight"/>
-        <Class IRI="FIA"/>
+        <Class IRI="FIA_Hair_Typing_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Strawberry_Generation"/>
+        <Class IRI="Taiwanese_Cultural_Generation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Taiwanese_Cultural_Generation"/>
+        <Class IRI="Regional_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Tarot_Cards"/>
@@ -3746,7 +4737,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Television"/>
-        <Class IRI="Propoganda"/>
+        <Class IRI="Media"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Territorial_Nationalism"/>
@@ -3772,16 +4763,24 @@
         <Class IRI="Government"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Thermal_Pollution"/>
+        <Class IRI="Pollution"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Thick"/>
-        <Class IRI="FIA"/>
+        <Class IRI="FIA_Hair_Typing_System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Thin"/>
-        <Class IRI="FIA"/>
+        <Class IRI="FIA_Hair_Typing_System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="TikTok_Community"/>
         <Class IRI="Online_Community"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TikTok_Community"/>
+        <Class IRI="Virtual_Community"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Time_Period"/>
@@ -3809,6 +4808,13 @@
     <SubClassOf>
         <Class IRI="Tobacco_Control_Policy"/>
         <Class IRI="Public_Health"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Tobacco_Use_Exposure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="cause"/>
+            <Class IRI="Disease"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Traditional_Medicine"/>
@@ -3878,6 +4884,31 @@
         <Class IRI="Fischer-Saller_Scale"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="United_States_Government"/>
+        <Class IRI="Representative_Democracy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="United_States_Government"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="manifestation"/>
+            <Class IRI="Executive_Branch"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="United_States_Government"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="manifestation"/>
+            <Class IRI="Judiciary_Branch"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="United_States_Government"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="manifestation"/>
+            <Class IRI="Legislature_Branch"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="United_States_of_America"/>
         <Class IRI="Western_Country"/>
     </SubClassOf>
@@ -3891,11 +4922,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Very_Curly"/>
-        <Class IRI="FIA"/>
+        <Class IRI="FIA_Hair_Typing_System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Violent_Protest"/>
         <Class IRI="Protest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Virtual_Community"/>
+        <Class IRI="Community"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Visual_Arts"/>
@@ -3914,8 +4949,12 @@
         <Class IRI="Natural_Pollutants"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Water_Pollution"/>
+        <Class IRI="Pollution"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Wavy"/>
-        <Class IRI="FIA"/>
+        <Class IRI="FIA_Hair_Typing_System"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Wealth"/>
@@ -3929,8 +4968,23 @@
         <Class IRI="Colonial_Power"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="White"/>
-        <Class IRI="Color_Terminology"/>
+        <Class IRI="Western_Cultural_Generation"/>
+        <Class IRI="Regional_Cultural_Generation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Western_Cultural_Generation"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="manifestation"/>
+            <Class IRI="Western_Country"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Wheel"/>
+        <Class IRI="Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="White_Passing"/>
+        <Class IRI="Colorism"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="White_Privilege"/>
@@ -3941,20 +4995,28 @@
         <Class IRI="Natural_Pollutants"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Work"/>
-        <Class IRI="Common_Interest_Purpose"/>
+        <Class IRI="Windmills"/>
+        <Class IRI="Technology"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Yellow"/>
-        <Class IRI="Color_Terminology"/>
+        <Class IRI="Work"/>
+        <Class IRI="Common_Interest_Purpose"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="YouTube_Community"/>
         <Class IRI="Online_Community"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="YouTube_Community"/>
+        <Class IRI="Virtual_Community"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Youth"/>
         <Class IRI="Age"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Yutori_Generation"/>
+        <Class IRI="Japanese_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="asbestos"/>
@@ -3969,8 +5031,8 @@
         <Class IRI="Physical_Agents"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="13th_Generation"/>
-        <Class IRI="Generational_Persona_(20-25_years)"/>
+        <Class IRI="80s_Generation"/>
+        <Class IRI="Japanese_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Ancient_Period_(3000_BCE_to_500_CE)"/>
@@ -4069,24 +5131,6 @@
     <SubClassOf>
         <Class IRI="Economic,_Social,_and_Cultural_Rights"/>
         <Class IRI="Rights"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Generational_Turning/Era"/>
-        <ObjectIntersectionOf>
-            <DataMinCardinality cardinality="20">
-                <DataProperty IRI="duration_in_years"/>
-            </DataMinCardinality>
-            <DataMaxCardinality cardinality="25">
-                <DataProperty IRI="duration_in_years"/>
-            </DataMaxCardinality>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Generational_Turning/Era"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Generational_Persona_(20-25_years)"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="I,_II,_III,_IV"/>
@@ -4188,17 +5232,6 @@
         </DataMaxCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Saeculum_(80_to_100_years)"/>
-        <Class IRI="Place"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Saeculum_(80_to_100_years)"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Generational_Turning/Era"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Social/Subsidized_Housing"/>
         <Class IRI="Affordable_Housing_Policy"/>
     </SubClassOf>
@@ -4206,54 +5239,332 @@
         <Class IRI="V,_VI"/>
         <Class IRI="Fischer-Saller_Scale"/>
     </SubClassOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="character"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="develop"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="influences"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="invented"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="location"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="manifestation"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="occurrence"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="part"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="participation"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="precedent"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="realization"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="duration_in_years"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
+    <ClassAssertion>
+        <Class IRI="IBD_Cancer"/>
+        <NamedIndividual IRI="IBD_cancer_incidence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="African_American"/>
+        <NamedIndividual IRI="_african_american"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="African_American_Males"/>
+        <NamedIndividual IRI="_african_american_men"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="African_American_Females"/>
+        <NamedIndividual IRI="_african_american_women"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Samoan_American_Males"/>
+        <NamedIndividual IRI="_american_samoan_men"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Samoan_American_Females"/>
+        <NamedIndividual IRI="_american_samoan_women"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Asian_American"/>
+        <NamedIndividual IRI="_asian_american"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Hispanic_Males"/>
+        <NamedIndividual IRI="_hispanic_american_men"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Hispanic_Females"/>
+        <NamedIndividual IRI="_hispanic_american_women"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Hispanic"/>
+        <NamedIndividual IRI="_hispanic_americans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Native_Americal_Males"/>
+        <NamedIndividual IRI="_native_american_men"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Native_American_Females"/>
+        <NamedIndividual IRI="_native_american_women"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Native_American"/>
+        <NamedIndividual IRI="_native_americans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Native_Hawaiian_Males"/>
+        <NamedIndividual IRI="_native_hawaiian_men"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Native_Hawaiian"/>
+        <NamedIndividual IRI="_native_hawaiians"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Other_Pacific_Islanders"/>
+        <NamedIndividual IRI="_other_pacific_islanders"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Breast_Cancer"/>
+        <NamedIndividual IRI="breast_cancer_incidence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Death_By_Breast_Cancer"/>
+        <NamedIndividual IRI="breast_cancer_mortality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Cervical_Cancer"/>
+        <NamedIndividual IRI="cervical_cancer_incidence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Death_By_Cervical_Cancer"/>
+        <NamedIndividual IRI="cervical_cancer_mortality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Colon_Cancer"/>
+        <NamedIndividual IRI="colon_cancer_incidence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="Death_By_Cancer"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="character"/>
+                <Class IRI="High"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="high_cancer_mortality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Kidney_Cancer"/>
+        <NamedIndividual IRI="kidney_cancer_incidence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Liver_Cancer"/>
+        <NamedIndividual IRI="liver_cancer_incidence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Death_By_Liver_Cancer"/>
+        <NamedIndividual IRI="liver_cancer_mortality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="Cancer"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="character"/>
+                <Class IRI="Low"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="lower_cancer_incidence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="Prostrate_Cancer"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="character"/>
+                <Class IRI="Low"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="lower_prostrate_cancer_incidence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Prostrate_Cancer"/>
+        <NamedIndividual IRI="prostrate_cancer_incidence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Death_By_Prostrate_Cancer"/>
+        <NamedIndividual IRI="prostrate_cancer_mortality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Renal_Pelvis_Cancer"/>
+        <NamedIndividual IRI="renal_pelvis_cancer_incidence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Stomach_Cancer"/>
+        <NamedIndividual IRI="stomach_cancer_incidence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Death_By_Stomach_Cancer"/>
+        <NamedIndividual IRI="stomach_cancer_mortality"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_african_american"/>
+        <NamedIndividual IRI="high_cancer_mortality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_african_american"/>
+        <NamedIndividual IRI="stomach_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_african_american"/>
+        <NamedIndividual IRI="stomach_cancer_mortality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_african_american_men"/>
+        <NamedIndividual IRI="colon_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_african_american_men"/>
+        <NamedIndividual IRI="prostrate_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_african_american_men"/>
+        <NamedIndividual IRI="prostrate_cancer_mortality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_african_american_women"/>
+        <NamedIndividual IRI="breast_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_african_american_women"/>
+        <NamedIndividual IRI="breast_cancer_mortality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_african_american_women"/>
+        <NamedIndividual IRI="stomach_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_african_american_women"/>
+        <NamedIndividual IRI="stomach_cancer_mortality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_american_samoan_men"/>
+        <NamedIndividual IRI="liver_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_american_samoan_women"/>
+        <NamedIndividual IRI="cervical_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_american_samoan_women"/>
+        <NamedIndividual IRI="cervical_cancer_mortality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_asian_american"/>
+        <NamedIndividual IRI="IBD_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_asian_american"/>
+        <NamedIndividual IRI="liver_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_asian_american"/>
+        <NamedIndividual IRI="lower_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_asian_american"/>
+        <NamedIndividual IRI="lower_prostrate_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_asian_american"/>
+        <NamedIndividual IRI="stomach_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_hispanic_american_men"/>
+        <NamedIndividual IRI="lower_prostrate_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_hispanic_american_women"/>
+        <NamedIndividual IRI="cervical_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_hispanic_american_women"/>
+        <NamedIndividual IRI="cervical_cancer_mortality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_hispanic_americans"/>
+        <NamedIndividual IRI="liver_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_hispanic_americans"/>
+        <NamedIndividual IRI="liver_cancer_mortality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_hispanic_americans"/>
+        <NamedIndividual IRI="lower_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_hispanic_americans"/>
+        <NamedIndividual IRI="stomach_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_hispanic_americans"/>
+        <NamedIndividual IRI="stomach_cancer_mortality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_native_american_men"/>
+        <NamedIndividual IRI="stomach_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_native_american_men"/>
+        <NamedIndividual IRI="stomach_cancer_mortality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_native_american_women"/>
+        <NamedIndividual IRI="kidney_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_native_american_women"/>
+        <NamedIndividual IRI="renal_pelvis_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_native_americans"/>
+        <NamedIndividual IRI="IBD_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_native_americans"/>
+        <NamedIndividual IRI="liver_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_native_americans"/>
+        <NamedIndividual IRI="lower_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_native_hawaiian_men"/>
+        <NamedIndividual IRI="liver_cancer_incidence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_native_hawaiians"/>
+        <NamedIndividual IRI="high_cancer_mortality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="correlation"/>
+        <NamedIndividual IRI="_other_pacific_islanders"/>
+        <NamedIndividual IRI="high_cancer_mortality"/>
+    </ObjectPropertyAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>A</IRI>
@@ -4373,6 +5684,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>African_American</IRI>
         <Literal>African_American</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>African_American_Females</IRI>
+        <Literal>African American Females</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>African_American_Males</IRI>
+        <Literal>African American Males</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4496,21 +5817,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Archetype</IRI>
-        <Literal>generations shaped by similar early-life experiences develop similar collective personas and follow similar life-trajectories.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Archetype</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Archetype</IRI>
-        <Literal>Archetype</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Aristocracy</IRI>
         <Literal>a form of government that places strength in the hands of a small, privileged ruling class, the aristocrats.</Literal>
     </AnnotationAssertion>
@@ -4538,36 +5844,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Art</IRI>
         <Literal>Art</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Arthurian_Generation</IRI>
-        <Literal>born between 1433 and 1460 and is of the hero archetype.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Arthurian_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Arthurian_Generation</IRI>
-        <Literal>Arthurian_Generation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Artist</IRI>
-        <Literal>when great dangers cut down social and political complexity in favor of public consensus, aggressive institutions, and an ethic of personal sacrifice.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Artist</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Artist</IRI>
-        <Literal>Artist</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4631,36 +5907,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Awakening</IRI>
-        <Literal>institutions are attacked in the name of personal and spiritual autonomy. Just when society is reaching its high tide of public progress, people suddenly tire of social discipline and want to recapture a sense of &quot;self-awareness&quot;, &quot;spirituality&quot; and &quot;personal authenticity&quot;.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Awakening</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Awakening</IRI>
-        <Literal>Awakening</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Awakening_Generation</IRI>
-        <Literal>born between 1701 and 1723 and was of the prophet archetype.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Awakening_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Awakening_Generation</IRI>
-        <Literal>Awakening_Generation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>B_to_E</IRI>
         <Literal>light blond</Literal>
     </AnnotationAssertion>
@@ -4688,21 +5934,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Baby</IRI>
         <Literal>Baby</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Baby_Boom_Generation</IRI>
-        <Literal>those born from 1943 to 1960.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Baby_Boom_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Baby_Boom_Generation</IRI>
-        <Literal>Baby_Boom_Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4750,6 +5981,16 @@
         <Literal>Benzene</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Biological_Female</IRI>
+        <Literal>Biological Female</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Biological_Male</IRI>
+        <Literal>Biological Male</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Biological_Resources</IRI>
         <Literal>a substance or object in the environment required by an organism for normal growth, maintenance, and reproduction.</Literal>
@@ -4763,6 +6004,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Biological_Resources</IRI>
         <Literal>Biological_Resources</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Biological_Sex</IRI>
+        <Literal>Biological Sex</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4811,21 +6057,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Black</IRI>
-        <Literal>People with African descent.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Black</IRI>
-        <Literal></Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Black</IRI>
-        <Literal>Black</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Books</IRI>
         <Literal>a medium for recording information in the form of writing or images, typically composed of many pages (made of papyrus, parchment, vellum, or paper) bound together and protected by a cover.</Literal>
     </AnnotationAssertion>
@@ -4838,21 +6069,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Books</IRI>
         <Literal>Books</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Bow</IRI>
-        <Literal>the act of lowering the torso and head as a social gesture in direction to another person or symbol.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Bow</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Bowing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Bow</IRI>
-        <Literal>Bow</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4901,21 +6117,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Brown</IRI>
-        <Literal>People with Latin American/Spanish descent.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Brown</IRI>
-        <Literal></Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Brown</IRI>
-        <Literal>Brown</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Brown_Paper_Bag_Test</IRI>
         <Literal>The test was allegedly used to determine what privileges an individual could have; only those with a skin color that matched or was lighter than a brown paper bag were allowed admission or membership privileges.</Literal>
     </AnnotationAssertion>
@@ -4943,6 +6144,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Buddhism</IRI>
         <Literal>Buddhism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Burnt_Generation</IRI>
+        <Literal>Burnt_Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -5036,21 +6242,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Cavalier_Generation</IRI>
-        <Literal> born from 1618 to 1647 and were of the nomad archetype. </Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Cavalier_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Cavalier_Generation</IRI>
-        <Literal>Cavalier_Generation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Celestial_Nose</IRI>
         <Literal>A nose with a ski slope bridge. </Literal>
     </AnnotationAssertion>
@@ -5063,6 +6254,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Celestial_Nose</IRI>
         <Literal>Celestial_Nose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Cervical_Cancer</IRI>
+        <Literal>Cervical Cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -5123,6 +6319,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>China</IRI>
         <Literal>China</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>China_Cultural_Generation</IRI>
+        <Literal>China Cultural Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -5471,21 +6672,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Color_Terminology</IRI>
-        <Literal>The division of human&apos;s based on their skin&apos;s pigmentation.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Color_Terminology</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Color_terminology_for_race</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Color_Terminology</IRI>
-        <Literal>Color_Terminology</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Colorism</IRI>
         <Literal>a form of prejudice and/or discrimination in which people who share similar ethnicity traits or perceived race are treated differently based on the social implications that come with the cultural meanings that are attached to skin color.</Literal>
     </AnnotationAssertion>
@@ -5512,7 +6698,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Common_Interest_Purpose</IRI>
-        <Literal>Common_Interest_Purpose</Literal>
+        <Literal>Common Interest and Purpose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -5543,21 +6729,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Community</IRI>
         <Literal>Community</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Compromise_Generation</IRI>
-        <Literal>born between 1767 and 1791 and were of the artist archetype.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Compromise_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Compromise_Generation</IRI>
-        <Literal>Compromise_Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -5636,21 +6807,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Crisis</IRI>
-        <Literal>an era of destruction, often involving war or revolution, in which institutional life is destroyed and rebuilt in response to a perceived threat to the nation&apos;s survival.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Crisis</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Crisis</IRI>
-        <Literal>Crisis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Cuisine</IRI>
         <Literal>a style of cooking characterized by distinctive ingredients, techniques and dishes, and usually associated with a specific culture or geographic region</Literal>
     </AnnotationAssertion>
@@ -5663,6 +6819,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Cuisine</IRI>
         <Literal>Cuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Cultural_Generation</IRI>
+        <Literal>Cultural Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -5720,6 +6881,11 @@
         <Literal>Dance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Danso_Generation</IRI>
+        <Literal>Danso_Generation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Darwinian_Fitness</IRI>
         <Literal>It is also equal to the average contribution to the gene pool of the next generation, made by the same individuals of the specified genotype or phenotype. Fitness can be defined either with respect to a genotype or to a phenotype in a given environment or time. The fitness of a genotype is manifested through its phenotype, which is also affected by the developmental environment.</Literal>
@@ -5733,6 +6899,281 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Darwinian_Fitness</IRI>
         <Literal>Darwinian Fitness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Death</IRI>
+        <Literal>Death is the irreversible cessation of all biological functions that sustain an organism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>Death</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Death</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death</IRI>
+        <Literal>Death</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Adverse_Effect_of_Medical_Treatment</IRI>
+        <Literal>Death By Adverse Effect of Medical Treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Breast_Cancer</IRI>
+        <Literal>Death By Breast Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Cancer</IRI>
+        <Literal>Death By Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Cardiovascular_Disease</IRI>
+        <Literal>Death By Cardiovascular Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Cervical_Cancer</IRI>
+        <Literal>Death By Cervical Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Chronic_Kidney_Disease</IRI>
+        <Literal>Death By Chronic Kidney Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Chronic_Respiratory_Disease</IRI>
+        <Literal>Death By Chronic Respiratory Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Communicable_Disease</IRI>
+        <Literal>Death By Communicable Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Conflict_and_Terrorism</IRI>
+        <Literal>Death By Conflict and Terrorism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Diabetes</IRI>
+        <Literal>Death By Diabetes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Digestive_Disease</IRI>
+        <Literal>Death By Digestive Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Disease</IRI>
+        <Literal>Death By Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Drowning</IRI>
+        <Literal>Death By Drowning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Enteric_Infection</IRI>
+        <Literal>Death By Enteric Infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Execution</IRI>
+        <Literal>Death By Execution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Falls</IRI>
+        <Literal>Death By Falls</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Fire</IRI>
+        <Literal>Death By Fire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Firearm</IRI>
+        <Literal>Death By Firearm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Heat</IRI>
+        <Literal>Death By Heat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Hot_Substances</IRI>
+        <Literal>Death By Hot Substances</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Hypertensive_Heart_Disease</IRI>
+        <Literal>Death By Hypertensive Heart Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Injuries</IRI>
+        <Literal>Death By Injuries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Interpersonal_Violence</IRI>
+        <Literal>Death By Interpersonal Violence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Liver_Cancer</IRI>
+        <Literal>Death By Liver Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Lower_Respiratory_Infection</IRI>
+        <Literal>Death By Lower Respiratory Infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Maternal_Disorder</IRI>
+        <Literal>Death By Maternal Disorder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Motor_Vehicle_Injury</IRI>
+        <Literal>Death By Motor Vehicle Injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Neonatal_Disease</IRI>
+        <Literal>Death By Neonatal Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Neoplasms</IRI>
+        <Literal>Death By Neoplasms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Neurological_Disorder</IRI>
+        <Literal>Death By Neurological Disorder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Non-communicable_Disease</IRI>
+        <Literal>Death By Non-communicable Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Nutritional_Disorder</IRI>
+        <Literal>Death By Nutritional Disorder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Pedistrian_Road_Death</IRI>
+        <Literal>Death By Pedistrian Road Death</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Poisoning</IRI>
+        <Literal>Death By Poisoning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Police_Conflict</IRI>
+        <Literal>Death By Police Conflict</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Prostrate_Cancer</IRI>
+        <Literal>Death By Prostrate Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Respiratory_Infection</IRI>
+        <Literal>Death By Respiratory Infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Road_Injuries</IRI>
+        <Literal>Death By Road Injuries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Self_Harm</IRI>
+        <Literal>Death By Self Harm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Sexually_Transmitted_Infection</IRI>
+        <Literal>Death By Sexually Transmitted Infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Sharp_Object</IRI>
+        <Literal>Death By Sharp Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Stomach_Cancer</IRI>
+        <Literal>Death By Stomach Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Stroke</IRI>
+        <Literal>Death By Stroke</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Substance_Use_Disorder</IRI>
+        <Literal>Death By Substance Use Disorder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Transport_Injury</IRI>
+        <Literal>Death By Transport Injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Tuberculosis</IRI>
+        <Literal>Death By Tuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Type_1_Diabetes</IRI>
+        <Literal>Death By Type 1 Diabetes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Type_2_Diabetes</IRI>
+        <Literal>Death By Type 2 Diabetes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Unintentional_Injuries</IRI>
+        <Literal>Death By Unintentional Injuries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_By_Upper_Respiratory_Infection</IRI>
+        <Literal>Death By Upper Respiratory Infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_From_Self-Harm_By_Firearm</IRI>
+        <Literal>Death From Self-Harm By Firearm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Death_From_Self-Harm_By_Sharp_Object</IRI>
+        <Literal>Death From Self-Harm By Sharp Object</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6021,21 +7462,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Elizabethan_Generation</IRI>
-        <Literal>born between 1541 and 1565 and is of the hero archetype.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Elizabethan_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Elizabethan_Generation</IRI>
-        <Literal>Elizabethan_Generation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Emergency_Homeless_Shelters</IRI>
         <Literal>a type of homeless service agency which provide temporary residence for homeless individuals and families.</Literal>
     </AnnotationAssertion>
@@ -6063,21 +7489,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Endogamy</IRI>
         <Literal>Endogamy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Enlightenment_Generation</IRI>
-        <Literal>born between 1674 and 1700 and were of the artist archetype.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Enlightenment_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Enlightenment_Generation</IRI>
-        <Literal>Enlightenment_Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6291,18 +7702,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>FIA</IRI>
+        <IRI>FIA_Hair_Typing_System</IRI>
         <Literal>Hair classfication system based on texture, volume, and strands.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>FIA</IRI>
+        <IRI>FIA_Hair_Typing_System</IRI>
         <Literal>https://en.wikipedia.org/wiki/Hair</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>FIA</IRI>
-        <Literal>FIA</Literal>
+        <IRI>FIA_Hair_Typing_System</IRI>
+        <Literal>FIA Hair Typing System</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6475,6 +7886,16 @@
         <Literal>Fine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>First_Baby_Boomer_Generation</IRI>
+        <Literal>https://blog.btrax.com/gen-x-millennials-a-quick-guide-to-japans-generation-cohorts/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>First_Baby_Boomer_Generation</IRI>
+        <Literal>First_Baby_Boomer_Generation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Fischer-Saller_Scale</IRI>
         <Literal>used in physical anthropology and medicine to determine the shades of hair color.</Literal>
@@ -6616,21 +8037,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>G.I._Generation</IRI>
-        <Literal>Born from 1901 and 1924 and were of the hero archetype, also known as the World War II generation.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>G.I._Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>G.I._Generation</IRI>
-        <Literal>G.I._Generation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Gendered_and_Muscular_Nationalism</IRI>
         <Literal>conceptualizes a nation&apos;s identity as being derived from muscular or masculine attributes that are unique to a particular country.</Literal>
     </AnnotationAssertion>
@@ -6706,21 +8112,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Gilded_Generation</IRI>
-        <Literal>(nomad archetype) as those born from 1822 to 1842. They came of age amid rising national tempers, torrential immigration, rampant commercialism, conspicuous consumerism, declining college enrollment and economic disputes.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Gilded_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Gilded_Generation</IRI>
-        <Literal>Gilded_Generation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Global_Health_Policy</IRI>
         <Literal>the health of the populations in the worldwide context;[1] it has been defined as &quot;the area of study, research and practice that places a priority on improving health and achieving equity in health for all people worldwide&quot;.</Literal>
     </AnnotationAssertion>
@@ -6733,21 +8124,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Global_Health_Policy</IRI>
         <Literal>Global_Health_Policy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Glorious_Generation</IRI>
-        <Literal>born from 1648 to 1673 and were of the hero archetype.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Glorious_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Glorious_Generation</IRI>
-        <Literal>Glorious_Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6808,21 +8184,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Grecian_Nose</IRI>
         <Literal>Grecian_Nose</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Greeting</IRI>
-        <Literal>an act of communication in which human beings intentionally make their presence known to each other, to show attention to, and to suggest a type of relationship (usually cordial) or social status (formal or informal) between individuals or groups of people coming in contact with each other.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Greeting</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Greeting</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Greeting</IRI>
-        <Literal>Greeting</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6931,21 +8292,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Handshake</IRI>
-        <Literal>brief greeting or parting tradition in which two people grasp one of each other&apos;s like hands, in most cases accompanied by a brief up-and-down movement of the grasped hands.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Handshake</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Handshake</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Handshake</IRI>
-        <Literal>Handshake</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Hard_Power</IRI>
         <Literal>the use of military and economic means to influence the behavior or interests of other political bodies.</Literal>
     </AnnotationAssertion>
@@ -6988,6 +8334,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Health</IRI>
         <Literal>Health</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Health_Behavoir</IRI>
+        <Literal>Health Behavoir</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7105,49 +8456,9 @@
         <Literal>Hereditary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Hero</IRI>
-        <Literal>a time of individual pragmatism, self-reliance, and laissez-faire.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Hero</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Hero</IRI>
-        <Literal>Hero</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>High</IRI>
-        <Literal> institutions are strong and individualism is weak. Society is confident about where it wants to go collectively, though those outside the majoritarian center often feel stifled by the conformity.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>High</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>High</IRI>
         <Literal>High</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>High-Five</IRI>
-        <Literal> hand gesture that occurs when two people simultaneously raise one hand each, about head-high, and push, slide, or slap the flat of their palm against the flat palm of the other person.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>High-Five</IRI>
-        <Literal>https://en.wikipedia.org/wiki/High_five</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>High-Five</IRI>
-        <Literal>High-Five</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7180,6 +8491,16 @@
         <Literal>Hispanic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Hispanic_Females</IRI>
+        <Literal>Hispanic Females</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Hispanic_Males</IRI>
+        <Literal>Hispanic Males</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Home_and_Community_Care</IRI>
         <Literal>health care interventions are delivered outside of health facilities. They include many interventions of public health interest, such as food safety surveillance, distribution of condoms and needle-exchange programs for the prevention of transmissible diseases.</Literal>
@@ -7193,21 +8514,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Home_and_Community_Care</IRI>
         <Literal>Home_and_Community_Care</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Homeland_Generation</IRI>
-        <Literal>those born from 2005 onwards.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Homeland_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Homeland_Generation</IRI>
-        <Literal>Homeland_Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7253,6 +8559,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Housing</IRI>
         <Literal>Housing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Human_Behavior</IRI>
+        <Literal>Human Behavior</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7316,21 +8627,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Humanist_Generation</IRI>
-        <Literal>born between 1461 and 1482 and is of the artist/adaptive archetype.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Humanist_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Humanist_Generation</IRI>
-        <Literal>Humanist_Generation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Hyper-Pigmentation</IRI>
         <Literal>the darkening of an area of skin or nails caused by increased melanin.</Literal>
     </AnnotationAssertion>
@@ -7343,6 +8639,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Hyper-Pigmentation</IRI>
         <Literal>Hyper-Pigmentation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>IBD_Cancer</IRI>
+        <Literal>IBD Cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7358,6 +8659,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Identity</IRI>
         <Literal>Identity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Immigrant_Generation</IRI>
+        <Literal>Immigrant_Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7571,6 +8877,26 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Investment_Economic_Citizenship</IRI>
+        <Literal>represent both the economic contributions requisite to become a citizen as well as the role in which one&apos;s economic standing can influence his or her rights as a citizen.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>Investment_Economic_Citizenship</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Economic_citizenship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Investment_Economic_Citizenship</IRI>
+        <Literal>Investment/Economic_Citizenship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Iranian_Cultural_Generation</IRI>
+        <Literal>Iranian Cultural Generation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Ireland</IRI>
         <Literal>an island in the North Atlantic Ocean, in north-western Europe. It is separated from Great Britain to its east by the North Channel, the Irish Sea, and St George&apos;s Channel. Ireland is the second-largest island of the British Isles, the third-largest in Europe, and the twentieth-largest on Earth.</Literal>
     </AnnotationAssertion>
@@ -7613,6 +8939,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Japan</IRI>
         <Literal>Japan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Japanese_Cultural_Generation</IRI>
+        <Literal>Japanese Cultural Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7660,19 +8991,9 @@
         <Literal>Judiciary_Branch</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Kiss</IRI>
-        <Literal> the touch or pressing of one&apos;s lips against another person or an object.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Kiss</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Kiss</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Kiss</IRI>
-        <Literal>Kiss</Literal>
+        <IRI>Kidney_Cancer</IRI>
+        <Literal>Kidney Cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7841,21 +9162,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Liberty_Generation</IRI>
-        <Literal>Born between 1724 and 1741 and was the nomad archetype.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Liberty_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Liberty_Generation</IRI>
-        <Literal>Liberty_Generation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Life_Expectancy</IRI>
         <Literal>The approximation of how long a person will live. </Literal>
     </AnnotationAssertion>
@@ -7900,19 +9206,14 @@
         <Literal>Littering</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Lost_Generation</IRI>
-        <Literal>(nomad archetype) is the generation that came of age during World War I.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Lost_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Liver_Cancer</IRI>
+        <Literal>Liver Cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Lost_Generation</IRI>
-        <Literal>Lost_Generation</Literal>
+        <IRI>Low</IRI>
+        <Literal>Low</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8020,6 +9321,11 @@
         <Literal>Matriarchy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Media</IRI>
+        <Literal>Media</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Medical_School</IRI>
         <Literal>a tertiary educational institution, or part of such an institution, that teaches medicine, and awards a professional degree for physicians.</Literal>
@@ -8110,6 +9416,11 @@
         <Literal>Mental_Health_Policy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Merdeka_Generation</IRI>
+        <Literal>Merdeka_Generation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Military</IRI>
         <Literal>known collectively as armed forces, is a heavily armed, highly organized force primarily intended for warfare.</Literal>
@@ -8126,21 +9437,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Millennial_Generation</IRI>
-        <Literal> those born from 1982 to 2004.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Millennial_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Millennial_Generation</IRI>
-        <Literal>Millennial_Generation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Mining</IRI>
         <Literal>the extraction of valuable minerals or other geological materials from the Earth, usually from an ore body, lode, vein, seam, reef, or placer deposit.</Literal>
     </AnnotationAssertion>
@@ -8153,21 +9449,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Mining</IRI>
         <Literal>Mining</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Missionary_Generation</IRI>
-        <Literal>born from 1860 to 1882 and is of the prophet/idealist archetype. Members of the Missionary Generation have been described as the &quot;home-and-hearth children of the post-Civil War era&quot;.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Missionary_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Missionary_Generation</IRI>
-        <Literal>Missionary_Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8380,6 +9661,11 @@
         <Literal>Nationality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Native_Americal_Males</IRI>
+        <Literal>Native Americal Males</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Native_American</IRI>
         <Literal>A racial group which consists of indigenous Americans. </Literal>
@@ -8395,6 +9681,11 @@
         <Literal>Native_American</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Native_American_Females</IRI>
+        <Literal>Native American Females</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Native_Hawaiian</IRI>
         <Literal>A racial group which consists of indigenous Hawaiians.</Literal>
@@ -8408,6 +9699,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Native_Hawaiian</IRI>
         <Literal>Native_Hawaiian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Native_Hawaiian_Females</IRI>
+        <Literal>Native Hawaiian Females</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Native_Hawaiian_Males</IRI>
+        <Literal>Native Hawaiian Males</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8441,18 +9742,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Naturalizatoin</IRI>
+        <IRI>Naturalization</IRI>
         <Literal>the legal act or process by which a non-citizen of a country may acquire citizenship or nationality of that country.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Naturalizatoin</IRI>
+        <IRI>Naturalization</IRI>
         <Literal>https://en.wikipedia.org/wiki/Naturalization</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Naturalizatoin</IRI>
-        <Literal>Naturalizatoin</Literal>
+        <IRI>Naturalization</IRI>
+        <Literal>Naturalization</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8498,21 +9799,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>News_Report</IRI>
         <Literal>News_Report</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Nomad</IRI>
-        <Literal>a time of social ideals and spiritual agendas, when young adults are passionately attacking the established institutional order.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Nomad</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Nomad</IRI>
-        <Literal>Nomad</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8901,21 +10187,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Parliamentary_Generation</IRI>
-        <Literal>born from 1566 and 1587 and are of the artist archetype.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Parliamentary_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Parliamentary_Generation</IRI>
-        <Literal>Parliamentary_Generation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Passport</IRI>
         <Literal>an official travel document issued by a government that contains a given person&apos;s identity. It enables its holder travel to and from foreign countries and to access consular assistance while overseas.</Literal>
     </AnnotationAssertion>
@@ -9062,7 +10333,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Physical_Agents</IRI>
-        <Literal>Physical_Agents</Literal>
+        <Literal>Physical_Agents (Cancer Causing)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9123,6 +10394,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Physician_Quality</IRI>
         <Literal>Physician_Quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Pioneeer_Generation</IRI>
+        <Literal>Pioneeer_Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9243,6 +10519,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Positive_Human_Stereotypes</IRI>
         <Literal>Positive_Human_Stereotypes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Post-80s_Generation</IRI>
+        <Literal>Post-80s_Generation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Post-90s_Generation</IRI>
+        <Literal>Post-90s_Generation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Post_Bubble_Generation</IRI>
+        <Literal>Post_Bubble_Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9386,36 +10677,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Progressive_Generation</IRI>
-        <Literal>hero and artist archetypes) was born from 1843 to 1859 and grew up during the American Civil War.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Progressive_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Progressive_Generation</IRI>
-        <Literal>Progressive_Generation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Prophet</IRI>
-        <Literal>a time of rejuvenated community life and consensus around a new societal order.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Prophet</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Prophet</IRI>
-        <Literal>Prophet</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Propoganda</IRI>
         <Literal>communication that is primarily used to influence or persuade an audience to further an agenda, which may not be objective and may be selectively presenting facts to encourage a particular synthesis or perception, or using loaded language to produce an emotional rather than a rational response to the information that is being presented.</Literal>
     </AnnotationAssertion>
@@ -9443,6 +10704,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Prostate_Cancer</IRI>
         <Literal>Prostate_Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Prostrate_Cancer</IRI>
+        <Literal>Prostrate Cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9550,19 +10816,9 @@
         <Literal>Puerto_Rico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Puritan_Generation</IRI>
-        <Literal>born from 1588 and 1617 and is of the prophet archetype.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Puritan_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Puritan_Generation</IRI>
-        <Literal>Puritan_Generation</Literal>
+        <IRI>Quality</IRI>
+        <Literal>Quality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9671,21 +10927,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Red</IRI>
-        <Literal>People with indigenous/Indian descent.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Red</IRI>
-        <Literal></Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Red</IRI>
-        <Literal>Red</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Reddit_Community</IRI>
         <Literal>Registered users (commonly referred to as &quot;Redditors&quot;) submit content to the site such as links, text posts, images, and videos, which are then voted up or down by other members. Posts are organized by subject into user-created boards called &quot;communities&quot; or &quot;subreddits&quot;.</Literal>
     </AnnotationAssertion>
@@ -9705,19 +10946,9 @@
         <Literal>Redistribution_of_Wealth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Reformation_Generation</IRI>
-        <Literal> born between 1483 and 1511 and is of the prophet archetype.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Reformation_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Reformation_Generation</IRI>
-        <Literal>Reformation_Generation</Literal>
+        <IRI>Regional_Cultural_Generation</IRI>
+        <Literal>Regional Cultural Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9780,6 +11011,11 @@
         <Literal>Religious_Nationalism</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Renal_Pelvis_Cancer</IRI>
+        <Literal>Renal Pelvis Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Rental_Housing</IRI>
         <Literal>an agreement where a payment is made for the temporary use of a good, service or property owned by another.</Literal>
@@ -9810,39 +11046,9 @@
         <Literal>Representative_Democracy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Reprisal_Generation</IRI>
-        <Literal>born between 1512 and 1540 and is of the nomad/reactive archetype.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Reprisal_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Reprisal_Generation</IRI>
-        <Literal>Reprisal_Generation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Reproduction</IRI>
         <Literal>Reproduction</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Republican_Generation</IRI>
-        <Literal>(hero archetype) was born between 1742 and 1766.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Republican_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Republican_Generation</IRI>
-        <Literal>Republican_Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9873,21 +11079,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Resources</IRI>
         <Literal>Resources</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Respect</IRI>
-        <Literal>a positive feeling or action shown towards someone or something considered important or held in high esteem or regard.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Respect</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Respect</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Respect</IRI>
-        <Literal>Respect</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9985,6 +11176,21 @@
         <Literal>Samoan_American</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Samoan_American_Females</IRI>
+        <Literal>Samoan American Females</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Samoan_American_Males</IRI>
+        <Literal>Samoan American Males</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Satori_Generation</IRI>
+        <Literal>Satori_Generation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Scholarship</IRI>
         <Literal>a form of financial aid awarded to students to further education. Scholarships are awarded based upon various criteria, such as academic merit, diversity and inclusion, athletic skill, and financial need.</Literal>
@@ -10030,6 +11236,11 @@
         <Literal>School_Segregation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Second_Baby_Boom_Generation</IRI>
+        <Literal>Second_Baby_Boom_Generation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Secondary_Care</IRI>
         <Literal>includes acute care: necessary treatment for a short period of time for a brief but serious illness, injury, or other health condition.</Literal>
@@ -10065,6 +11276,11 @@
         <Literal>Segregation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Self-efficacy</IRI>
+        <Literal>Self-efficacy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Sermons</IRI>
         <Literal>a religious discourse[1] or oration by a preacher or other member of clergy. Sermons address a scriptural, theological, or moral topic, usually expounding on a type of belief, law, or behavior within both past and present contexts</Literal>
@@ -10080,19 +11296,19 @@
         <Literal>Sermons</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Silent_Generation</IRI>
-        <Literal>Borm from 1925 and 1942 and were of the artist archetype.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Silent_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Sexual_Behavior</IRI>
+        <Literal>Sexual Behavior</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Silent_Generation</IRI>
-        <Literal>Silent_Generation</Literal>
+        <IRI>Shinjunrui_Generation</IRI>
+        <Literal>Shinjunrui_Generation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Singaporean_Cultural_Generation</IRI>
+        <Literal>Singaporean Cultural Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10138,6 +11354,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Skin_Cancer</IRI>
         <Literal>Skin_Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Skin_Color</IRI>
+        <Literal>Skin Color</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10198,6 +11419,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Snub_Nose</IRI>
         <Literal>Snub_Nose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Social_Behavior</IRI>
+        <Literal>Social Behavior</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10290,6 +11516,11 @@
         <Literal>Spanish</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Special_Education</IRI>
+        <Literal>Special Education</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Spiritual_but_Not_Religious</IRI>
         <Literal>used to self-identify a life stance of spirituality that does not regard organized religion as the sole or most valuable means of furthering spiritual growth.</Literal>
@@ -10350,6 +11581,11 @@
         <Literal>State</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Stomach_Cancer</IRI>
+        <Literal>Stomach Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Straight</IRI>
         <Literal>Hair either has no waves or one to two S-waves</Literal>
@@ -10365,19 +11601,9 @@
         <Literal>Straight</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Strauss-Howe_Generational_Theory</IRI>
-        <Literal>historical events are associated with recurring generational personas (archetypes). Each generational persona unleashes a new era (called a turning) lasting around 20–25 years, in which a new social, political, and economic climate (mood) exists.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Strauss-Howe_Generational_Theory</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Strauss-Howe_Generational_Theory</IRI>
-        <Literal>Strauss-Howe_Generational_Theory</Literal>
+        <IRI>Strawberry_Generation</IRI>
+        <Literal>Strawberry_Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10398,6 +11624,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Survival</IRI>
         <Literal>Survival</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Taiwanese_Cultural_Generation</IRI>
+        <Literal>Taiwanese Cultural Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10701,21 +11932,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Transcendental_Generation</IRI>
-        <Literal> born between 1792 and 1821 and were of the prophet archetype. They started the Second Great Awakening across the United States</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Transcendental_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Transcendental_Generation</IRI>
-        <Literal>Transcendental_Generation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Transitional_Housing</IRI>
         <Literal>temporary housing for certain segments of the homeless population, including working homeless people who are earning too little money to afford long-term housing.</Literal>
     </AnnotationAssertion>
@@ -10925,6 +12141,11 @@
         <Literal>U_to_Y</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>United_States_Government</IRI>
+        <Literal>United States Government</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>United_States_of_America</IRI>
         <Literal>a transcontinental country primarily located in North America. It consists of 50 states, a federal district, five major unincorporated territories, nine minor outlying islands,[i] and 326 Indian reservations with limited sovereignty.</Literal>
@@ -10938,21 +12159,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>United_States_of_America</IRI>
         <Literal>United_States_of_America</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Unraveling</IRI>
-        <Literal>Institutions are weak and distrusted, while individualism is strong and flourishing.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Unraveling</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Unraveling</IRI>
-        <Literal>Unraveling</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11080,6 +12286,11 @@
         <Literal>Vitiligo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Vocational_Education</IRI>
+        <Literal>Vocational Education</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Volcanoes</IRI>
         <Literal>a rupture in the crust of a planetary-mass object, such as Earth, that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface.</Literal>
@@ -11170,6 +12381,11 @@
         <Literal>Western_Country</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Western_Cultural_Generation</IRI>
+        <Literal>Western_Cultural_Generation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Wheel</IRI>
         <Literal>a circular component that is intended to rotate on an axle bearing.</Literal>
@@ -11183,26 +12399,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Wheel</IRI>
         <Literal>Wheel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>White</IRI>
-        <Literal>A racial group with pale skin, typically with European ancestry. </Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>White</IRI>
-        <Literal>People with European descent.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>White</IRI>
-        <Literal></Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>White</IRI>
-        <Literal>White</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11296,21 +12492,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Yellow</IRI>
-        <Literal>People with East Asian descent.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Yellow</IRI>
-        <Literal></Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Yellow</IRI>
-        <Literal>Yellow</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>YouTube_Community</IRI>
         <Literal>an American online video sharing and social media platform</Literal>
     </AnnotationAssertion>
@@ -11338,6 +12519,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Youth</IRI>
         <Literal>Youth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Yutori_Generation</IRI>
+        <Literal>Yutori_Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -11470,19 +12656,9 @@
         <Literal>receive</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>13th_Generation</IRI>
-        <Literal>those born from 1961 to 1981.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>13th_Generation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>13th_Generation</IRI>
-        <Literal>13th_Generation</Literal>
+        <IRI>80s_Generation</IRI>
+        <Literal>80s_Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11576,36 +12752,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Generational_Persona_(20-25_years)</IRI>
-        <Literal>The general personality of people born during a particular era. </Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Generational_Persona_(20-25_years)</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Generational_Persona_(20-25_years)</IRI>
-        <Literal>Generational_Persona_(20-25_years)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Generational_Turning/Era</IRI>
-        <Literal>The shift from one generational persona to another which occurs every 20-25 years.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Generational_Turning/Era</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Generational_Turning/Era</IRI>
-        <Literal>Generational_Turning/Era</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>I,_II,_III,_IV</IRI>
         <Literal>red</Literal>
     </AnnotationAssertion>
@@ -11618,21 +12764,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>I,_II,_III,_IV</IRI>
         <Literal>I,_II,_III,_IV</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Investment/Economic_Citizenship</IRI>
-        <Literal>represent both the economic contributions requisite to become a citizen as well as the role in which one&apos;s economic standing can influence his or her rights as a citizen.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Investment/Economic_Citizenship</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Economic_citizenship</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Investment/Economic_Citizenship</IRI>
-        <Literal>Investment/Economic_Citizenship</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11703,21 +12834,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>Redistribution_of_Income,_Property,_and/or_Wealth</IRI>
         <Literal>https://en.wikipedia.org/wiki/Redistribution_of_income_and_wealth</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Saeculum_(80_to_100_years)</IRI>
-        <Literal>length of time roughly equal to the potential lifetime of a person or, equivalently, the complete renewal of a human population.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Saeculum_(80_to_100_years)</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Strauss%E2%80%93Howe_generational_theory</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Saeculum_(80_to_100_years)</IRI>
-        <Literal>Saeculum_(80-100_years)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
