@@ -85,6 +85,12 @@
         <Class IRI="Art"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Artisanal_Mining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Asbestos"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Asian_American"/>
     </Declaration>
     <Declaration>
@@ -559,9 +565,6 @@
         <Class IRI="Ethno-Religous"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Europe"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Executive_Branch"/>
     </Declaration>
     <Declaration>
@@ -647,6 +650,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="Funding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Gamma_Radiation"/>
     </Declaration>
     <Declaration>
         <Class IRI="Gendered_and_Muscular_Nationalism"/>
@@ -745,7 +751,7 @@
         <Class IRI="Hereditary"/>
     </Declaration>
     <Declaration>
-        <Class IRI="High"/>
+        <Class IRI="High_Quality"/>
     </Declaration>
     <Declaration>
         <Class IRI="High_Socioeconomic_Status"/>
@@ -775,7 +781,7 @@
         <Class IRI="Human_Behavior"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Human_Generation"/>
+        <Class IRI="Human_Generated_Pollution"/>
     </Declaration>
     <Declaration>
         <Class IRI="Human_Hierarchy"/>
@@ -889,6 +895,9 @@
         <Class IRI="Laws"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Lead-Acid_Battery_Recycling"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Lead_Exposure"/>
     </Declaration>
     <Declaration>
@@ -919,7 +928,7 @@
         <Class IRI="Lost_Generation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Low"/>
+        <Class IRI="Low_Quality"/>
     </Declaration>
     <Declaration>
         <Class IRI="Low_Socioeconomic_Status"/>
@@ -932,6 +941,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="Makeup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Manufacturing"/>
     </Declaration>
     <Declaration>
         <Class IRI="Marriage"/>
@@ -956,6 +968,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="Medium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Medium_Quality"/>
     </Declaration>
     <Declaration>
         <Class IRI="Medium_Socioeconomic_Status"/>
@@ -1000,9 +1015,6 @@
         <Class IRI="Mythology"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Name"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Nasal_Index"/>
     </Declaration>
     <Declaration>
@@ -1018,13 +1030,13 @@
         <Class IRI="Nationality"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Native_Americal_Males"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Native_American"/>
     </Declaration>
     <Declaration>
         <Class IRI="Native_American_Females"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Native_American_Males"/>
     </Declaration>
     <Declaration>
         <Class IRI="Native_Hawaiian"/>
@@ -1054,16 +1066,13 @@
         <Class IRI="News_Report"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Nickel"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Non-Hispanics"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Non-Western_Country"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Non-white_Passing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Nonviolent_Protest"/>
     </Declaration>
     <Declaration>
         <Class IRI="Nonviolent_Resistance"/>
@@ -1118,9 +1127,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="Other_Pacific_Islanders"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Ouija_Boards"/>
     </Declaration>
     <Declaration>
         <Class IRI="Out-of-Pocket_Payments"/>
@@ -1195,6 +1201,9 @@
         <Class IRI="Political"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Politics"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Pollution"/>
     </Declaration>
     <Declaration>
@@ -1243,10 +1252,10 @@
         <Class IRI="Private_Health_Care"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Propoganda"/>
+        <Class IRI="Processed_Meat"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Prostate_Cancer"/>
+        <Class IRI="Propoganda"/>
     </Declaration>
     <Declaration>
         <Class IRI="Prostrate_Cancer"/>
@@ -1268,9 +1277,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="Public_Policy"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Puerto_Rico"/>
     </Declaration>
     <Declaration>
         <Class IRI="Quality"/>
@@ -1348,7 +1354,7 @@
         <Class IRI="Sacrifices"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Sail_Boats"/>
+        <Class IRI="Salary"/>
     </Declaration>
     <Declaration>
         <Class IRI="Salary_Arrangement"/>
@@ -1483,9 +1489,6 @@
         <Class IRI="Taiwanese_Cultural_Generation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Tarot_Cards"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Tax_Policy"/>
     </Declaration>
     <Declaration>
@@ -1546,9 +1549,6 @@
         <Class IRI="Transitional_Housing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Trends"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Type_1_Diabetes"/>
     </Declaration>
     <Declaration>
@@ -1588,9 +1588,6 @@
         <Class IRI="United_States_Government"/>
     </Declaration>
     <Declaration>
-        <Class IRI="United_States_of_America"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Urbanization"/>
     </Declaration>
     <Declaration>
@@ -1604,9 +1601,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="Violence"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Violent_Protest"/>
     </Declaration>
     <Declaration>
         <Class IRI="Virtual_Community"/>
@@ -1624,9 +1618,6 @@
         <Class IRI="Volcanoes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Wages"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Water_Pollution"/>
     </Declaration>
     <Declaration>
@@ -1634,9 +1625,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="Wealth"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Western_Country"/>
     </Declaration>
     <Declaration>
         <Class IRI="Western_Cultural_Generation"/>
@@ -1654,13 +1642,13 @@
         <Class IRI="Wildfires_by_Lightning"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Windmills"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Wisdom"/>
     </Declaration>
     <Declaration>
         <Class IRI="Work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="X-Ray"/>
     </Declaration>
     <Declaration>
         <Class IRI="YouTube_Community"/>
@@ -1670,15 +1658,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="Yutori_Generation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="asbestos"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="nickel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="powered_metallic_cobalt"/>
     </Declaration>
     <Declaration>
         <Class IRI="80s_Generation"/>
@@ -1957,6 +1936,14 @@
         <Class IRI="Practices"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Artisanal_Mining"/>
+        <Class IRI="Human_Generated_Pollution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Asbestos"/>
+        <Class IRI="Physical_Agents"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Asian_American"/>
         <Class IRI="OMB_Race"/>
     </SubClassOf>
@@ -2073,7 +2060,18 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Capitation"/>
-        <Class IRI="Wages"/>
+        <Class IRI="Salary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Carcinogen_Exposure"/>
+        <Class IRI="Pollution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Carcinogens"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Carcinogen_Exposure"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Caucasion"/>
@@ -2090,6 +2088,10 @@
     <SubClassOf>
         <Class IRI="Cervical_Cancer"/>
         <Class IRI="Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Chemical_Industry"/>
+        <Class IRI="Human_Generated_Pollution"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Chemicals"/>
@@ -2486,6 +2488,20 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Darwinian_Fitness"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Reproduction"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Darwinian_Fitness"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Survival"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Death_By_Adverse_Effect_of_Medical_Treatment"/>
         <Class IRI="Death_By_Unintentional_Injuries"/>
     </SubClassOf>
@@ -2742,6 +2758,13 @@
         <Class IRI="Democracy"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Discrimination"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Segregation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Disease"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="part"/>
@@ -2755,6 +2778,10 @@
     <SubClassOf>
         <Class IRI="Donations_to_Health_Charities"/>
         <Class IRI="Funding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Dyeing"/>
+        <Class IRI="Human_Generated_Pollution"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Economic_Nationalism"/>
@@ -2923,10 +2950,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Europe"/>
-        <Class IRI="Western_Country"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Executive_Branch"/>
         <Class IRI="Government"/>
     </SubClassOf>
@@ -3042,7 +3065,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Fee-for-Service"/>
-        <Class IRI="Wages"/>
+        <Class IRI="Salary"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Festivals"/>
@@ -3078,6 +3101,10 @@
             <ObjectProperty IRI="part"/>
             <Class IRI="Finance"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Gamma_Radiation"/>
+        <Class IRI="Radiation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Gendered_and_Muscular_Nationalism"/>
@@ -3413,7 +3440,7 @@
         <Class IRI="Health_System"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="influences"/>
-            <Class IRI="Wages"/>
+            <Class IRI="Salary"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3424,7 +3451,7 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="High"/>
+        <Class IRI="High_Quality"/>
         <Class IRI="Quality"/>
     </SubClassOf>
     <SubClassOf>
@@ -3512,8 +3539,12 @@
         <Class IRI="Behavior"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Human_Generated_Pollution"/>
+        <Class IRI="Pollution"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Human_Hierarchy"/>
-        <Class IRI="Race"/>
+        <Class IRI="Social_Privilege"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Human_Hierarchy"/>
@@ -3527,13 +3558,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="part"/>
             <Class IRI="Discrimination"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Human_Hierarchy"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Social_Privilege"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3611,8 +3635,8 @@
         <Class IRI="Nation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="India"/>
-        <Class IRI="Non-Western_Country"/>
+        <Class IRI="Industrial_Parks"/>
+        <Class IRI="Human_Generated_Pollution"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Industry_Pollution"/>
@@ -3742,12 +3766,24 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Landfills"/>
+        <Class IRI="Human_Generated_Pollution"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Language_Shift"/>
         <Class IRI="Ethnic_Shift"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Latin_Americans"/>
         <Class IRI="Hispanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Lead-Acid_Battery_Recycling"/>
+        <Class IRI="Human_Generated_Pollution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Lead_Exposure"/>
+        <Class IRI="Pollution"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Lead_Exposure"/>
@@ -3758,7 +3794,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Lead_Smelting"/>
-        <Class IRI="Pollution"/>
+        <Class IRI="Human_Generated_Pollution"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Left-wing_Nationalism"/>
@@ -3789,7 +3825,7 @@
         <Class IRI="Western_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Low"/>
+        <Class IRI="Low_Quality"/>
         <Class IRI="Quality"/>
     </SubClassOf>
     <SubClassOf>
@@ -3803,6 +3839,10 @@
     <SubClassOf>
         <Class IRI="M_to_O"/>
         <Class IRI="Fischer-Saller_Scale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Manufacturing"/>
+        <Class IRI="Human_Generated_Pollution"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Marriage"/>
@@ -3832,7 +3872,7 @@
         <Class IRI="FIA_Hair_Typing_System"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Medium"/>
+        <Class IRI="Medium_Quality"/>
         <Class IRI="Quality"/>
     </SubClassOf>
     <SubClassOf>
@@ -3883,7 +3923,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Motor_Vehicle_Emission"/>
-        <Class IRI="Human_Generation"/>
+        <Class IRI="Human_Generated_Pollution"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Motor_Vehicle_Emission"/>
@@ -3926,7 +3966,7 @@
         <Class IRI="Nation"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="character"/>
-            <Class IRI="Name"/>
+            <Class IRI="Wealth"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3941,13 +3981,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="part"/>
             <Class IRI="State"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Nation"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Wealth"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3977,15 +4010,15 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Native_Americal_Males"/>
-        <Class IRI="Native_American"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Native_American"/>
         <Class IRI="OMB_Race"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Native_American_Females"/>
+        <Class IRI="Native_American"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Native_American_Males"/>
         <Class IRI="Native_American"/>
     </SubClassOf>
     <SubClassOf>
@@ -4027,24 +4060,20 @@
         <Class IRI="Media"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Non-Hispanics"/>
-        <Class IRI="OMB_Ethnicity"/>
+        <Class IRI="Nickel"/>
+        <Class IRI="Physical_Agents"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Non-Western_Country"/>
-        <Class IRI="Colonized_Population"/>
+        <Class IRI="Non-Hispanics"/>
+        <Class IRI="OMB_Ethnicity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Non-white_Passing"/>
         <Class IRI="Colorism"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Nonviolent_Protest"/>
-        <Class IRI="Protest"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Nonviolent_Resistance"/>
-        <Class IRI="Nonviolent_Protest"/>
+        <Class IRI="Protest"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Normal"/>
@@ -4139,10 +4168,6 @@
     <SubClassOf>
         <Class IRI="Other_Pacific_Islanders"/>
         <Class IRI="OMB_Race"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Ouija_Boards"/>
-        <Class IRI="Practices"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Out-of-Pocket_Payments"/>
@@ -4251,6 +4276,10 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Politics"/>
+        <Class IRI="Soft_Power"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Pollution"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="cause"/>
@@ -4331,15 +4360,15 @@
         <Class IRI="Health_Care"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Processed_Meat"/>
+        <Class IRI="Carcinogens"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Propoganda"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="manifestation"/>
             <Class IRI="Nationalism"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Prostate_Cancer"/>
-        <Class IRI="Cancer"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Prostrate_Cancer"/>
@@ -4371,10 +4400,6 @@
     <SubClassOf>
         <Class IRI="Public_Policy"/>
         <Class IRI="Policies"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Puerto_Rico"/>
-        <Class IRI="Non-Western_Country"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Quarternary_Care"/>
@@ -4434,6 +4459,10 @@
             <ObjectProperty IRI="manifestation"/>
             <Class IRI="Slavery"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Radiation"/>
+        <Class IRI="Carcinogens"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Radiation"/>
@@ -4523,7 +4552,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Riot"/>
-        <Class IRI="Violent_Protest"/>
+        <Class IRI="Protest"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Sacred_Dance"/>
@@ -4534,12 +4563,8 @@
         <Class IRI="Practices"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Sail_Boats"/>
-        <Class IRI="Technology"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Salary_Arrangement"/>
-        <Class IRI="Wages"/>
+        <Class IRI="Salary"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Samoan_American"/>
@@ -4599,6 +4624,13 @@
         <Class IRI="Formal_Education"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Secondary_Education"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Scholarship"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Self-efficacy"/>
         <Class IRI="Health_Behavoir"/>
     </SubClassOf>
@@ -4650,20 +4682,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Skin_Color"/>
-        <Class IRI="Phenotype"/>
+        <Class IRI="Skin_Pigmentation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Skin_Color"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="character"/>
             <Class IRI="Fitzpatrick_Scale"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Skin_Color"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Skin_Pigmentation"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4769,10 +4794,6 @@
         <Class IRI="Regional_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Tarot_Cards"/>
-        <Class IRI="Practices"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Tax_Policy"/>
         <Class IRI="Economic_Policy"/>
     </SubClassOf>
@@ -4784,7 +4805,7 @@
         <Class IRI="Technology"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="manifestation"/>
-            <Class IRI="Human_Generation"/>
+            <Class IRI="Human_Generated_Pollution"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4867,6 +4888,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Tobacco_Use_Exposure"/>
+        <Class IRI="Air_Pollution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Tobacco_Use_Exposure"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="cause"/>
             <Class IRI="Disease"/>
@@ -4886,10 +4911,6 @@
     <SubClassOf>
         <Class IRI="Transitional_Housing"/>
         <Class IRI="Affordable_Housing_Policy"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Trends"/>
-        <Class IRI="Slang"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Type_1_Diabetes"/>
@@ -4965,24 +4986,16 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="United_States_of_America"/>
-        <Class IRI="Western_Country"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Vaccination_Policy"/>
         <Class IRI="Public_Health"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Value-Based_Care"/>
-        <Class IRI="Wages"/>
+        <Class IRI="Salary"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Very_Curly"/>
         <Class IRI="FIA_Hair_Typing_System"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Violent_Protest"/>
-        <Class IRI="Protest"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Virtual_Community"/>
@@ -5020,19 +5033,8 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Western_Country"/>
-        <Class IRI="Colonial_Power"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Western_Cultural_Generation"/>
         <Class IRI="Regional_Cultural_Generation"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Western_Cultural_Generation"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
-            <Class IRI="Western_Country"/>
-        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Wheel"/>
@@ -5051,12 +5053,12 @@
         <Class IRI="Natural_Pollutants"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Windmills"/>
-        <Class IRI="Technology"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Work"/>
         <Class IRI="Common_Interest_Purpose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="X-Ray"/>
+        <Class IRI="Radiation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="YouTube_Community"/>
@@ -5075,31 +5077,12 @@
         <Class IRI="Japanese_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="asbestos"/>
-        <Class IRI="Physical_Agents"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="nickel"/>
-        <Class IRI="Physical_Agents"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="powered_metallic_cobalt"/>
-        <Class IRI="Physical_Agents"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="80s_Generation"/>
         <Class IRI="Japanese_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Ancient_Period_(3000_BCE_to_500_CE)"/>
         <Class IRI="Time_Period"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Ancient_Period_(3000_BCE_to_500_CE)"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
-            <Class IRI="Sail_Boats"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Ancient_Period_(3000_BCE_to_500_CE)"/>
@@ -5247,13 +5230,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Post-Classical_Period_(200_CE_to_1500_CE)"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
-            <Class IRI="Windmills"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Post-Classical_Period_(200_CE_to_1500_CE)"/>
         <DataMinCardinality cardinality="200">
             <DataProperty IRI="has_time_period"/>
         </DataMinCardinality>
@@ -5336,7 +5312,7 @@
         <NamedIndividual IRI="_hispanic_americans"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="Native_Americal_Males"/>
+        <Class IRI="Native_American_Males"/>
         <NamedIndividual IRI="_native_american_men"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -5384,7 +5360,7 @@
             <Class IRI="Death_By_Cancer"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="character"/>
-                <Class IRI="High"/>
+                <Class IRI="High_Quality"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="high_cancer_mortality"/>
@@ -5406,24 +5382,10 @@
             <Class IRI="Cancer"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="character"/>
-                <Class IRI="Low"/>
+                <Class IRI="Low_Quality"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
         <NamedIndividual IRI="lower_cancer_incidence"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <ObjectIntersectionOf>
-            <Class IRI="Prostrate_Cancer"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="character"/>
-                <Class IRI="Low"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <NamedIndividual IRI="lower_prostrate_cancer_incidence"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="Prostrate_Cancer"/>
-        <NamedIndividual IRI="prostrate_cancer_incidence"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="Death_By_Prostrate_Cancer"/>
@@ -5900,6 +5862,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Art</IRI>
         <Literal>Art</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Artisanal_Mining</IRI>
+        <Literal>Artisanal Mining</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Asbestos</IRI>
+        <Literal>Asbestos</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7673,21 +7645,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Europe</IRI>
-        <Literal>a landmass, which is either considered a continent in its own right or a subcontinent of Eurasia, located entirely in the Northern Hemisphere and mostly in the Eastern Hemisphere.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Europe</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Europe</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Europe</IRI>
-        <Literal>Europe</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Executive_Branch</IRI>
         <Literal>the part of government that enforces law, and has responsibility for the governance of a state.</Literal>
     </AnnotationAssertion>
@@ -8095,6 +8052,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Funding</IRI>
         <Literal>Funding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Gamma_Radiation</IRI>
+        <Literal>Gamma Radiation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8538,8 +8500,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>High</IRI>
-        <Literal>High</Literal>
+        <IRI>High_Quality</IRI>
+        <Literal>High Quality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8648,18 +8610,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Human_Generation</IRI>
+        <IRI>Human_Generated_Pollution</IRI>
         <Literal>Pollution created as a by-product of human inventions and intervention.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Human_Generation</IRI>
+        <IRI>Human_Generated_Pollution</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Human_Generation</IRI>
-        <Literal>Human_Generation</Literal>
+        <IRI>Human_Generated_Pollution</IRI>
+        <Literal>Human_Generated_Pollution</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9167,6 +9129,11 @@
         <Literal>Laws</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Lead-Acid_Battery_Recycling</IRI>
+        <Literal>Lead-Acid Battery Recycling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Lead_Exposure</IRI>
         <Literal>Can cause intellectual disability, abdominal pain, constipation, headaches, irritability, and cancer.</Literal>
@@ -9298,8 +9265,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Low</IRI>
-        <Literal>Low</Literal>
+        <IRI>Low_Quality</IRI>
+        <Literal>Low Quality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9360,6 +9327,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Makeup</IRI>
         <Literal>Makeup</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Manufacturing</IRI>
+        <Literal>Manufacturing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9470,6 +9442,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Medium</IRI>
         <Literal>Medium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Medium_Quality</IRI>
+        <Literal>Medium Quality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9663,21 +9640,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Name</IRI>
-        <Literal>a term used for identification by an external observer. They can identify a class or category of things, or a single thing, either uniquely, or within a given context.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Name</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Name</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Name</IRI>
-        <Literal>Name</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Nasal_Index</IRI>
         <Literal>a method of classifying ethnic groups. The index is based on the ratio of the breadth of the nose to its height.</Literal>
     </AnnotationAssertion>
@@ -9752,11 +9714,6 @@
         <Literal>Nationality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Native_Americal_Males</IRI>
-        <Literal>Native Americal Males</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Native_American</IRI>
         <Literal>A racial group which consists of indigenous Americans. </Literal>
@@ -9775,6 +9732,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Native_American_Females</IRI>
         <Literal>Native American Females</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Native_American_Males</IRI>
+        <Literal>Native American Males</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9892,6 +9854,11 @@
         <Literal>News_Report</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Nickel</IRI>
+        <Literal>Nickel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Non-Hispanics</IRI>
         <Literal>People who do not have ancestry to related to Spain or Latin America.</Literal>
@@ -9908,21 +9875,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Non-Western_Country</IRI>
-        <Literal>Countries which are outside of the Western world.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Non-Western_Country</IRI>
-        <Literal></Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Non-Western_Country</IRI>
-        <Literal>Non-Western_Country</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Non-white_Passing</IRI>
         <Literal>when a person classified as a member of a racial group is not accepted or perceived (&quot;passes&quot;) as a member of another.</Literal>
     </AnnotationAssertion>
@@ -9935,11 +9887,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Non-white_Passing</IRI>
         <Literal>Non-white_Passing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Nonviolent_Protest</IRI>
-        <Literal>Nonviolent_Protest</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10200,21 +10147,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Other_Pacific_Islanders</IRI>
         <Literal>Other_Pacific_Islanders</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Ouija_Boards</IRI>
-        <Literal>known as a spirit board or talking board, is a flat board marked with the letters of the alphabet, the numbers 0–9, the words &quot;yes&quot;, &quot;no&quot;, occasionally &quot;hello&quot; and &quot;goodbye&quot;, along with various symbols and graphics.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Ouija_Boards</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Ouija</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Ouija_Boards</IRI>
-        <Literal>Ouija_Boards</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10568,6 +10500,21 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Politics</IRI>
+        <Literal>set of activities that are associated with making decisions in groups, or other forms of power relations among individuals, such as the distribution of resources or status.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>Politics</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Politics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Politics</IRI>
+        <Literal>Politics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Pollution</IRI>
         <Literal>the introduction of contaminants into the natural environment that cause adverse change.[1] Pollution can take the form of any substance (solid, liquid, or gas) or energy (such as radioactivity, heat, sound, or light).</Literal>
     </AnnotationAssertion>
@@ -10767,6 +10714,11 @@
         <Literal>Private_Health_Care</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Processed_Meat</IRI>
+        <Literal>Processed Meat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Propoganda</IRI>
         <Literal>communication that is primarily used to influence or persuade an audience to further an agenda, which may not be objective and may be selectively presenting facts to encourage a particular synthesis or perception, or using loaded language to produce an emotional rather than a rational response to the information that is being presented.</Literal>
@@ -10783,23 +10735,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Prostate_Cancer</IRI>
+        <IRI>Prostrate_Cancer</IRI>
         <Literal>Cancer found in the prostate, or male reproductive gland.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Prostate_Cancer</IRI>
+        <IRI>Prostrate_Cancer</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Prostate_Cancer</IRI>
-        <Literal>Prostate_Cancer</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Prostrate_Cancer</IRI>
-        <Literal>Prostrate Cancer</Literal>
+        <Literal>Prostrate_Cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10890,21 +10837,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Public_Policy</IRI>
         <Literal>Public_Policy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Puerto_Rico</IRI>
-        <Literal>a Caribbean island and unincorporated territory of the United States.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Puerto_Rico</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Puerto_Rico</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Puerto_Rico</IRI>
-        <Literal>Puerto_Rico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -11233,18 +11165,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Sail_Boats</IRI>
-        <Literal>a boat propelled partly or entirely by sails and is smaller than a sailing ship.</Literal>
+        <IRI>Salary</IRI>
+        <Literal>form of periodic payment from an employer to an employee, which may be specified in an employment contract. It is contrasted with piece wages, where each job, hour or other unit is paid separately, rather than on a periodic basis.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Sail_Boats</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Sailboat</Literal>
+        <IRI>Salary</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Salary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Sail_Boats</IRI>
-        <Literal>Sail_Boats</Literal>
+        <IRI>Salary</IRI>
+        <Literal>Salary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11728,21 +11660,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Tarot_Cards</IRI>
-        <Literal> In the late 18th century, some tarot decks began to be used for divination via tarot card reading and cartomancy leading to custom decks developed for such occult purposes.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Tarot_Cards</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Tarot</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Tarot_Cards</IRI>
-        <Literal>Tarot_Cards</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Tax_Policy</IRI>
         <Literal>the choice by a government as to what taxes to impose, in what amounts, and on whom. It has both microeconomic and macroeconomic aspects.</Literal>
     </AnnotationAssertion>
@@ -12043,21 +11960,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Trends</IRI>
-        <Literal>any form of collective behavior that develops within a culture, a generation or social group in which a group of people enthusiastically follow an impulse for a short period</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Trends</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Fad</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Trends</IRI>
-        <Literal>Trends</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Type_1_Diabetes</IRI>
         <Literal>an autoimmune disease that originates when cells that make insulin (beta cells) are destroyed by the immune system.</Literal>
     </AnnotationAssertion>
@@ -12243,21 +12145,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>United_States_of_America</IRI>
-        <Literal>a transcontinental country primarily located in North America. It consists of 50 states, a federal district, five major unincorporated territories, nine minor outlying islands,[i] and 326 Indian reservations with limited sovereignty.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>United_States_of_America</IRI>
-        <Literal>https://en.wikipedia.org/wiki/United_States</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>United_States_of_America</IRI>
-        <Literal>United_States_of_America</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Urbanization</IRI>
         <Literal> the population shift from rural to urban areas, the corresponding decrease in the proportion of people living in rural areas, and the ways in which societies adapt to this change.</Literal>
     </AnnotationAssertion>
@@ -12332,11 +12219,6 @@
         <Literal>Violence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Violent_Protest</IRI>
-        <Literal>Violent_Protest</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Virtual_Community</IRI>
         <Literal>a social network of individuals who connect through specific social media, potentially crossing geographical and political boundaries in order to pursue mutual interests or goals. Some of the most pervasive virtual communities are online communities operating under social networking services.</Literal>
@@ -12403,21 +12285,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Wages</IRI>
-        <Literal>payment made by an employer to an employee for work done in a specific period of time. Some examples of wage payments include compensatory payments such as minimum wage, prevailing wage, and yearly bonuses, and remunerative payments such as prizes and tip payouts.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Wages</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Wage</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Wages</IRI>
-        <Literal>Wages</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Water_Pollution</IRI>
         <Literal>the contamination of water bodies, usually as a result of human activities, so that it negatively affects its uses.</Literal>
     </AnnotationAssertion>
@@ -12460,21 +12327,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Wealth</IRI>
         <Literal>Wealth</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Western_Country</IRI>
-        <Literal> refers to various regions, nations and states, depending on the context, most often consisting of the majority of Europe,[a] North America,[b] and Oceania</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Western_Country</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Western_world</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Western_Country</IRI>
-        <Literal>Western_Country</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -12543,21 +12395,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Windmills</IRI>
-        <Literal>a structure that converts wind power into rotational energy by means of vanes called sails or blades, specifically to mill grain (gristmills), but the term is also extended to windpumps, wind turbines, and other applications.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Windmills</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Windmill</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Windmills</IRI>
-        <Literal>Windmills</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Wisdom</IRI>
         <Literal>the ability to contemplate and act using knowledge, experience, understanding, common sense and insight.</Literal>
     </AnnotationAssertion>
@@ -12585,6 +12422,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Work</IRI>
         <Literal>Work</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>X-Ray</IRI>
+        <Literal>X-Ray</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12620,11 +12462,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Yutori_Generation</IRI>
         <Literal>Yutori_Generation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>asbestos</IRI>
-        <Literal>asbestos</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -12713,11 +12550,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>nickel</IRI>
-        <Literal>nickel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>occurrence</IRI>
         <Literal>occurrence</Literal>
     </AnnotationAssertion>
@@ -12730,11 +12562,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>participation</IRI>
         <Literal>participation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>powered_metallic_cobalt</IRI>
-        <Literal>powered_metallic_cobalt</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
