@@ -1,0 +1,1 @@
+robot merge --inputs "*.owl" --output ro-terms.owl

@@ -1,0 +1,2832 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <Ontology>
+        <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0004"/>
+        <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0304"/>
+        <dc:description>Human ancestry ontology for the NHGRI GWAS Catalog</dc:description>
+        <dc:title>Human Ancestry Ontology</dc:title>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.6</versionInfo>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative_term</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label>definition_source</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/page/Republic_of_the_Congo -->
+
+    <Class rdf:about="http://dbpedia.org/page/Republic_of_the_Congo">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001088</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Congo</oboInOwl:hasExactSynonym>
+        <rdfs:label>Republic of the Congo</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Afghanistan -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Afghanistan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006882</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Afghanistan</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Albania -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Albania">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002953</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Albania</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Algeria -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Algeria">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000563</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Algeria</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/American_Samoa -->
+
+    <Class rdf:about="http://dbpedia.org/resource/American_Samoa">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003957</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">American Samoa</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Andorra -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Andorra">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002948</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Andorra</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Angola -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Angola">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001095</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Angola</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Anguilla -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Anguilla">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00009159</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Anguilla</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Antigua_and_Barbuda -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Antigua_and_Barbuda">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006883</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Antigua and Barbuda</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Argentina -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Argentina">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002928</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Argentina</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Armenia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Armenia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00004094</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Armenia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Aruba -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Aruba">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00004025</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Aruba</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Australia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Australia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000463</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Australia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Austria -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Austria">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002942</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Austria</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Azerbaijan -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Azerbaijan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00004941</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Azerbaijan</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bahrain -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Bahrain">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005281</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Bahrain</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bangladesh -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Bangladesh">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003750</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Bangladesh</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Barbados -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Barbados">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001251</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Barbados</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Belarus -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Belarus">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006886</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Belarus</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Belgium -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Belgium">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002938</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Belgium</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Belize -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Belize">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002934</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Belize</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Benin -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Benin">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000904</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Benin</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bermuda -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Bermuda">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001264</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Bermuda</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bhutan -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Bhutan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003920</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Bhutan</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bolivia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Bolivia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002511</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Bolivia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bosnia_and_Herzegovina -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Bosnia_and_Herzegovina">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006887</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Bosnia and Herzegovina</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Botswana -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Botswana">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001097</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Botswana</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Brazil -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Brazil">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002828</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Brazil</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/British_Virgin_Islands -->
+
+    <Class rdf:about="http://dbpedia.org/resource/British_Virgin_Islands">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003961</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">British Virgin Islands</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Brunei -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Brunei">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003901</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Brunei Darussalam</oboInOwl:hasExactSynonym>
+        <rdfs:label>Brunei</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Bulgaria -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Bulgaria">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002950</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Bulgaria</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Burkina_Faso -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Burkina_Faso">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000905</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Burkina Faso</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Burundi -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Burundi">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001090</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Burundi</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cambodia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Cambodia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006888</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Cambodia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cameroon -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Cameroon">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001093</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Cameroon</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Canada -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Canada">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002560</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Canada</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cape_Verde -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Cape_Verde">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001227</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Cape Verde</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cayman_Islands -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Cayman_Islands">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003986</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Cayman Islands</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Central_African_Republic -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Central_African_Republic">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001089</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Central African Republic</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Chad -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Chad">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000586</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Chad</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Channel_Islands -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Channel_Islands">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001539</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Channel Islands</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Chile -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Chile">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002825</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Chile</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/China -->
+
+    <Class rdf:about="http://dbpedia.org/resource/China">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002845</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">China</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Christmas_Island -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Christmas_Island">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005915</oboInOwl:hasDbXref>
+        <rdfs:label>Christmas Island</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Colombia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Colombia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002929</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Colombia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Comoros -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Comoros">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005820</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Comoros</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cook_Islands -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Cook_Islands">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00053798</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Cook Islands</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Costa_Rica -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Costa_Rica">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002901</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Costa Rica</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Croatia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Croatia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002719</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Croatia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cuba -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Cuba">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003762</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Cuba</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Curacao -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Curacao">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00012582</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Curacao</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cyprus -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Cyprus">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00453362</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Cyprus</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Czech_Republic -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Czech_Republic">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002954</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Czech Republic</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Democratic_Republic_of_the_Congo -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Democratic_Republic_of_the_Congo">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001086</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Democratic Republic of the Congo</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Denmark -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Denmark">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002635</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Denmark</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Djibouti -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Djibouti">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000582</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Djibouti</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Dominica -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Dominica">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006890</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Dominica</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Dominican_Republic -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Dominican_Republic">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003952</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Dominican Republic</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/East_Timor -->
+
+    <Class rdf:about="http://dbpedia.org/resource/East_Timor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006913</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Timor-Leste</oboInOwl:hasExactSynonym>
+        <rdfs:label>East Timor</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ecuador -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Ecuador">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002912</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Ecuador</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Egypt -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Egypt">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003934</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Egypt</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/El_Salvador -->
+
+    <Class rdf:about="http://dbpedia.org/resource/El_Salvador">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002935</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">El Salvador</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Equatorial_Guinea -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Equatorial_Guinea">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001091</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Equatorial Guinea</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Eritrea -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Eritrea">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000581</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Eritrea</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Estonia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Estonia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002959</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Estonia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ethiopia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Ethiopia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000567</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Ethiopia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Faeroe_Islands -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Faeroe_Islands">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <obo:IAO_0000118>Faroe Islands</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00059206</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Faeroe Islands</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Falkland_Islands -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Falkland_Islands">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001412</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Falkland Islands (Malvinas)</oboInOwl:hasExactSynonym>
+        <rdfs:label>Falkland Islands</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Federated_States_of_Micronesia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Federated_States_of_Micronesia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006897</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Micronesia (Federated States of)</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Fiji -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Fiji">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006891</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Fiji</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Finland -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Finland">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002937</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Finland</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/France -->
+
+    <Class rdf:about="http://dbpedia.org/resource/France">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002940</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">France</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/French_Guiana -->
+
+    <Class rdf:about="http://dbpedia.org/resource/French_Guiana">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002516</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">French Guiana</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/French_Polynesia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/French_Polynesia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002918</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">French Polynesia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Gabon -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Gabon">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001092</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Gabon</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Germany -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Germany">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002646</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Germany</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ghana -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Ghana">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000908</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Ghana</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Gibraltar -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Gibraltar">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003987</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Gibraltar</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Greece -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Greece">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002945</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Greece</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Greenland -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Greenland">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001507</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Greenland</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Grenada -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Grenada">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:02000573</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Grenada</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Guadeloupe -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Guadeloupe">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00067135</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Guadeloupe</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Guam -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Guam">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006933</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Guam</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Guatemala -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Guatemala">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002936</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Guatemala</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Guinea -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Guinea">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000909</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Guinea</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Guinea_Bissau -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Guinea_Bissau">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000910</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Guinea-Bissau</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Guyana -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Guyana">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002522</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Guyana</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Haiti -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Haiti">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003953</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Haiti</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Holy_See -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Holy_See">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003103</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Holy See</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Honduras -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Honduras">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002894</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Honduras</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hong_Kong -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Hong_Kong">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003203</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">China, Hong Kong SAR</oboInOwl:hasExactSynonym>
+        <rdfs:label>Hong Kong</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hungary -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Hungary">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002952</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Hungary</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Iceland -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Iceland">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000843</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Iceland</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/India -->
+
+    <Class rdf:about="http://dbpedia.org/resource/India">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002839</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">India</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Indonesia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Indonesia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003727</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Indonesia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Iran -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Iran">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00004474</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Iran (Islamic Republic of)</oboInOwl:hasExactSynonym>
+        <rdfs:label>Iran</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Iraq -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Iraq">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00004483</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Iraq</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Isle_of_Man -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Isle_of_Man">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00052477</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Isle of Man</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Israel -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Israel">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002476</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Israel</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Italy -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Italy">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002650</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Italy</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ivory_Coast -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Ivory_Coast">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000906</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Ivory Coast</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Côte d&apos;Ivoire</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jamaica -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Jamaica">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003781</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Jamaica</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Japan -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Japan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002747</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Japan</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jordan -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Jordan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002473</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Jordan</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Kazakhstan -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Kazakhstan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00004999</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Kazakhstan</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Kenya -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Kenya">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001101</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Kenya</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Kiribati -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Kiribati">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006894</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Kiribati</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Kosovo -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Kosovo">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00011337</oboInOwl:hasDbXref>
+        <rdfs:label>Kosovo</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Kuwait -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Kuwait">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005285</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Kuwait</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Kyrgyzstan -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Kyrgyzstan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006893</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Kyrgyzstan</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Laos -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Laos">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006889</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Lao People&apos;s Democratic Republic</oboInOwl:hasExactSynonym>
+        <rdfs:label>Laos</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Latvia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Latvia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002958</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Latvia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Lebanon -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Lebanon">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002478</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Lebanon</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Lesotho -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Lesotho">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001098</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Lesotho</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Liberia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Liberia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000911</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Liberia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Libya -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Libya">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000566</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Libyan Arab Jamahiriya</oboInOwl:hasExactSynonym>
+        <rdfs:label>Libya</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Liechtenstein -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Liechtenstein">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003858</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Liechtenstein</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Lithuania -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Lithuania">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002960</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Lithuania</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Luxembourg -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Luxembourg">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002947</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Luxembourg</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Macau -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Macau">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003202</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">China, Macao SAR</oboInOwl:hasExactSynonym>
+        <rdfs:label>Macau</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Madagascar -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Madagascar">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001108</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Madagascar</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Malawi -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Malawi">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001105</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Malawi</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Malaysia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Malaysia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003902</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Malaysia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Maldives -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Maldives">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006896</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Maldives</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mali -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Mali">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000584</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Mali</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Malta -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Malta">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00004017</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Malta</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Marshall_Islands -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Marshall_Islands">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00007161</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Marshall Islands</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Martinique -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Martinique">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003947</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Martinique</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mauretania -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Mauretania">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000583</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Mauretania</oboInOwl:hasExactSynonym>
+        <rdfs:label>Mauritania</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mauritius -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Mauritius">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003745</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Mauritius</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mayotte -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Mayotte">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003943</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Mayotte</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mexico -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Mexico">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002852</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Mexico</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Moldova -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Moldova">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003897</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Republic of Moldova</oboInOwl:hasExactSynonym>
+        <rdfs:label>Moldova</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Monaco -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Monaco">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003857</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Monaco</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mongolia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Mongolia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00008744</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Mongolia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Montenegro -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Montenegro">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006898</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Montenegro</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Montserrat -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Montserrat">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003988</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Montserrat</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Morocco -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Morocco">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000565</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Morocco</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Mozambique -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Mozambique">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001100</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Mozambique</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Myanmar -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Myanmar">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006899</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Burma</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Myanmar</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Namibia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Namibia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001096</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Namibia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Nauru -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Nauru">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006900</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Nauru</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Nepal -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Nepal">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00004399</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Nepal</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Netherlands -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Netherlands">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001549</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Netherlands</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Netherlands_Antilles -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Netherlands_Antilles">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00004019</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Netherlands Antilles</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/New_Caledonia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/New_Caledonia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005206</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">New Caledonia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/New_Zealand -->
+
+    <Class rdf:about="http://dbpedia.org/resource/New_Zealand">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000469</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">New Zealand</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Nicaragua -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Nicaragua">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002978</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Nicaragua</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Niger -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Niger">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000585</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Niger</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Nigeria -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Nigeria">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000912</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Nigeria</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Niue -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Niue">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <obo:IAO_0000118>Niue Fekai</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006902</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Niue</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Norfolk_Island -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Norfolk_Island">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005913</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Norfolk Island</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/North_Korea -->
+
+    <Class rdf:about="http://dbpedia.org/resource/North_Korea">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002801</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Democratic People&apos;s Republic of Korea</oboInOwl:hasExactSynonym>
+        <rdfs:label>North Korea</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Northern_Mariana_Islands -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Northern_Mariana_Islands">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003958</oboInOwl:hasDbXref>
+        <rdfs:label>Northern Mariana Islands</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Norway -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Norway">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <obo:IAO_0000118>Kingdom of Norway</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002699</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Norway</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Oman -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Oman">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005283</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Oman</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pakistan -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Pakistan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005246</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Pakistan</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Palau -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Palau">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006905</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Palau</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Palestinian_territories -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Palestinian_territories">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002475</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Occupied Palestinian Territory</oboInOwl:hasExactSynonym>
+        <rdfs:label>Palestinian Territories</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Panama -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Panama">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002892</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Panama</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Papua_New_Guinea -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Papua_New_Guinea">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003922</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Papua New Guinea</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Paraguay -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Paraguay">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002933</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Paraguay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Peru -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Peru">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002932</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Peru</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Philippines -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Philippines">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <obo:IAO_0000118>The Philippines</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00004525</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Philippines</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pitcairn_Islands -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Pitcairn_Islands">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <obo:IAO_0000118 xml:lang="en">Pitcairn</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005867</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Pitcairn, Henderson, Ducie and Oeno Islands</oboInOwl:hasExactSynonym>
+        <rdfs:label>Pitcairn Islands</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Poland -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Poland">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002939</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Poland</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Portugal -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Portugal">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <obo:IAO_0000118>Portugese Republic</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002944</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Portugal</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Puerto_Rico -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Puerto_Rico">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <obo:IAO_0000118>Commonwealth of Puerto Rico</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006935</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Puerto Rico</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Qatar -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Qatar">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005286</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Qatar</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Republic_of_Ireland -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Republic_of_Ireland">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002943</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Ireland</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Republic of Ireland</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Republic_of_Macedonia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Republic_of_Macedonia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006895</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">The former Yugoslav Republic of Macedonia</oboInOwl:hasExactSynonym>
+        <rdfs:label>Republic of Macedonia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Romania -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Romania">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002951</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Romania</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Russia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Russia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002721</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Russian Federation</oboInOwl:hasExactSynonym>
+        <rdfs:label>Russia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Rwanda -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Rwanda">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001087</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Rwanda</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Réunion -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Réunion">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00053746</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Réunion</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Saint_Helena -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Saint_Helena">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000849</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">St. Helena</oboInOwl:hasExactSynonym>
+        <rdfs:label>Saint Helena</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Saint_Kitts_and_Nevis -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Saint_Kitts_and_Nevis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006906</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Saint Kitts and Nevis</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Saint_Lucia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Saint_Lucia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006909</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Saint Lucia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Saint_Martin -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Saint_Martin">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005841</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Saint Martin</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Saint_Pierre_and_Miquelon -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Saint_Pierre_and_Miquelon">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003942</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Saint-Pierre-et-Miquelon</oboInOwl:hasExactSynonym>
+        <rdfs:label>Saint Pierre and Miquelon</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:02000565</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Saint Vincent and the Grenadines</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Samoa -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Samoa">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006910</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Samoa</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/San_Marino -->
+
+    <Class rdf:about="http://dbpedia.org/resource/San_Marino">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003102</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">San Marino</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Saudi_Arabia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Saudi_Arabia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005279</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Saudi Arabia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Scotland -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Scotland">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002639</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Scotland</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Senegal -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Senegal">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000913</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Senegal</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Serbia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Serbia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002957</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Serbia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Seychelles -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Seychelles">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005821</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Seychelles</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sierra_Leone -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Sierra_Leone">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000914</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Sierra Leone</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Singapore -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Singapore">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003923</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Singapore</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sint_Maarten -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Sint_Maarten">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00012579</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Sint Maarten</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Slovakia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Slovakia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002956</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Slovakia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Slovenia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Slovenia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002955</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Slovenia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Solomon_Islands -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Solomon_Islands">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005275</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Solomon Islands</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Somalia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Somalia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001104</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Somalia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/South_Africa -->
+
+    <Class rdf:about="http://dbpedia.org/resource/South_Africa">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000553</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">South Africa</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/South_Korea -->
+
+    <Class rdf:about="http://dbpedia.org/resource/South_Korea">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002802</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Republic of Korea</oboInOwl:hasExactSynonym>
+        <rdfs:label>South Korea</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/South_Sudan -->
+
+    <Class rdf:about="http://dbpedia.org/resource/South_Sudan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00233439</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">South Sudan</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Spain -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Spain">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000591</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Spain</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sri_Lanka -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Sri_Lanka">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003924</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Sri Lanka</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sudan -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Sudan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000560</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Sudan</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Suriname -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Suriname">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002525</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Suriname</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Swaziland -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Swaziland">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001099</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Swaziland</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sweden -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Sweden">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002729</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Sweden</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Switzerland -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Switzerland">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002941</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Switzerland</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Syria -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Syria">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002474</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Syria</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/São_Tomé_and_Príncipe -->
+
+    <Class rdf:about="http://dbpedia.org/resource/São_Tomé_and_Príncipe">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006927</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">São Tomé and Príncipe</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Taiwan -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Taiwan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005341</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Taiwan</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tajikistan -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Tajikistan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006912</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Tajikistan</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tanzania -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Tanzania">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001103</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">United Republic of Tanzania</oboInOwl:hasExactSynonym>
+        <rdfs:label>Tanzania</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Thailand -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Thailand">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003744</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Thailand</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/The_Bahamas -->
+
+    <Class rdf:about="http://dbpedia.org/resource/The_Bahamas">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002733</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Bahamas</oboInOwl:hasExactSynonym>
+        <rdfs:label>The Bahamas</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/The_Gambia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/The_Gambia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000907</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Gambia</oboInOwl:hasExactSynonym>
+        <rdfs:label>The Gambia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Togo -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Togo">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000915</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Togo</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tokelau -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Tokelau">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006914</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Tokelau</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tonga -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Tonga">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006916</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Tonga</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Trinidad_and_Tobago -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Trinidad_and_Tobago">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003767</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Trinidad and Tobago</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tunisia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Tunisia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000562</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Tunisia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Turkey -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Turkey">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000558</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Turkey</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Turkmenistan -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Turkmenistan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005018</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Turkmenistan</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Turks_and_Caicos_Islands -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Turks_and_Caicos_Islands">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003955</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Turks and Caicos Islands</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tuvalu -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Tuvalu">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00009715</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Tuvalu</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Uganda -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Uganda">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001102</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Uganda</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ukraine -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Ukraine">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002724</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Ukraine</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_Arab_Emirates -->
+
+    <Class rdf:about="http://dbpedia.org/resource/United_Arab_Emirates">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005282</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">United Arab Emirates</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_Kingdom -->
+
+    <Class rdf:about="http://dbpedia.org/resource/United_Kingdom">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002637</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">U.K.</oboInOwl:hasExactSynonym>
+        <rdfs:label>United Kingdom</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States -->
+
+    <Class rdf:about="http://dbpedia.org/resource/United_States">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <obo:IAO_0000118 xml:lang="en">U.S.</obo:IAO_0000118>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002459</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>United States of America</oboInOwl:hasExactSynonym>
+        <rdfs:label>United States</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States_Virgin_Islands -->
+
+    <Class rdf:about="http://dbpedia.org/resource/United_States_Virgin_Islands">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003959</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">U.S. Virgin Islands</oboInOwl:hasExactSynonym>
+        <rdfs:label>United States Virgin Islands</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Uruguay -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Uruguay">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002930</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Uruguay</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Uzbekistan -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Uzbekistan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00004979</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Uzbekistan</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Vanuatu -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Vanuatu">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00006918</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Vanuatu</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Venezuela -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Venezuela">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002931</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Venezuela</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Vietnam -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Vietnam">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00003756</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Vietnam</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Wallis_and_Futuna -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Wallis_and_Futuna">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00007191</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Wallis and Futuna Islands</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Wallis and Futuna</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Western_Sahara -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Western_Sahara">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000564</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Western Sahara</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Yemen -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Yemen">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005284</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Yemen</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Zambia -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Zambia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001107</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Zambia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Zimbabwe -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Zimbabwe">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00001106</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Zimbabwe</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cocos_(Keeling)_Islands -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Cocos_(Keeling)_Islands">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00009721</oboInOwl:hasDbXref>
+        <rdfs:label>Cocos (Keeling) Islands</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Georgia_(country) -->
+
+    <Class rdf:about="http://dbpedia.org/resource/Georgia_(country)">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00004942</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Georgia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GEO_000000374 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/GEO_000000374">
+        <obo:IAO_0000115>One of the large, unbroken masses of land into which the Earth&apos;s surface is divided.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00190836</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>major area</oboInOwl:hasExactSynonym>
+        <rdfs:label>continent</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0002 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0002">
+        <obo:IAO_0000115>Any geographic area greater than an individual country but smaller than a continent, used as a convenience reference. Please note that most  geographic areas may not be formally defined and exact boundaries can be debatable.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>geographical area</oboInOwl:hasExactSynonym>
+        <rdfs:label>region</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0003 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0003">
+        <obo:IAO_0000115>A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states.</obo:IAO_0000115>
+        <obo:IAO_0000119>NCIT:C25464</obo:IAO_0000119>
+        <rdfs:label>country</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0029 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000374"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000457</oboInOwl:hasDbXref>
+        <rdfs:label>Africa</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0030 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000374"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000465</oboInOwl:hasDbXref>
+        <rdfs:label>Asia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0031 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000374"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000464</oboInOwl:hasDbXref>
+        <rdfs:label>Europe</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0032 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000374"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000468</oboInOwl:hasDbXref>
+        <rdfs:label>Oceania</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0033 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000374"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000459</oboInOwl:hasDbXref>
+        <rdfs:label>Latin America and the Caribbean</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0034 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GEO_000000374"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000458</oboInOwl:hasDbXref>
+        <rdfs:label>Northern America</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0035 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000556</oboInOwl:hasDbXref>
+        <rdfs:label>Eastern Africa</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0036 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <rdfs:label>Middle Africa</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0037 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000555</oboInOwl:hasDbXref>
+        <rdfs:label>Northern Africa</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0038 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000553</oboInOwl:hasDbXref>
+        <rdfs:label>Southern Africa</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0039 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000554</oboInOwl:hasDbXref>
+        <rdfs:label>Western Africa</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0041 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <rdfs:label>South-Central Asia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0042 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000559</oboInOwl:hasDbXref>
+        <rdfs:label>South-Eastern Asia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0043 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <rdfs:label>Western Asia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0044 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <rdfs:label>Eastern Europe</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0045 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <rdfs:label>Northern Europe</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0046 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <rdfs:label>Southern Europe</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0047 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <rdfs:label>Western Europe</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0048 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <rdfs:label>Caribbean</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0049 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00000459</oboInOwl:hasDbXref>
+        <rdfs:label>South America</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0050 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002891</oboInOwl:hasDbXref>
+        <rdfs:label>Central America</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0051 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <rdfs:label>Australia/New Zealand</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0052 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005860</oboInOwl:hasDbXref>
+        <rdfs:label>Melanesia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0053 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005862</oboInOwl:hasDbXref>
+        <rdfs:label>Micronesia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0054 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00005861</oboInOwl:hasDbXref>
+        <rdfs:label>Polynesia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0055 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002471</oboInOwl:hasDbXref>
+        <rdfs:label>Eastern Asia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0288 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0288">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <rdfs:label xml:lang="en">Scandinavia</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0289 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0289">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAZ:00002472</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">South Asia</rdfs:label>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
