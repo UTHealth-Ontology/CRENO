@@ -55,10 +55,7 @@
         <Class IRI="African_American_Males"/>
     </Declaration>
     <Declaration>
-        <Class IRI="African_Nose"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Age"/>
+        <Class IRI="Age_Group"/>
     </Declaration>
     <Declaration>
         <Class IRI="Air_Pollution"/>
@@ -74,9 +71,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="Anti-colonial_Nationalism"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Aquiline_Nose"/>
     </Declaration>
     <Declaration>
         <Class IRI="Aristocracy"/>
@@ -179,9 +173,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="Caucasion"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Celestial_Nose"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cervical_Cancer"/>
@@ -302,6 +293,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="Cultural_Generation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cultural_Practices"/>
     </Declaration>
     <Declaration>
         <Class IRI="Culture"/>
@@ -529,9 +523,6 @@
         <Class IRI="Educational_Resources"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Elderly"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Electrical_Power"/>
     </Declaration>
     <Declaration>
@@ -694,9 +685,6 @@
         <Class IRI="Greatest_Generation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Grecian_Nose"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Gunpowder"/>
     </Declaration>
     <Declaration>
@@ -719,9 +707,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="Hard_Power"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Hawk_Nose"/>
     </Declaration>
     <Declaration>
         <Class IRI="Health"/>
@@ -781,7 +766,7 @@
         <Class IRI="Human_Behavior"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Human_Generated_Pollution"/>
+        <Class IRI="Human_Generated_Pollutants"/>
     </Declaration>
     <Declaration>
         <Class IRI="Human_Hierarchy"/>
@@ -794,6 +779,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="Hyper-Pigmentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Hyperleptorrhine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Hyperplatyrrhine"/>
     </Declaration>
     <Declaration>
         <Class IRI="IBD_Cancer"/>
@@ -853,9 +844,6 @@
         <Class IRI="Iranian_Cultural_Generation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Ireland"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Islam"/>
     </Declaration>
     <Declaration>
@@ -908,6 +896,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="Legislature_Branch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Leptorrhine"/>
     </Declaration>
     <Declaration>
         <Class IRI="Liberal_Nationalism"/>
@@ -982,6 +973,9 @@
         <Class IRI="Merdeka_Generation"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Mesorrhine"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Military"/>
     </Declaration>
     <Declaration>
@@ -1010,9 +1004,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="Multiracial"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Mythology"/>
     </Declaration>
     <Declaration>
         <Class IRI="Nasal_Index"/>
@@ -1120,9 +1111,6 @@
         <Class IRI="Organization"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Origin_Myth"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Other_Ethnicity"/>
     </Declaration>
     <Declaration>
@@ -1171,9 +1159,6 @@
         <Class IRI="Physical_Agents"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Physical_Isolation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Physical_Therapy_Education"/>
     </Declaration>
     <Declaration>
@@ -1192,22 +1177,31 @@
         <Class IRI="Plastic_Pollution"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Playrrhine"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Podiatric_Medicine_School"/>
     </Declaration>
     <Declaration>
         <Class IRI="Policies"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Political"/>
+        <Class IRI="Political_Power"/>
     </Declaration>
     <Declaration>
         <Class IRI="Politics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pollutants"/>
     </Declaration>
     <Declaration>
         <Class IRI="Pollution"/>
     </Declaration>
     <Declaration>
         <Class IRI="Polyethnicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Portuguese"/>
     </Declaration>
     <Declaration>
         <Class IRI="Positive_Human_Stereotypes"/>
@@ -1226,9 +1220,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="Power"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Practices"/>
     </Declaration>
     <Declaration>
         <Class IRI="Prayer"/>
@@ -1430,9 +1421,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="Slavery"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Snub_Nose"/>
     </Declaration>
     <Declaration>
         <Class IRI="Social_Behavior"/>
@@ -1874,11 +1862,14 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Adoption"/>
-        <Class IRI="Ethnic_Shift"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="cause"/>
+            <Class IRI="Ethnic_Shift"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Adult"/>
-        <Class IRI="Age"/>
+        <Class IRI="Age_Group"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Affordable_Housing_Policy"/>
@@ -1908,8 +1899,11 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="African_Nose"/>
-        <Class IRI="Nasal_Index"/>
+        <Class IRI="Age_Group"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influences"/>
+            <Class IRI="Health"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Air_Pollution"/>
@@ -1924,20 +1918,16 @@
         <Class IRI="Nationalism"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Aquiline_Nose"/>
-        <Class IRI="Nasal_Index"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Aristocracy"/>
         <Class IRI="Government"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Art"/>
-        <Class IRI="Practices"/>
+        <Class IRI="Cultural_Practices"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Artisanal_Mining"/>
-        <Class IRI="Human_Generated_Pollution"/>
+        <Class IRI="Human_Generated_Pollutants"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Asbestos"/>
@@ -1953,7 +1943,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Astrology"/>
-        <Class IRI="Practices"/>
+        <Class IRI="Cultural_Practices"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Autoimmune_Disease"/>
@@ -1965,7 +1955,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Baby"/>
-        <Class IRI="Age"/>
+        <Class IRI="Age_Group"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Baby_Boomers"/>
@@ -2082,21 +2072,17 @@
         <Class IRI="UK_Ethnic_Classification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Celestial_Nose"/>
-        <Class IRI="Nasal_Index"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Cervical_Cancer"/>
         <Class IRI="Cancer"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Chemical_Industry"/>
-        <Class IRI="Human_Generated_Pollution"/>
+        <Class IRI="Human_Generated_Pollutants"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Chemicals"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="correlation"/>
             <Class IRI="Cancer"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2272,7 +2258,14 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Colonialism"/>
-        <Class IRI="Discrimination"/>
+        <Class IRI="Policies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Colonialism"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influences"/>
+            <Class IRI="Colonized_Population"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Colonialism"/>
@@ -2282,15 +2275,15 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Colonialism"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Colonized_Population"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="Colorism"/>
+        <Class IRI="Discrimination"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Colorism"/>
-        <Class IRI="Discrimination"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="correlation"/>
+            <Class IRI="Health_Care"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Colorism"/>
@@ -2310,19 +2303,15 @@
         <Class IRI="Colorism"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="influences"/>
-            <Class IRI="Health_Care"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Colorism"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
             <Class IRI="Housing"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Communication"/>
-        <Class IRI="Language"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Language"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Community"/>
@@ -2348,7 +2337,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Cooking"/>
-        <Class IRI="Practices"/>
+        <Class IRI="Cultural_Practices"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Cooking"/>
@@ -2383,7 +2372,7 @@
         <Class IRI="Cultural_Generation"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="character"/>
-            <Class IRI="Age"/>
+            <Class IRI="Age_Group"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2394,25 +2383,42 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Cultural_Practices"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Behavior"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cultural_Practices"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Health"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Culture"/>
         <Class IRI="Community"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Culture"/>
-        <Class IRI="Identity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Culture"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="character"/>
-            <Class IRI="Place"/>
+            <Class IRI="Cultural_Practices"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Culture"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="character"/>
-            <Class IRI="Practices"/>
+            <Class IRI="Identity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Culture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="character"/>
+            <Class IRI="Place"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2754,8 +2760,33 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Diet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influences"/>
+            <Class IRI="Health"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Direct_Democracy"/>
         <Class IRI="Democracy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Discrimination"/>
+        <Class IRI="Human_Stereotypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Discrimination"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Colonialism"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Discrimination"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Human_Hierarchy"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Discrimination"/>
@@ -2781,7 +2812,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Dyeing"/>
-        <Class IRI="Human_Generated_Pollution"/>
+        <Class IRI="Human_Generated_Pollutants"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Economic_Nationalism"/>
@@ -2831,21 +2862,6 @@
         <Class IRI="Resources"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Elderly"/>
-        <Class IRI="Age"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Elderly"/>
-        <Class IRI="Human_Hierarchy"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Elderly"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Knowledge"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Electrical_Power"/>
         <Class IRI="Technology"/>
     </SubClassOf>
@@ -2859,7 +2875,28 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Ethnic_Nation"/>
-        <Class IRI="Ethnicity"/>
+        <Class IRI="Nation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ethnic_Nation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Ethnicity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ethnic_Shift"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Language_Shift"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ethnic_Shift"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Religious_Conversion"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Ethnicity"/>
@@ -2890,10 +2927,6 @@
     <SubClassOf>
         <Class IRI="Ethno-National"/>
         <Class IRI="Ethnicity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Ethno-National"/>
-        <Class IRI="French"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Ethno-National"/>
@@ -2939,6 +2972,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Ethno-Regional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Nation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Ethno-Religous"/>
         <Class IRI="Ethnicity"/>
     </SubClassOf>
@@ -2956,6 +2996,15 @@
     <SubClassOf>
         <Class IRI="Exercise"/>
         <Class IRI="Health_Behavoir"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Exercise"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="cause"/>
+                <Class IRI="Obesity"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Exercise"/>
@@ -3026,7 +3075,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Fashion"/>
-        <Class IRI="Practices"/>
+        <Class IRI="Cultural_Practices"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Fashion"/>
@@ -3069,7 +3118,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Festivals"/>
-        <Class IRI="Practices"/>
+        <Class IRI="Cultural_Practices"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Financial_Resources"/>
@@ -3090,6 +3139,10 @@
     <SubClassOf>
         <Class IRI="Formal_Education"/>
         <Class IRI="Education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="French"/>
+        <Class IRI="Ethno-National"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="French-Canadian"/>
@@ -3183,10 +3236,6 @@
     <SubClassOf>
         <Class IRI="Greatest_Generation"/>
         <Class IRI="Western_Cultural_Generation"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Grecian_Nose"/>
-        <Class IRI="Nasal_Index"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Gunpowder"/>
@@ -3303,6 +3352,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hard_Power"/>
+        <Class IRI="Political_Power"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hard_Power"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="character"/>
             <Class IRI="Coercion"/>
@@ -3330,14 +3383,10 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Hawk_Nose"/>
-        <Class IRI="Nasal_Index"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Health"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="influences"/>
-            <Class IRI="Age"/>
+            <Class IRI="Age_Group"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3373,6 +3422,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="influences"/>
             <Class IRI="Socioeconomic_Status"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Health"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Culture"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3430,6 +3486,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Health_Professionals"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="participation"/>
+            <Class IRI="Health_Care"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Health_System"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="influences"/>
@@ -3446,7 +3509,7 @@
     <SubClassOf>
         <Class IRI="Hereditary"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="correlation"/>
             <Class IRI="Cancer"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3519,7 +3582,7 @@
     <SubClassOf>
         <Class IRI="Horomones"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="correlation"/>
             <Class IRI="Cancer"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3539,8 +3602,15 @@
         <Class IRI="Behavior"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Human_Generated_Pollution"/>
-        <Class IRI="Pollution"/>
+        <Class IRI="Human_Generated_Pollutants"/>
+        <Class IRI="Pollutants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Human_Generated_Pollutants"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="cause"/>
+            <Class IRI="Pollution"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Human_Hierarchy"/>
@@ -3566,10 +3636,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Human_Stereotypes"/>
-        <Class IRI="Discrimination"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Human_Stereotypes"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="assumes"/>
             <Class IRI="Ability"/>
@@ -3590,22 +3656,16 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Human_Stereotypes"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Negative_Human_Stereotypes"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Human_Stereotypes"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Positive_Human_Stereotypes"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Hyper-Pigmentation"/>
         <Class IRI="Skin_Pigmentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hyperleptorrhine"/>
+        <Class IRI="Nasal_Index"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hyperplatyrrhine"/>
+        <Class IRI="Nasal_Index"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="IBD_Cancer"/>
@@ -3636,7 +3696,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Industrial_Parks"/>
-        <Class IRI="Human_Generated_Pollution"/>
+        <Class IRI="Human_Generated_Pollutants"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Industry_Pollution"/>
@@ -3645,7 +3705,7 @@
     <SubClassOf>
         <Class IRI="Infection"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="correlation"/>
             <Class IRI="Cancer"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3655,7 +3715,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Initiations"/>
-        <Class IRI="Practices"/>
+        <Class IRI="Cultural_Practices"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Instagram_Community"/>
@@ -3703,14 +3763,6 @@
     <SubClassOf>
         <Class IRI="Iranian_Cultural_Generation"/>
         <Class IRI="Regional_Cultural_Generation"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Ireland"/>
-        <Class IRI="Ethnic_Nation"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Ireland"/>
-        <Class IRI="Nation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Islam"/>
@@ -3767,7 +3819,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Landfills"/>
-        <Class IRI="Human_Generated_Pollution"/>
+        <Class IRI="Human_Generated_Pollutants"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Language_Shift"/>
@@ -3779,7 +3831,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Lead-Acid_Battery_Recycling"/>
-        <Class IRI="Human_Generated_Pollution"/>
+        <Class IRI="Human_Generated_Pollutants"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Lead_Exposure"/>
@@ -3794,7 +3846,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Lead_Smelting"/>
-        <Class IRI="Human_Generated_Pollution"/>
+        <Class IRI="Human_Generated_Pollutants"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Left-wing_Nationalism"/>
@@ -3803,6 +3855,10 @@
     <SubClassOf>
         <Class IRI="Legislature_Branch"/>
         <Class IRI="Government"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Leptorrhine"/>
+        <Class IRI="Nasal_Index"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Liberal_Nationalism"/>
@@ -3842,7 +3898,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Manufacturing"/>
-        <Class IRI="Human_Generated_Pollution"/>
+        <Class IRI="Human_Generated_Pollutants"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Marriage"/>
@@ -3853,19 +3909,12 @@
         <Class IRI="Human_Hierarchy"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Media"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
-            <Class IRI="Media"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Medical_School"/>
         <Class IRI="Tertiary_education"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Meditation"/>
-        <Class IRI="Practices"/>
+        <Class IRI="Cultural_Practices"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Medium"/>
@@ -3886,6 +3935,10 @@
     <SubClassOf>
         <Class IRI="Merdeka_Generation"/>
         <Class IRI="Singaporean_Cultural_Generation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mesorrhine"/>
+        <Class IRI="Nasal_Index"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Millennials"/>
@@ -3923,7 +3976,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Motor_Vehicle_Emission"/>
-        <Class IRI="Human_Generated_Pollution"/>
+        <Class IRI="Human_Generated_Pollutants"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Motor_Vehicle_Emission"/>
@@ -3949,17 +4002,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="part"/>
             <Class IRI="Interracial_Marriage"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Mythology"/>
-        <Class IRI="Common_Interest_Purpose"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Mythology"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Origin_Myth"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3999,7 +4041,7 @@
         <Class IRI="Nationality"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="character"/>
-            <Class IRI="Political"/>
+            <Class IRI="Politics"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4007,6 +4049,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="location"/>
             <Class IRI="Nation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Nationality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Citizenship"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4036,6 +4085,17 @@
     <SubClassOf>
         <Class IRI="Nativist_Nationalism"/>
         <Class IRI="Nationalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Natural_Pollutants"/>
+        <Class IRI="Pollutants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Natural_Pollutants"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="cause"/>
+            <Class IRI="Pollution"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Negative_Human_Stereotypes"/>
@@ -4208,6 +4268,20 @@
         <Class IRI="Human_Hierarchy"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="People"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="participation"/>
+            <Class IRI="Community"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="People"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="participation"/>
+            <Class IRI="Organization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Performing_Arts"/>
         <Class IRI="Art"/>
     </SubClassOf>
@@ -4225,10 +4299,6 @@
             <ObjectProperty IRI="cause"/>
             <Class IRI="Cancer"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Physical_Isolation"/>
-        <Class IRI="Endogamy"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Physical_Therapy_Education"/>
@@ -4251,33 +4321,40 @@
         <Class IRI="Pollution"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Playrrhine"/>
+        <Class IRI="Nasal_Index"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Podiatric_Medicine_School"/>
         <Class IRI="Tertiary_education"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Political"/>
+        <Class IRI="Politics"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="influences"/>
             <Class IRI="Hard_Power"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Political"/>
+        <Class IRI="Politics"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="influences"/>
             <Class IRI="Soft_Power"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Political"/>
+        <Class IRI="Politics"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="realization"/>
-            <Class IRI="Government"/>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Politics"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Politics"/>
-        <Class IRI="Soft_Power"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="realization"/>
+            <Class IRI="Government"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Pollution"/>
@@ -4287,15 +4364,26 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Pollution"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influences"/>
+            <Class IRI="Health"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Polyethnicity"/>
         <Class IRI="Ethnicity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Polyethnicity"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="influences"/>
             <Class IRI="Ethnic_Shift"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Portuguese"/>
+        <Class IRI="Hispanic"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Positive_Human_Stereotypes"/>
@@ -4318,22 +4406,8 @@
         <Class IRI="Media"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Practices"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Behavior"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Practices"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Health"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Prayer"/>
-        <Class IRI="Practices"/>
+        <Class IRI="Cultural_Practices"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Preferences"/>
@@ -4382,7 +4456,7 @@
         <Class IRI="Protest"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="character"/>
-            <Class IRI="Political"/>
+            <Class IRI="Politics"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4498,14 +4572,7 @@
         <Class IRI="Religion"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="part"/>
-            <Class IRI="Origin_Myth"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Religion"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Practices"/>
+            <Class IRI="Cultural_Practices"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4521,7 +4588,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Religious_Music"/>
-        <Class IRI="Practices"/>
+        <Class IRI="Cultural_Practices"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Religious_Nationalism"/>
@@ -4534,6 +4601,13 @@
     <SubClassOf>
         <Class IRI="Rental_Housing"/>
         <Class IRI="Affordable_Housing_Policy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Rental_Housing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Low_Socioeconomic_Status"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Representative_Democracy"/>
@@ -4556,11 +4630,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Sacred_Dance"/>
-        <Class IRI="Practices"/>
+        <Class IRI="Cultural_Practices"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Sacrifices"/>
-        <Class IRI="Practices"/>
+        <Class IRI="Cultural_Practices"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Salary_Arrangement"/>
@@ -4636,7 +4710,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Sermons"/>
-        <Class IRI="Practices"/>
+        <Class IRI="Cultural_Practices"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Sexual_Behavior"/>
@@ -4703,10 +4777,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Snub_Nose"/>
-        <Class IRI="Nasal_Index"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Social_Behavior"/>
         <Class IRI="Human_Behavior"/>
     </SubClassOf>
@@ -4731,6 +4801,17 @@
     <SubClassOf>
         <Class IRI="Socioeconomic_Status"/>
         <Class IRI="Human_Hierarchy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Socioeconomic_Status"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="influences"/>
+            <Class IRI="Health"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Soft_Power"/>
+        <Class IRI="Political_Power"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Soft_Power"/>
@@ -4759,7 +4840,7 @@
         <Class IRI="Spiritual_but_Not_Religious"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="part"/>
-            <Class IRI="Practices"/>
+            <Class IRI="Cultural_Practices"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4805,12 +4886,19 @@
         <Class IRI="Technology"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="manifestation"/>
-            <Class IRI="Human_Generated_Pollution"/>
+            <Class IRI="Human_Generated_Pollutants"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Technology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="part"/>
+            <Class IRI="Media"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Teen"/>
-        <Class IRI="Age"/>
+        <Class IRI="Age_Group"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Television"/>
@@ -5070,7 +5158,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Youth"/>
-        <Class IRI="Age"/>
+        <Class IRI="Age_Group"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Yutori_Generation"/>
@@ -5715,33 +5803,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>African_Nose</IRI>
-        <Literal>A human nose with a flat nose bridge and wider nostrils. </Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>African_Nose</IRI>
-        <Literal></Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>African_Nose</IRI>
-        <Literal>African_Nose</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Age</IRI>
+        <IRI>Age_Group</IRI>
         <Literal>The numerical value associated with how long something has been alive.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Age</IRI>
+        <IRI>Age_Group</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Age</IRI>
-        <Literal>Age</Literal>
+        <IRI>Age_Group</IRI>
+        <Literal>Age_Group</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -5817,21 +5890,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Anti-colonial_Nationalism</IRI>
         <Literal>Anti-colonial_Nationalism</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Aquiline_Nose</IRI>
-        <Literal>a human nose with a prominent bridge, giving it the appearance of being curved or slightly bent.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Aquiline_Nose</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Aquiline_nose</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Aquiline_Nose</IRI>
-        <Literal>Aquiline_Nose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6272,21 +6330,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Caucasion</IRI>
         <Literal>Caucasion</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Celestial_Nose</IRI>
-        <Literal>A nose with a ski slope bridge. </Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Celestial_Nose</IRI>
-        <Literal></Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Celestial_Nose</IRI>
-        <Literal>Celestial_Nose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6857,6 +6900,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Cultural_Generation</IRI>
         <Literal>Cultural Generation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Cultural_Practices</IRI>
+        <Literal>A custom or procedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>Cultural_Practices</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Cultural_Practices</IRI>
+        <Literal>Cultural Practices</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7462,21 +7520,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Educational_Resources</IRI>
         <Literal>Educational_Resources</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Elderly</IRI>
-        <Literal>65 years and older</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Elderly</IRI>
-        <Literal></Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Elderly</IRI>
-        <Literal>Elderly</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8215,21 +8258,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Grecian_Nose</IRI>
-        <Literal>A straight human nose. </Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Grecian_Nose</IRI>
-        <Literal></Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Grecian_Nose</IRI>
-        <Literal>Grecian_Nose</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Gunpowder</IRI>
         <Literal> has been widely used as a propellant in firearms, artillery, rocketry, and pyrotechnics, including use as a blasting agent for explosives in quarrying, mining, and road building.</Literal>
     </AnnotationAssertion>
@@ -8347,21 +8375,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Hard_Power</IRI>
         <Literal>Hard_Power</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Hawk_Nose</IRI>
-        <Literal>a nose curved like a hawk&apos;s beak</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Hawk_Nose</IRI>
-        <Literal>https://www.merriam-webster.com/dictionary/hawk%20nose</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Hawk_Nose</IRI>
-        <Literal>Hawk_Nose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8610,18 +8623,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Human_Generated_Pollution</IRI>
+        <IRI>Human_Generated_Pollutants</IRI>
         <Literal>Pollution created as a by-product of human inventions and intervention.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Human_Generated_Pollution</IRI>
+        <IRI>Human_Generated_Pollutants</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Human_Generated_Pollution</IRI>
-        <Literal>Human_Generated_Pollution</Literal>
+        <IRI>Human_Generated_Pollutants</IRI>
+        <Literal>Human_Generated_Pollutants</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8937,21 +8950,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Iranian_Cultural_Generation</IRI>
         <Literal>Iranian Cultural Generation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Ireland</IRI>
-        <Literal>an island in the North Atlantic Ocean, in north-western Europe. It is separated from Great Britain to its east by the North Channel, the Irish Sea, and St George&apos;s Channel. Ireland is the second-largest island of the British Isles, the third-largest in Europe, and the twentieth-largest on Earth.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Ireland</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Ireland</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Ireland</IRI>
-        <Literal>Ireland</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9625,21 +9623,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Mythology</IRI>
-        <Literal>a folklore genre consisting of narratives that play a fundamental role in a society, such as foundational tales or origin myths.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Mythology</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Myth#Mythology</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Mythology</IRI>
-        <Literal>Mythology</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Nasal_Index</IRI>
         <Literal>a method of classifying ethnic groups. The index is based on the ratio of the breadth of the nose to its height.</Literal>
     </AnnotationAssertion>
@@ -10105,21 +10088,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Origin_Myth</IRI>
-        <Literal>a myth that describes the origin of some feature of the natural or social world. One type of origin myth is the creation or cosmogonic myth, a story that describes the creation of the world.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Origin_Myth</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Origin_myth</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Origin_Myth</IRI>
-        <Literal>Origin_Myth</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Other_Ethnicity</IRI>
         <Literal>An ethnic group which consists of people who do not fit other UK Ethnic Classifications.</Literal>
     </AnnotationAssertion>
@@ -10360,21 +10328,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Physical_Isolation</IRI>
-        <Literal> whenever the proportions of population rates of two or more populations are not homogenous throughout a defined space. </Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Physical_Isolation</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Geographical_segregation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Physical_Isolation</IRI>
-        <Literal>Physical_Isolation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Physical_Therapy_Education</IRI>
         <Literal>varies greatly from country to country. Worldwide, physical therapy training ranges from basic work site education in hospitals and outpatient clinics to professional doctoral degree and masters programs.</Literal>
     </AnnotationAssertion>
@@ -10485,23 +10438,28 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Political</IRI>
-        <Literal>set of activities that are associated with making decisions in groups, or other forms of power relations among individuals, such as the distribution of resources or status.</Literal>
+        <IRI>Political_Power</IRI>
+        <Literal>In social science and politics, power is the social production of an effect that determines the capacities, actions, beliefs, or conduct of actors.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Political</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Politics</Literal>
+        <IRI>Political_Power</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Power_(social_and_political)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Political</IRI>
-        <Literal>Political</Literal>
+        <IRI>Political_Power</IRI>
+        <Literal>Political Power</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Politics</IRI>
         <Literal>set of activities that are associated with making decisions in groups, or other forms of power relations among individuals, such as the distribution of resources or status.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Politics</IRI>
+        <Literal>set of activities that are associated with making decisions in groups, or other forms of power relations among individuals, such as the distribution of resources or status.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
@@ -10512,6 +10470,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Politics</IRI>
         <Literal>Politics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Pollutants</IRI>
+        <Literal>Pollutants</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10542,6 +10505,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Polyethnicity</IRI>
         <Literal>Polyethnicity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Portuguese</IRI>
+        <Literal>Portuguese</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10602,21 +10570,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Power</IRI>
         <Literal>Power</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Practices</IRI>
-        <Literal>A custom or procedure</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Practices</IRI>
-        <Literal></Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Practices</IRI>
-        <Literal>Practices</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11432,21 +11385,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Slavery</IRI>
         <Literal>Slavery</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Snub_Nose</IRI>
-        <Literal>a short blunt nose</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Snub_Nose</IRI>
-        <Literal>https://www.merriam-webster.com/dictionary/snub%20nose</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Snub_Nose</IRI>
-        <Literal>Snub_Nose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
