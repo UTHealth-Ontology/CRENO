@@ -12,17 +12,16 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.w3.org/2004/02/skos/core</Import>
+    <Import>https://raw.githubusercontent.com/UTHealth-Ontology/CRENO/main/imports/hop.owl</Import>
+    <Import>https://raw.githubusercontent.com/UTHealth-Ontology/CRENO/main/imports/ro/ro-terms.owl</Import>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+        <Literal>Eloisa Nguyen; Tuan Amith, PhD</Literal>
+    </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <Literal>Culture, Race, Ethnicity, and Nationality Ontology (CRENO)</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal>preliminary</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal>removed some generational info</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="A"/>
@@ -505,9 +504,6 @@
         <Class IRI="Dyeing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Economic"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Economic_Nationalism"/>
     </Declaration>
     <Declaration>
@@ -866,6 +862,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="Knowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Lack_of_Exercise"/>
     </Declaration>
     <Declaration>
         <Class IRI="Landfills"/>
@@ -1690,6 +1689,9 @@
         <Class IRI="V,_VI"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="_creno-prop"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="assumes"/>
     </Declaration>
     <Declaration>
@@ -1712,9 +1714,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="has_citizenship_confers"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="has_responsibility"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="influences"/>
@@ -1849,6 +1848,38 @@
         <NamedIndividual IRI="stomach_cancer_mortality"/>
     </Declaration>
     <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <Class IRI="Behavior"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0035176"/>
+        <Class IRI="Social_Behavior"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <Class IRI="Nation"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <Class IRI="Organization"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000077"/>
+        <Class IRI="Occupation"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000204"/>
+        <Class IRI="Identity"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00002068"/>
+        <Class IRI="Communication"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000038"/>
+        <Class IRI="Marriage"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="Online_Community"/>
         <Class IRI="Virtual_Community"/>
     </EquivalentClasses>
@@ -1857,13 +1888,25 @@
         <Class IRI="Fischer-Saller_Scale"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Ability"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Accessories"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Acculturation"/>
         <Class IRI="Ethnic_Shift"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Adoption"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Adoption"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002501"/>
             <Class IRI="Ethnic_Shift"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1894,14 +1937,18 @@
     <SubClassOf>
         <Class IRI="African_American_Males"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Biological_Male"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Age_Group"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Age_Group"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Health"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1912,6 +1959,14 @@
     <SubClassOf>
         <Class IRI="Albinism"/>
         <Class IRI="Skin_Pigmentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="American_Continents"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GEO_000000374"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ancestral_Homeland"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Anti-colonial_Nationalism"/>
@@ -1966,6 +2021,10 @@
         <Class IRI="Infection"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Behavior"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Benzene"/>
         <Class IRI="Carcinogens"/>
     </SubClassOf>
@@ -1986,18 +2045,34 @@
         <Class IRI="Resources"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Biological_Sex"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001241"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Biophysical_Environment"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Biophysical_Environment"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000067"/>
             <Class IRI="Pollution"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Birth"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Birth"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="receive"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Birth_Certificate"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Birth_Certificate"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000310"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Books"/>
@@ -2017,23 +2092,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Brown_Paper_Bag_Test"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Brown_Paper_Bag_Test"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Colorism"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Brown_Paper_Bag_Test"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="realization"/>
-            <Class IRI="Non-white_Passing"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Brown_Paper_Bag_Test"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="realization"/>
-            <Class IRI="White_Passing"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2045,8 +2110,19 @@
         <Class IRI="Iranian_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Business"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Cancer"/>
         <Class IRI="Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0003304"/>
+            <Class IRI="Exercise"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Capitation"/>
@@ -2058,8 +2134,12 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Carcinogens"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Carcinogens"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002595"/>
             <Class IRI="Carcinogen_Exposure"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2081,8 +2161,12 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Chemicals"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Chemicals"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="correlation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
             <Class IRI="Cancer"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2114,7 +2198,7 @@
         <Class IRI="Citizenship"/>
         <ObjectComplementOf>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="part"/>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <Class IRI="Immigrants"/>
             </ObjectSomeValuesFrom>
         </ObjectComplementOf>
@@ -2122,78 +2206,68 @@
     <SubClassOf>
         <Class IRI="Citizenship"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="can_receive"/>
-            <Class IRI="Passport"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Citizenship"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000059"/>
             <Class IRI="Rights"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Citizenship"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="has_citizenship_confers"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Birth"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Citizenship"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="has_citizenship_confers"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Family"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Citizenship"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="has_citizenship_confers"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Investment_Economic_Citizenship"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Citizenship"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="has_citizenship_confers"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Marriage"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Citizenship"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="has_citizenship_confers"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Naturalization"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="City"/>
+        <Class IRI="Citizenship"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Pollution"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
+            <Class IRI="Passport"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="City"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Urbanization"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="City"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Housing"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="City"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Neighborhood"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="City"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000067"/>
+            <Class IRI="Urbanization"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2249,12 +2323,24 @@
         <Class IRI="Martin-Schulz_Scale"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Clothing"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Coarse"/>
         <Class IRI="FIA_Hair_Typing_System"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Coercion"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Colon_Cancer"/>
         <Class IRI="Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Colonial_Power"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000027"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Colonialism"/>
@@ -2263,16 +2349,20 @@
     <SubClassOf>
         <Class IRI="Colonialism"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
-            <Class IRI="Colonized_Population"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
+            <Class IRI="Colonial_Power"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Colonialism"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Colonial_Power"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
+            <Class IRI="Colonized_Population"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Colonized_Population"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000027"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Colorism"/>
@@ -2281,49 +2371,68 @@
     <SubClassOf>
         <Class IRI="Colorism"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="correlation"/>
-            <Class IRI="Health_Care"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Colorism"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002404"/>
             <Class IRI="Business"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Colorism"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002404"/>
+            <Class IRI="Housing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Colorism"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002608"/>
             <Class IRI="Economy"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Colorism"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
-            <Class IRI="Housing"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
+            <Class IRI="Health_Care"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Common_Interest_Purpose"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Common_Interest_Purpose"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <Class IRI="Darwinian_Fitness"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Communication"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Communication"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Language"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Community"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Community"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="Common_Interest_Purpose"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Community"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="People"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2342,23 +2451,27 @@
     <SubClassOf>
         <Class IRI="Cooking"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000057"/>
+            <Class IRI="Food_Ingredients"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cooking"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001001"/>
             <Class IRI="Cooking_Techniques"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Cooking"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0001001"/>
             <Class IRI="Food_Dishes"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Cooking"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Food_Ingredients"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="Cooking_Techniques"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Creole_Nationalism"/>
@@ -2370,97 +2483,105 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Cultural_Generation"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cultural_Generation"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Age_Group"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Cultural_Generation"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Culture"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Cultural_Practices"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cultural_Practices"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Behavior"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Cultural_Practices"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Health"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Culture"/>
-        <Class IRI="Community"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Culture"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Cultural_Practices"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Culture"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Identity"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Culture"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Place"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Culture"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
-            <Class IRI="Social_Behavior"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Culture"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="Ancestral_Homeland"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Culture"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="Common_Interest_Purpose"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Culture"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="Community"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Culture"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="Health"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Culture"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="Identity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Culture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="Language"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Culture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="Place"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Culture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0009501"/>
+            <Class IRI="Cultural_Practices"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Culture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0009501"/>
+            <Class IRI="Social_Behavior"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2477,35 +2598,25 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Darwinian_Fitness"/>
-        <Class IRI="Common_Interest_Purpose"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000001"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Darwinian_Fitness"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Reproduction"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Darwinian_Fitness"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Survival"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Darwinian_Fitness"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Reproduction"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Darwinian_Fitness"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Survival"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="Death"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Death_By_Adverse_Effect_of_Medical_Treatment"/>
@@ -2696,22 +2807,8 @@
         <Class IRI="Death_By_Diabetes"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Death_By_Type_1_Diabetes"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
-            <Class IRI="Type_1_Diabetes"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Death_By_Type_2_Diabetes"/>
         <Class IRI="Death_By_Diabetes"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Death_By_Type_2_Diabetes"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
-            <Class IRI="Type_2_Diabetes"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Death_By_Unintentional_Injuries"/>
@@ -2747,22 +2844,26 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Diet"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Diet"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002506"/>
             <Class IRI="Cancer"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Diet"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002506"/>
             <Class IRI="Obesity"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Diet"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Health"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2772,33 +2873,37 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Discrimination"/>
-        <Class IRI="Human_Stereotypes"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Discrimination"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="Segregation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Discrimination"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Colonialism"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Discrimination"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Human_Hierarchy"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Discrimination"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Segregation"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="Disease"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Disease"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="Health"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2825,35 +2930,43 @@
     <SubClassOf>
         <Class IRI="Economic_Policy"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Redistribution_of_Wealth"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Economy"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RO_0002577"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Education"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Education"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Knowledge"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Education"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Personality"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Education"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Skills"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Education"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Socioeconomic_Status"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2880,36 +2993,22 @@
     <SubClassOf>
         <Class IRI="Ethnic_Nation"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Ethnicity"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Ethnic_Shift"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Language_Shift"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Ethnic_Shift"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Religious_Conversion"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000005"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Ethnicity"/>
-        <Class IRI="Community"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Ethnicity"/>
-        <Class IRI="Identity"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Ethnicity"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Generational"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2920,7 +3019,7 @@
     <SubClassOf>
         <Class IRI="Ethno-Linguistic"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Language"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2931,7 +3030,7 @@
     <SubClassOf>
         <Class IRI="Ethno-National"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Nationality"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2942,15 +3041,15 @@
     <SubClassOf>
         <Class IRI="Ethno-Racial"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Phenotype"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="Race"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Ethno-Racial"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Race"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <Class IRI="Phenotype"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2960,21 +3059,21 @@
     <SubClassOf>
         <Class IRI="Ethno-Regional"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Ancestral_Homeland"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Ethno-Regional"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Geographical_Location"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Ethno-Regional"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Nation"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2985,7 +3084,7 @@
     <SubClassOf>
         <Class IRI="Ethno-Religous"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Religion"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2998,32 +3097,20 @@
         <Class IRI="Health_Behavoir"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Exercise"/>
-        <ObjectComplementOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="cause"/>
-                <Class IRI="Obesity"/>
-            </ObjectSomeValuesFrom>
-        </ObjectComplementOf>
+        <Class IRI="Experience"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000182"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Exercise"/>
+        <Class IRI="Experience"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
-            <Class IRI="Cancer"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Exercise"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
-            <Class IRI="Obesity"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
+            <Class IRI="Knowledge"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Experience"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Wisdom"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3034,16 +3121,24 @@
     <SubClassOf>
         <Class IRI="Eye"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Eye_Color"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Eye_Color"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Eye_Color"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Martin-Schulz_Scale"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="FIA_Hair_Typing_System"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000068"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="F_to_L"/>
@@ -3074,41 +3169,48 @@
         <Class IRI="People"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Family_Members"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="Family_Dynamic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Fashion"/>
         <Class IRI="Cultural_Practices"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Fashion"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Accessories"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Fashion"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Clothing"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Fashion"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Footwear"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Fashion"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Hairstyle"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Fashion"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Makeup"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3121,6 +3223,10 @@
         <Class IRI="Cultural_Practices"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Finance"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Financial_Resources"/>
         <Class IRI="Resources"/>
     </SubClassOf>
@@ -3131,6 +3237,26 @@
     <SubClassOf>
         <Class IRI="First_Baby_Boomer_Generation"/>
         <Class IRI="Japanese_Cultural_Generation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fischer-Saller_Scale"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fitzpatrick_Scale"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Food_Dishes"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Food_Ingredients"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Footwear"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Foreign_Policy"/>
@@ -3150,8 +3276,12 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Funding"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Funding"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Finance"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3177,15 +3307,27 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Generational"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Generational"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Genetics_Variability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Genetics_Variability"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Gentrification"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Gentrification"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002501"/>
             <Class IRI="Racial_Segregation"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3196,15 +3338,8 @@
     <SubClassOf>
         <Class IRI="Geographical_Location"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000067"/>
             <Class IRI="Pollution"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Geographical_Location"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Housing"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3213,15 +3348,12 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Government"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="participation"/>
-            <Class IRI="Propoganda"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000245"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Government"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="realization"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002500"/>
             <Class IRI="Policies"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3248,107 +3380,127 @@
     <SubClassOf>
         <Class IRI="Hair"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Hair_Color"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hair"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Hair_Strands"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hair"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Hair_Texture"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hair"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Hair_Volume"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hair_Color"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hair_Color"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Fischer-Saller_Scale"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hair_Strands"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hair_Strands"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Coarse"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hair_Strands"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Fine"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hair_Strands"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Medium"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hair_Texture"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hair_Texture"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Curly"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hair_Texture"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Straight"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hair_Texture"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Very_Curly"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hair_Texture"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Wavy"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hair_Volume"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hair_Volume"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Normal"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hair_Volume"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Thick"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hair_Volume"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Thin"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hairstyle"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hard_Power"/>
@@ -3357,78 +3509,75 @@
     <SubClassOf>
         <Class IRI="Hard_Power"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Coercion"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="Economy"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hard_Power"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Economic"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Hard_Power"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Military"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hard_Power"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Behavior"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
+            <Class IRI="Coercion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Health"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Health"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="Culture"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Health"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Age_Group"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Health"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
-            <Class IRI="Death"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Health"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Diet"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Health"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Life_Expectancy"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Health"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
-            <Class IRI="Pollution"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Health"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Socioeconomic_Status"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Health"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Culture"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0003304"/>
+            <Class IRI="Death"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Health"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0009501"/>
+            <Class IRI="Pollution"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3438,37 +3587,45 @@
     <SubClassOf>
         <Class IRI="Health_Behavoir"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000055"/>
             <Class IRI="Health"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Health_Care"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Health_Care"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Funding"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Health_Care"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
-            <Class IRI="Health"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Health_Care"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Health_Care_Evaluations"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Health_Care"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000057"/>
             <Class IRI="Health_Professionals"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Health_Care"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
+            <Class IRI="Health"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Health_Care_Evaluations"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Health_Plan_Quality"/>
@@ -3481,35 +3638,47 @@
     <SubClassOf>
         <Class IRI="Health_Policy"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Health_System"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Health_Professionals"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Health_Professionals"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="participation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000056"/>
+            <Class IRI="Health_Care"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Health_System"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Health_System"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002500"/>
             <Class IRI="Health_Care"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Health_System"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
-            <Class IRI="Health_Care"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Health_System"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0004035"/>
             <Class IRI="Salary"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hereditary"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hereditary"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="correlation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
             <Class IRI="Cancer"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3526,50 +3695,8 @@
         <Class IRI="OMB_Ethnicity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Hispanic"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="correlation"/>
-            <Class IRI="Death_By_Liver_Cancer"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Hispanic"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="correlation"/>
-            <Class IRI="Death_By_Stomach_Cancer"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Hispanic"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="correlation"/>
-            <Class IRI="Liver_Cancer"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Hispanic"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="correlation"/>
-            <Class IRI="Stomach_Cancer"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Hispanic_Females"/>
         <Class IRI="Hispanic"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Hispanic_Females"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="correlation"/>
-            <Class IRI="Cervical_Cancer"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Hispanic_Females"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="correlation"/>
-            <Class IRI="Death_By_Cervical_Cancer"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Hispanic_Males"/>
@@ -3581,8 +3708,12 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Horomones"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Horomones"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="correlation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
             <Class IRI="Cancer"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3592,9 +3723,27 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Housing"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Housing"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000066"/>
+            <Class IRI="City"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Housing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002501"/>
             <Class IRI="Gentrification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Housing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
+            <Class IRI="Geographical_Location"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3608,8 +3757,15 @@
     <SubClassOf>
         <Class IRI="Human_Generated_Pollutants"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002500"/>
             <Class IRI="Pollution"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Human_Generated_Pollutants"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002559"/>
+            <Class IRI="Technology"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3619,14 +3775,14 @@
     <SubClassOf>
         <Class IRI="Human_Hierarchy"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002506"/>
             <Class IRI="Power"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Human_Hierarchy"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Discrimination"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3636,22 +3792,26 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Human_Stereotypes"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Human_Stereotypes"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="assumes"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Ability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Human_Stereotypes"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="assumes"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Personality"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Human_Stereotypes"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="assumes"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Preferences"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3672,13 +3832,17 @@
         <Class IRI="Cancer"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Identity"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Immigrant_Generation"/>
         <Class IRI="Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Immigrant_Generation"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="Immigrants"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3704,8 +3868,12 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Infection"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Infection"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="correlation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
             <Class IRI="Cancer"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3743,22 +3911,22 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Internet"/>
-        <Class IRI="Place"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Internet"/>
         <Class IRI="Technology"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Internet"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="Online_Community"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Interracial_Marriage"/>
         <Class IRI="Marriage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Investment_Economic_Citizenship"/>
+        <Class IRI="Citizenship"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Iranian_Cultural_Generation"/>
@@ -3783,7 +3951,7 @@
     <SubClassOf>
         <Class IRI="Japanese_Cultural_Generation"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Japan"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
@@ -3805,21 +3973,26 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Knowledge"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Experience"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Knowledge"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="Wisdom"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Lack_of_Exercise"/>
+        <Class IRI="Exercise"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Landfills"/>
         <Class IRI="Human_Generated_Pollutants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Language"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RO_0002577"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Language_Shift"/>
@@ -3828,6 +4001,10 @@
     <SubClassOf>
         <Class IRI="Latin_Americans"/>
         <Class IRI="Hispanic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Laws"/>
+        <Class IRI="http://purl.obolibrary.org/obo/RO_0002577"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Lead-Acid_Battery_Recycling"/>
@@ -3840,7 +4017,7 @@
     <SubClassOf>
         <Class IRI="Lead_Exposure"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0003304"/>
             <Class IRI="Disease"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3863,6 +4040,10 @@
     <SubClassOf>
         <Class IRI="Liberal_Nationalism"/>
         <Class IRI="Nationalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Life_Expectancy"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Literary_Arts"/>
@@ -3897,6 +4078,10 @@
         <Class IRI="Fischer-Saller_Scale"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Makeup"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Manufacturing"/>
         <Class IRI="Human_Generated_Pollutants"/>
     </SubClassOf>
@@ -3905,12 +4090,31 @@
         <Class IRI="Endogamy"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Martin-Schulz_Scale"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000068"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Matriarchy"/>
         <Class IRI="Human_Hierarchy"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Media"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Medical_School"/>
         <Class IRI="Tertiary_education"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Medicine"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Medicine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
+            <Class IRI="Health_Care"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Meditation"/>
@@ -3941,19 +4145,20 @@
         <Class IRI="Nasal_Index"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Military"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000245"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Millennials"/>
         <Class IRI="Western_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Modern_Medicine"/>
-        <Class IRI="Medicine"/>
+        <Class IRI="Mining"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Modern_Medicine"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Health_Care"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="Medicine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Monarchy"/>
@@ -3966,7 +4171,7 @@
     <SubClassOf>
         <Class IRI="Motor_Vehicle"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Wheel"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3981,7 +4186,7 @@
     <SubClassOf>
         <Class IRI="Motor_Vehicle_Emission"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002506"/>
             <Class IRI="Motor_Vehicle"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4000,29 +4205,33 @@
     <SubClassOf>
         <Class IRI="Multiracial"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000054"/>
             <Class IRI="Interracial_Marriage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Nasal_Index"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Nation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="State"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Nation"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Wealth"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Nation"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="location"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Place"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Nation"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="State"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4030,32 +4239,25 @@
         <Class IRI="Nationalism"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Nationality"/>
-        <Class IRI="Community"/>
+        <Class IRI="Nationalism"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Nationality"/>
-        <Class IRI="Identity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Nationality"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Politics"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Nationality"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="location"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Nation"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Nationality"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Citizenship"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
+            <Class IRI="Politics"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4093,9 +4295,13 @@
     <SubClassOf>
         <Class IRI="Natural_Pollutants"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002595"/>
             <Class IRI="Pollution"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Naturalization"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0021003"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Negative_Human_Stereotypes"/>
@@ -4103,15 +4309,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Neighborhood"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ENVO_01000744"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Neighborhood"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002559"/>
             <Class IRI="Socioeconomic_Status"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Neighborhood"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Gentrification"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4146,7 +4356,7 @@
     <SubClassOf>
         <Class IRI="Nose_Shape"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Nasal_Index"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4171,9 +4381,22 @@
         <Class IRI="Disease"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Obesity"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <Class IRI="Exercise"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Occupation"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00002072"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Occupation"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Socioeconomic_Status"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4196,29 +4419,15 @@
     <SubClassOf>
         <Class IRI="Organization"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Institution"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Organization"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="People"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Organization"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Resources"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Organization"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="participation"/>
-            <Class IRI="Health_System"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4246,18 +4455,8 @@
         <Class IRI="Family_Members"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Parent"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="has_responsibility"/>
-            <Class IRI="Children"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Parent"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Family_Dynamic"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="Passport"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000142"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Patient_Experience"/>
@@ -4269,21 +4468,29 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="People"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="People"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="participation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="Community"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="People"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="participation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="Organization"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Performing_Arts"/>
         <Class IRI="Art"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Personality"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Pharmaceutical_Policy"/>
@@ -4294,9 +4501,17 @@
         <Class IRI="Tertiary_education"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Phenotype"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Physical_Agents"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Physical_Agents"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002506"/>
             <Class IRI="Cancer"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4317,6 +4532,10 @@
         <Class IRI="Singaporean_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Place"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Plastic_Pollution"/>
         <Class IRI="Pollution"/>
     </SubClassOf>
@@ -4329,44 +4548,57 @@
         <Class IRI="Tertiary_education"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Policies"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Political_Power"/>
+        <Class IRI="Power"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Politics"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Politics"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Hard_Power"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Politics"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Soft_Power"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Politics"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Politics"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Politics"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="realization"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Government"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Pollutants"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pollution"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Pollution"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
-            <Class IRI="Natural_Pollutants"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000066"/>
+            <Class IRI="City"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Pollution"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Health"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4377,7 +4609,7 @@
     <SubClassOf>
         <Class IRI="Polyethnicity"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Ethnic_Shift"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4404,6 +4636,10 @@
     <SubClassOf>
         <Class IRI="Posters"/>
         <Class IRI="Media"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Power"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Prayer"/>
@@ -4439,8 +4675,12 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Propoganda"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Propoganda"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="Nationalism"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4450,12 +4690,12 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Protest"/>
-        <Class IRI="Common_Interest_Purpose"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0021003"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Protest"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="Politics"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4468,6 +4708,10 @@
         <Class IRI="Health_Care"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Public_Housing"/>
+        <Class IRI="Housing"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Public_Interest_Poliy"/>
         <Class IRI="Policies"/>
     </SubClassOf>
@@ -4476,21 +4720,21 @@
         <Class IRI="Policies"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Quality"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Quarternary_Care"/>
         <Class IRI="Health_Care"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Race"/>
-        <Class IRI="Community"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Race"/>
-        <Class IRI="Identity"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Race"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Life_Expectancy"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4505,7 +4749,7 @@
     <SubClassOf>
         <Class IRI="Racial_Segregation"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="location"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002608"/>
             <Class IRI="Biophysical_Environment"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4516,22 +4760,15 @@
     <SubClassOf>
         <Class IRI="Racism"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
-            <Class IRI="Colorism"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Racism"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="Racial_Segregation"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Racism"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
-            <Class IRI="Slavery"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
+            <Class IRI="Colorism"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4541,9 +4778,13 @@
     <SubClassOf>
         <Class IRI="Radiation"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002506"/>
             <Class IRI="Cancer"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Radioactive_Contamination"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000048"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Reddit_Community"/>
@@ -4555,8 +4796,12 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Redistribution_of_Wealth"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Redistribution_of_Wealth"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Socioeconomic_Status"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4571,15 +4816,8 @@
     <SubClassOf>
         <Class IRI="Religion"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0009501"/>
             <Class IRI="Cultural_Practices"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Religion"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Spirituality"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4605,7 +4843,7 @@
     <SubClassOf>
         <Class IRI="Rental_Housing"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000055"/>
             <Class IRI="Low_Socioeconomic_Status"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4614,13 +4852,25 @@
         <Class IRI="Democracy"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Reproduction"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Residential_Segregation"/>
         <Class IRI="Segregation"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Resources"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Rights"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Rights"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="realization"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Laws"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4637,6 +4887,10 @@
         <Class IRI="Cultural_Practices"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Salary"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Salary_Arrangement"/>
         <Class IRI="Salary"/>
     </SubClassOf>
@@ -4649,33 +4903,16 @@
         <Class IRI="Samoan_American"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Samoan_American_Females"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="correlation"/>
-            <Class IRI="Cervical_Cancer"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Samoan_American_Females"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="correlation"/>
-            <Class IRI="Death_By_Cervical_Cancer"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Samoan_American_Males"/>
         <Class IRI="Samoan_American"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Samoan_American_Males"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="correlation"/>
-            <Class IRI="Liver_Cancer"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Satori_Generation"/>
         <Class IRI="Japanese_Cultural_Generation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Scholarship"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="School"/>
@@ -4700,9 +4937,13 @@
     <SubClassOf>
         <Class IRI="Secondary_Education"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Scholarship"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Segregation"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Self-efficacy"/>
@@ -4733,20 +4974,24 @@
         <Class IRI="Regional_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Skills"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Skin"/>
         <Class IRI="Phenotype"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Skin"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Fitzpatrick_Scale"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Skin"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Skin_Pigmentation"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4761,9 +5006,13 @@
     <SubClassOf>
         <Class IRI="Skin_Color"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Fitzpatrick_Scale"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Skin_Pigmentation"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Slang"/>
@@ -4771,9 +5020,20 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Slavery"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Slavery"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002404"/>
             <Class IRI="Colorism"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Slavery"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002404"/>
+            <Class IRI="Racism"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4781,22 +5041,12 @@
         <Class IRI="Human_Behavior"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Social_Behavior"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Communication"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Social_Behavior"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="character"/>
-            <Class IRI="Language"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Social_Media"/>
         <Class IRI="Media"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Social_Privilege"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Socioeconomic_Status"/>
@@ -4805,7 +5055,7 @@
     <SubClassOf>
         <Class IRI="Socioeconomic_Status"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="influences"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Health"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4816,8 +5066,8 @@
     <SubClassOf>
         <Class IRI="Soft_Power"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
-            <Class IRI="Community"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="Culture"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4837,13 +5087,6 @@
         <Class IRI="Spirituality"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Spiritual_but_Not_Religious"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Cultural_Practices"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Spirituality"/>
         <Class IRI="Religion"/>
     </SubClassOf>
@@ -4853,8 +5096,12 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="State"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="State"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="City"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4871,6 +5118,14 @@
         <Class IRI="Taiwanese_Cultural_Generation"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Sunless_Tanning"/>
+        <Class IRI="Human_Generated_Pollutants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Survival"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Taiwanese_Cultural_Generation"/>
         <Class IRI="Regional_Cultural_Generation"/>
     </SubClassOf>
@@ -4884,15 +5139,12 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Technology"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
-            <Class IRI="Human_Generated_Pollutants"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Technology"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="Media"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4919,7 +5171,7 @@
     <SubClassOf>
         <Class IRI="Tertiary_education"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Scholarship"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4949,12 +5201,12 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Time_Period"/>
-        <Class IRI="Place"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000182"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Time_Period"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Technology"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4981,20 +5233,13 @@
     <SubClassOf>
         <Class IRI="Tobacco_Use_Exposure"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="cause"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0003304"/>
             <Class IRI="Disease"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Traditional_Medicine"/>
         <Class IRI="Medicine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Traditional_Medicine"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="part"/>
-            <Class IRI="Health_Care"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Transitional_Housing"/>
@@ -5005,8 +5250,22 @@
         <Class IRI="Diabetes"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Type_1_Diabetes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0003304"/>
+            <Class IRI="Death_By_Type_1_Diabetes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Type_2_Diabetes"/>
         <Class IRI="Diabetes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Type_2_Diabetes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0003304"/>
+            <Class IRI="Death_By_Type_2_Diabetes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Type_I"/>
@@ -5055,23 +5314,27 @@
     <SubClassOf>
         <Class IRI="United_States_Government"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Executive_Branch"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="United_States_Government"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Judiciary_Branch"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="United_States_Government"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="Legislature_Branch"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Urbanization"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000005"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Vaccination_Policy"/>
@@ -5084,6 +5347,10 @@
     <SubClassOf>
         <Class IRI="Very_Curly"/>
         <Class IRI="FIA_Hair_Typing_System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Violence"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Virtual_Community"/>
@@ -5115,8 +5382,12 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Wealth"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Wealth"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000052"/>
             <Class IRI="Resources"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -5139,6 +5410,10 @@
     <SubClassOf>
         <Class IRI="Wildfires_by_Lightning"/>
         <Class IRI="Natural_Pollutants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Wisdom"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Work"/>
@@ -5175,7 +5450,7 @@
     <SubClassOf>
         <Class IRI="Ancient_Period_(3000_BCE_to_500_CE)"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Wheel"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -5206,14 +5481,14 @@
     <SubClassOf>
         <Class IRI="Contemporary_Period_(1945_to_present)"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Computer"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Contemporary_Period_(1945_to_present)"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Internet"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -5237,7 +5512,7 @@
     <SubClassOf>
         <Class IRI="Early_Modern_Period_(1500_to_1800)"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Printing_Press"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -5270,21 +5545,21 @@
     <SubClassOf>
         <Class IRI="Late_Modern_Period_(1800_to_present)"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Assembly_Line"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Late_Modern_Period_(1800_to_present)"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Electrical_Power"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Late_Modern_Period_(1800_to_present)"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Motor_Vehicle"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -5312,7 +5587,7 @@
     <SubClassOf>
         <Class IRI="Post-Classical_Period_(200_CE_to_1500_CE)"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Gunpowder"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -5335,7 +5610,7 @@
     <SubClassOf>
         <Class IRI="Pre-Historic_Period_(3.3_mya_to_5000_years_ago)"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="manifestation"/>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
             <Class IRI="Controlled_Use_of_Fire"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -5447,7 +5722,7 @@
         <ObjectIntersectionOf>
             <Class IRI="Death_By_Cancer"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="character"/>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
                 <Class IRI="High_Quality"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -5469,7 +5744,7 @@
         <ObjectIntersectionOf>
             <Class IRI="Cancer"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="character"/>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
                 <Class IRI="Low_Quality"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -5492,185 +5767,257 @@
         <NamedIndividual IRI="stomach_cancer_mortality"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_african_american"/>
         <NamedIndividual IRI="high_cancer_mortality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_african_american"/>
         <NamedIndividual IRI="stomach_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_african_american"/>
         <NamedIndividual IRI="stomach_cancer_mortality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_african_american_men"/>
         <NamedIndividual IRI="colon_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_african_american_men"/>
         <NamedIndividual IRI="prostrate_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_african_american_men"/>
         <NamedIndividual IRI="prostrate_cancer_mortality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_african_american_women"/>
         <NamedIndividual IRI="breast_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_african_american_women"/>
         <NamedIndividual IRI="breast_cancer_mortality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_african_american_women"/>
         <NamedIndividual IRI="stomach_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_african_american_women"/>
         <NamedIndividual IRI="stomach_cancer_mortality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_american_samoan_men"/>
         <NamedIndividual IRI="liver_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_american_samoan_women"/>
         <NamedIndividual IRI="cervical_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_american_samoan_women"/>
         <NamedIndividual IRI="cervical_cancer_mortality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_asian_american"/>
         <NamedIndividual IRI="IBD_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_asian_american"/>
         <NamedIndividual IRI="liver_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_asian_american"/>
         <NamedIndividual IRI="lower_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_asian_american"/>
         <NamedIndividual IRI="lower_prostrate_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_asian_american"/>
         <NamedIndividual IRI="stomach_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_hispanic_american_men"/>
         <NamedIndividual IRI="lower_prostrate_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_hispanic_american_women"/>
         <NamedIndividual IRI="cervical_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_hispanic_american_women"/>
         <NamedIndividual IRI="cervical_cancer_mortality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_hispanic_americans"/>
         <NamedIndividual IRI="liver_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_hispanic_americans"/>
         <NamedIndividual IRI="liver_cancer_mortality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_hispanic_americans"/>
         <NamedIndividual IRI="lower_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_hispanic_americans"/>
         <NamedIndividual IRI="stomach_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_hispanic_americans"/>
         <NamedIndividual IRI="stomach_cancer_mortality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_native_american_men"/>
         <NamedIndividual IRI="stomach_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_native_american_men"/>
         <NamedIndividual IRI="stomach_cancer_mortality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_native_american_women"/>
         <NamedIndividual IRI="kidney_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_native_american_women"/>
         <NamedIndividual IRI="renal_pelvis_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_native_americans"/>
         <NamedIndividual IRI="IBD_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_native_americans"/>
         <NamedIndividual IRI="liver_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_native_americans"/>
         <NamedIndividual IRI="lower_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_native_hawaiian_men"/>
         <NamedIndividual IRI="liver_cancer_incidence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_native_hawaiians"/>
         <NamedIndividual IRI="high_cancer_mortality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002610"/>
         <NamedIndividual IRI="_other_pacific_islanders"/>
         <NamedIndividual IRI="high_cancer_mortality"/>
     </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="assumes"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="boundary_of"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="can_receive"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="cause"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="character"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="correlation"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="develop"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="has_citizenship_confers"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="influences"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="invented"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="location"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="manifestation"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="occurrence"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="part"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="participation"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="precedent"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="realization"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="receive"/>
+        <ObjectProperty IRI="_creno-prop"/>
+    </SubObjectPropertyOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>A</IRI>
@@ -6837,6 +7184,11 @@
         <Literal>Controlled_Use_of_Fire</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <IRI>Cooking</IRI>
+        <Literal>TODO: reconsider link to cooking techniques</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Cooking</IRI>
         <Literal>is the art, science and craft of using heat to prepare food for consumption.</Literal>
@@ -6895,6 +7247,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Cuisine</IRI>
         <Literal>Cuisine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Cultural_Generation</IRI>
+        <Literal>A generation refers to all of the people born and living at about the same time, regarded collectively...Generation is also often used synonymously with cohort in social science; under this formulation it means &quot;people within a delineated population who experience the same significant events within a given period of time&quot; (Pilcher, 1994)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>Cultural_Generation</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7430,21 +7792,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Dyeing</IRI>
         <Literal>Dyeing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Economic</IRI>
-        <Literal>an area of the production, distribution and trade, as well as consumption of goods and services by different agents.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Economic</IRI>
-        <Literal>https://en.wikipedia.org/wiki/Economy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Economic</IRI>
-        <Literal>Economic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9052,6 +9399,11 @@
         <Literal>Knowledge</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Lack_of_Exercise</IRI>
+        <Literal>Lack of Exercise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>Landfills</IRI>
         <Literal>site for the disposal of waste materials. Landfill is the oldest and most common form of waste disposal, although the systematic burial of the waste with daily, intermediate and final covers only began in the 1940s.</Literal>
@@ -9375,6 +9727,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Matriarchy</IRI>
         <Literal>Matriarchy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Media</IRI>
+        <Literal>media are the communication outlets or tools used to store and deliver information or data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>Media</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Media_(communication)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10917,6 +11279,16 @@
         <Literal>Reddit Community</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Redistribution_of_Wealth</IRI>
+        <Literal>transfer of income and wealth (including physical property) from some individuals to others through a social mechanism such as taxation, welfare, public services, land reform, monetary policies, confiscation, divorce or tort law.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>Redistribution_of_Wealth</IRI>
+        <Literal>https://en.wikipedia.org/wiki/Redistribution_of_income_and_wealth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Redistribution_of_Wealth</IRI>
         <Literal>Redistribution_of_Wealth</Literal>
@@ -12407,9 +12779,19 @@
         <Literal>assumes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>assumes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>boundary_of</IRI>
         <Literal>boundary_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>boundary_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -12417,14 +12799,29 @@
         <Literal>can_receive</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>can_receive</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>cause</IRI>
         <Literal>cause</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>cause</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>character</IRI>
         <Literal>character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>character</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12442,9 +12839,19 @@
         <Literal>correlation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>correlation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>develop</IRI>
         <Literal>develop</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>develop</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -12457,9 +12864,9 @@
         <Literal>has_citizenship_confers</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>has_responsibility</IRI>
-        <Literal>has_responsibility</Literal>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>has_citizenship_confers</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -12472,9 +12879,19 @@
         <Literal>influences</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>influences</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>invented</IRI>
         <Literal>invented</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>invented</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -12482,9 +12899,19 @@
         <Literal>location</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>location</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>manifestation</IRI>
         <Literal>manifestation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>manifestation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -12492,9 +12919,19 @@
         <Literal>occurrence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>occurrence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>part</IRI>
         <Literal>part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>part</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -12502,9 +12939,19 @@
         <Literal>participation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>participation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>precedent</IRI>
         <Literal>precedent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>precedent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -12512,9 +12959,19 @@
         <Literal>realization</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>realization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>receive</IRI>
         <Literal>receive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
+        <IRI>receive</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
