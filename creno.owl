@@ -558,6 +558,9 @@
         <Class IRI="Exercise"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Exogamy"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Experience"/>
     </Declaration>
     <Declaration>
@@ -2948,7 +2951,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Endogamy"/>
-        <Class IRI="Ethnic_Shift"/>
+        <Class IRI="Marriage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Ethnic_Nation"/>
@@ -3059,6 +3062,14 @@
     <SubClassOf>
         <Class IRI="Exercise"/>
         <Class IRI="Health_Behavoir"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Exogamy"/>
+        <Class IRI="Ethnic_Shift"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Exogamy"/>
+        <Class IRI="Marriage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Experience"/>
@@ -3942,7 +3953,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Interracial_Marriage"/>
-        <Class IRI="Marriage"/>
+        <Class IRI="Exogamy"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Investment_Economic_Citizenship"/>
@@ -4017,6 +4028,13 @@
     <SubClassOf>
         <Class IRI="Language_Shift"/>
         <Class IRI="Ethnic_Shift"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Language_Shift"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.w3.org/2004/02/skos/core#related"/>
+            <Class IRI="Language"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Latin_Americans"/>
@@ -4107,7 +4125,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Marriage"/>
-        <Class IRI="Endogamy"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PCO_0000033"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Martin-Schulz_Scale"/>
