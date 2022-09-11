@@ -1689,63 +1689,6 @@
         <Class IRI="V,_VI"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="_creno-prop"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="assumes"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="boundary_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="can_receive"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="cause"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="character"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="correlation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="develop"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="has_citizenship_confers"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="influences"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="invented"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="location"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="manifestation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="occurrence"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="part"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="participation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="precedent"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="realization"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="receive"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="duration_in_years"/>
     </Declaration>
     <Declaration>
@@ -1906,7 +1849,7 @@
     <SubClassOf>
         <Class IRI="Adoption"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002501"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002411"/>
             <Class IRI="Ethnic_Shift"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2139,7 +2082,7 @@
     <SubClassOf>
         <Class IRI="Carcinogens"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002595"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002500"/>
             <Class IRI="Carcinogen_Exposure"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2849,15 +2792,8 @@
     <SubClassOf>
         <Class IRI="Diet"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002506"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Cancer"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Diet"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002506"/>
-            <Class IRI="Obesity"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2865,6 +2801,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Health"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Diet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
+            <Class IRI="Obesity"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3327,7 +3270,7 @@
     <SubClassOf>
         <Class IRI="Gentrification"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002501"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002305"/>
             <Class IRI="Racial_Segregation"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3735,7 +3678,7 @@
     <SubClassOf>
         <Class IRI="Housing"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002501"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002411"/>
             <Class IRI="Gentrification"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3775,7 +3718,7 @@
     <SubClassOf>
         <Class IRI="Human_Hierarchy"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002506"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Power"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4186,7 +4129,7 @@
     <SubClassOf>
         <Class IRI="Motor_Vehicle_Emission"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002506"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002207"/>
             <Class IRI="Motor_Vehicle"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4295,7 +4238,7 @@
     <SubClassOf>
         <Class IRI="Natural_Pollutants"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002595"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002500"/>
             <Class IRI="Pollution"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4511,7 +4454,7 @@
     <SubClassOf>
         <Class IRI="Physical_Agents"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002506"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Cancer"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4778,7 +4721,7 @@
     <SubClassOf>
         <Class IRI="Radiation"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002506"/>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
             <Class IRI="Cancer"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -5946,78 +5889,6 @@
         <NamedIndividual IRI="_other_pacific_islanders"/>
         <NamedIndividual IRI="high_cancer_mortality"/>
     </ObjectPropertyAssertion>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="assumes"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="boundary_of"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="can_receive"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="cause"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="character"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="correlation"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="develop"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="has_citizenship_confers"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="influences"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="invented"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="location"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="manifestation"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="occurrence"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="part"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="participation"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="precedent"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="realization"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="receive"/>
-        <ObjectProperty IRI="_creno-prop"/>
-    </SubObjectPropertyOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>A</IRI>
@@ -12774,56 +12645,6 @@
         <Literal>Yutori_Generation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>assumes</IRI>
-        <Literal>assumes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>assumes</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>boundary_of</IRI>
-        <Literal>boundary_of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>boundary_of</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>can_receive</IRI>
-        <Literal>can_receive</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>can_receive</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>cause</IRI>
-        <Literal>cause</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>cause</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>character</IRI>
-        <Literal>character</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>character</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>concept</IRI>
         <Literal>Definition</Literal>
@@ -12835,143 +12656,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>correlation</IRI>
-        <Literal>correlation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>correlation</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>develop</IRI>
-        <Literal>develop</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>develop</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>duration_in_years</IRI>
         <Literal>duration_in_years</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>has_citizenship_confers</IRI>
-        <Literal>has_citizenship_confers</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>has_citizenship_confers</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>has_time_period</IRI>
         <Literal>has_time_period</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>influences</IRI>
-        <Literal>influences</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>influences</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>invented</IRI>
-        <Literal>invented</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>invented</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>location</IRI>
-        <Literal>location</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>location</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>manifestation</IRI>
-        <Literal>manifestation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>manifestation</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>occurrence</IRI>
-        <Literal>occurrence</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>occurrence</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>part</IRI>
-        <Literal>part</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>part</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>participation</IRI>
-        <Literal>participation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>participation</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>precedent</IRI>
-        <Literal>precedent</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>precedent</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>realization</IRI>
-        <Literal>realization</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>realization</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>receive</IRI>
-        <Literal>receive</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:deprecated"/>
-        <IRI>receive</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
