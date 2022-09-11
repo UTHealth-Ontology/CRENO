@@ -1874,6 +1874,13 @@
         <Class IRI="African_American"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="African_American_Females"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <Class IRI="Biological_Female"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="African_American_Males"/>
         <Class IRI="African_American"/>
     </SubClassOf>
@@ -3106,6 +3113,34 @@
         <Class IRI="Phenotype"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Face"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="Eye"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Face"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="Hair"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Face"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="Nose_Shape"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Face"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="Skin"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="FaceBook_Community"/>
         <Class IRI="Online_Community"/>
     </SubClassOf>
@@ -4254,8 +4289,22 @@
         <Class IRI="Native_American"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Native_American_Females"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <Class IRI="Biological_Female"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Native_American_Males"/>
         <Class IRI="Native_American"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Native_American_Males"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <Class IRI="Biological_Male"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Native_Hawaiian"/>
@@ -4266,8 +4315,22 @@
         <Class IRI="Native_Hawaiian"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Native_Hawaiian_Females"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <Class IRI="Biological_Female"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Native_Hawaiian_Males"/>
         <Class IRI="Native_Hawaiian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Native_Hawaiian_Males"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <Class IRI="Biological_Male"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Nativist_Nationalism"/>
@@ -4731,19 +4794,19 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Race"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002566"/>
+            <Class IRI="Social_Privilege"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Racial_Nationalism"/>
         <Class IRI="Nationalism"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Racial_Segregation"/>
         <Class IRI="Segregation"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Racial_Segregation"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002608"/>
-            <Class IRI="Biophysical_Environment"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Racism"/>
@@ -4895,8 +4958,22 @@
         <Class IRI="Samoan_American"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="Samoan_American_Females"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <Class IRI="Biological_Female"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="Samoan_American_Males"/>
         <Class IRI="Samoan_American"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Samoan_American_Males"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <Class IRI="Biological_Male"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Satori_Generation"/>
@@ -4936,6 +5013,13 @@
     <SubClassOf>
         <Class IRI="Segregation"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Segregation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002608"/>
+            <Class IRI="Biophysical_Environment"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Self-efficacy"/>
