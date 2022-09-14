@@ -7,6 +7,10 @@ This work undertakes the possibility of using the Web Ontology Language (OWL2) t
 * Elosia Nguyen
 * Tuan Amith, PhD
 
-### Acknowledgements
+## Documentation
+
+Design patterns for this ontology model can be found at [here](https://github.com/UTHealth-Ontology/CRENO/tree/main/doc)
+
+## Acknowledgements
 
 Eloisa Nguyen was supported by the UTHealth- Houston-CPRIT Innovation for Cancer Prevention Research Training Program Summer Undergraduate Fellowship (Cancer Prevention & Research Institute of Texas Grant #RP210042) and the UTHealth-Houston Prevention Research Center.
