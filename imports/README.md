@@ -1,6 +1,6 @@
 # EXTRACTION SCRIPTS
 
-The following commands were used with OBO ROBOT to generate the files and then later merged to produce (>robot [merge](http://robot.obolibrary.org/merge.html)...)
+The following commands were used with OBO ROBOT to generate the files and then later merged (>robot [merge](http://robot.obolibrary.org/merge.html)...) to produce the final resource for import (hop.owl).
 
 ## Human Ancestry Ontology
 ```
