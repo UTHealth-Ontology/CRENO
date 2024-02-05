@@ -171,7 +171,7 @@
         <Class IRI="Carcinogens"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Caucasion"/>
+        <Class IRI="Caucasian"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cervical_Cancer"/>
@@ -1041,6 +1041,9 @@
         <Class IRI="Native_Hawaiian_Males"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Native_Hawaiian_or_Other_Pacific_Islander"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Nativist_Nationalism"/>
     </Declaration>
     <Declaration>
@@ -1826,6 +1829,13 @@
         <Class IRI="Marriage"/>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="Native_Hawaiian_or_Other_Pacific_Islander"/>
+        <ObjectUnionOf>
+            <Class IRI="Native_American"/>
+            <Class IRI="Other_Pacific_Islanders"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="Online_Community"/>
         <Class IRI="Virtual_Community"/>
     </EquivalentClasses>
@@ -2097,11 +2107,11 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Caucasion"/>
+        <Class IRI="Caucasian"/>
         <Class IRI="OMB_Race"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Caucasion"/>
+        <Class IRI="Caucasian"/>
         <Class IRI="UK_Ethnic_Classification"/>
     </SubClassOf>
     <SubClassOf>
@@ -4349,6 +4359,10 @@
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
             <Class IRI="Biological_Male"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Native_Hawaiian_or_Other_Pacific_Islander"/>
+        <Class IRI="OMB_Race"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Nativist_Nationalism"/>
@@ -6704,8 +6718,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Caucasion</IRI>
-        <Literal>Caucasion</Literal>
+        <IRI>Caucasian</IRI>
+        <Literal>Caucasian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>Caucasian</IRI>
+        <Literal>White</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10136,6 +10155,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>Native_Hawaiian_Males</IRI>
         <Literal>Native Hawaiian Males</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Native_Hawaiian_or_Other_Pacific_Islander</IRI>
+        <Literal>Native Hawaiian or Other Pacific Islander</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
